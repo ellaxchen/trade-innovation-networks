@@ -4,7 +4,7 @@ per-country PageRank panels (trade vs knowledge overlaid), the three
 development pathways, lead/lag correlations, and crossing analysis.
 
 Usage: python build_centrality_html.py
-Output: ../html/centrality_report.html
+Output: ../report/centrality_report.html (kept local — report/ is gitignored)
 """
 import pandas as pd
 import numpy as np
@@ -353,7 +353,8 @@ DATA.countries.forEach((c, ci) => {
 
 json_str = json.dumps(data)
 html = HTML.replace("__JSON_DATA__", json_str)
-out_path = "../html/centrality_report.html"
+out_path = "../report/centrality_report.html"
+os.makedirs(os.path.dirname(out_path), exist_ok=True)
 with open(out_path, "w", encoding="utf-8") as f:
     f.write(html)
 print(f"Saved → {out_path} ({os.path.getsize(out_path)/1024:.0f} KB)")

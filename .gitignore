@@ -24,3 +24,6 @@ next_steps.txt
 
 # Documentation (kept local)
 *.md
+
+# Research reports (kept local, not published)
+report/
