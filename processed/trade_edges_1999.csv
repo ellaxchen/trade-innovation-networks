@@ -1,0 +1,201 @@
+exporter,importer,trade_value,year,exporter_name,importer_name
+124,842,1.9012051e+08,1999,Canada,USA
+842,124,1.4380605e+08,1999,USA,Canada
+392,842,1.30350296e+08,1999,Japan,USA
+484,842,1.09052904e+08,1999,Mexico,USA
+842,484,1.0109223e+08,1999,USA,Mexico
+156,842,8.072516e+07,1999,China,USA
+156,344,7.0600936e+07,1999,China,"China, Hong Kong SAR"
+842,392,6.417833e+07,1999,USA,Japan
+276,842,5.4465596e+07,1999,Germany,USA
+276,251,5.3013604e+07,1999,Germany,France
+251,276,4.529049e+07,1999,France,Germany
+276,826,4.3443788e+07,1999,Germany,United Kingdom
+156,392,4.2310144e+07,1999,China,Japan
+842,826,4.2161976e+07,1999,USA,United Kingdom
+276,380,4.2082764e+07,1999,Germany,Italy
+826,842,3.716609e+07,1999,United Kingdom,USA
+528,276,3.6179076e+07,1999,Netherlands,Germany
+490,842,3.6068184e+07,1999,"Other Asia, nes",USA
+842,276,3.5110932e+07,1999,USA,Germany
+380,276,3.4852896e+07,1999,Italy,Germany
+410,842,3.2653978e+07,1999,Rep. of Korea,USA
+276,528,3.1349334e+07,1999,Germany,Netherlands
+392,156,3.0551522e+07,1999,Japan,China
+276,56,2.9854412e+07,1999,Germany,Belgium
+251,826,2.982337e+07,1999,France,United Kingdom
+826,276,2.9042796e+07,1999,United Kingdom,Germany
+392,490,2.872144e+07,1999,Japan,"Other Asia, nes"
+276,40,2.8631946e+07,1999,Germany,Austria
+380,251,2.8603992e+07,1999,Italy,France
+251,380,2.824448e+07,1999,France,Italy
+251,724,2.7941534e+07,1999,France,Spain
+528,56,2.6826362e+07,1999,Netherlands,Belgium
+251,842,2.484775e+07,1999,France,USA
+276,757,2.479941e+07,1999,Germany,Switzerland
+842,251,2.4642168e+07,1999,USA,France
+842,410,2.4634746e+07,1999,USA,Rep. of Korea
+826,251,2.446806e+07,1999,United Kingdom,France
+276,724,2.4070348e+07,1999,Germany,Spain
+392,410,2.3820404e+07,1999,Japan,Rep. of Korea
+56,276,2.3401266e+07,1999,Belgium,Germany
+380,842,2.327223e+07,1999,Italy,USA
+251,56,2.2807734e+07,1999,France,Belgium
+458,842,2.21337e+07,1999,Malaysia,USA
+56,251,2.1718484e+07,1999,Belgium,France
+392,276,2.1710918e+07,1999,Japan,Germany
+724,251,2.1058642e+07,1999,Spain,France
+528,826,2.096236e+07,1999,Netherlands,United Kingdom
+392,344,2.0835382e+07,1999,Japan,"China, Hong Kong SAR"
+842,490,2.0249862e+07,1999,USA,"Other Asia, nes"
+40,276,1.8672506e+07,1999,Austria,Germany
+842,702,1.8348166e+07,1999,USA,Singapore
+757,276,1.8283144e+07,1999,Switzerland,Germany
+842,528,1.8236926e+07,1999,USA,Netherlands
+702,842,1.8094666e+07,1999,Singapore,USA
+392,702,1.7859638e+07,1999,Japan,Singapore
+842,156,1.7711584e+07,1999,USA,China
+56,528,1.7395372e+07,1999,Belgium,Netherlands
+826,528,1.7204588e+07,1999,United Kingdom,Netherlands
+458,702,1.7109276e+07,1999,Malaysia,Singapore
+490,344,1.6766401e+07,1999,"Other Asia, nes","China, Hong Kong SAR"
+410,156,1.6575847e+07,1999,Rep. of Korea,China
+410,392,1.6119131e+07,1999,Rep. of Korea,Japan
+826,372,1.5861273e+07,1999,United Kingdom,Ireland
+380,826,1.5848733e+07,1999,Italy,United Kingdom
+764,842,1.5436165e+07,1999,Thailand,USA
+392,826,1.5339434e+07,1999,Japan,United Kingdom
+490,156,1.5329902e+07,1999,"Other Asia, nes",China
+528,251,1.526444e+07,1999,Netherlands,France
+56,826,1.5239085e+07,1999,Belgium,United Kingdom
+156,276,1.452527e+07,1999,China,Germany
+826,56,1.440893e+07,1999,United Kingdom,Belgium
+380,724,1.4374283e+07,1999,Italy,Spain
+724,276,1.4119688e+07,1999,Spain,Germany
+528,380,1.3686229e+07,1999,Netherlands,Italy
+842,36,1.3436241e+07,1999,USA,Australia
+826,380,1.339764e+07,1999,United Kingdom,Italy
+392,458,1.3303326e+07,1999,Japan,Malaysia
+372,826,1.3223651e+07,1999,Ireland,United Kingdom
+608,842,1.2870423e+07,1999,Philippines,USA
+842,344,1.2725573e+07,1999,USA,"China, Hong Kong SAR"
+490,392,1.2686429e+07,1999,"Other Asia, nes",Japan
+36,392,1.2643345e+07,1999,Australia,Japan
+360,392,1.2614453e+07,1999,Indonesia,Japan
+842,76,1.2614304e+07,1999,USA,Brazil
+276,616,1.2268729e+07,1999,Germany,Poland
+392,764,1.2104816e+07,1999,Japan,Thailand
+842,56,1.1975651e+07,1999,USA,Belgium
+862,842,1.1856493e+07,1999,Venezuela,USA
+251,528,1.1840495e+07,1999,France,Netherlands
+76,842,1.1577664e+07,1999,Brazil,USA
+344,842,1.1473882e+07,1999,"China, Hong Kong SAR",USA
+276,752,1.1459893e+07,1999,Germany,Sweden
+372,842,1.1361136e+07,1999,Ireland,USA
+276,392,1.1355603e+07,1999,Germany,Japan
+203,276,1.1275199e+07,1999,Czechia,Germany
+372,276,1.1256812e+07,1999,Ireland,Germany
+826,724,1.1238295e+07,1999,United Kingdom,Spain
+702,458,1.1062417e+07,1999,Singapore,Malaysia
+458,392,1.0966295e+07,1999,Malaysia,Japan
+842,380,1.0808309e+07,1999,USA,Italy
+344,156,1.0807743e+07,1999,"China, Hong Kong SAR",China
+251,757,1.0663858e+07,1999,France,Switzerland
+724,620,1.049208e+07,1999,Spain,Portugal
+360,842,1.0352418e+07,1999,Indonesia,USA
+276,203,1.0240193e+07,1999,Germany,Czechia
+376,842,1.0086861e+07,1999,Israel,USA
+348,276,9.913863e+06,1999,Hungary,Germany
+616,276,9.908872e+06,1999,Poland,Germany
+392,251,9.901875e+06,1999,Japan,France
+699,842,9.80879e+06,1999,India,USA
+724,826,9.780939e+06,1999,Spain,United Kingdom
+724,380,9.746418e+06,1999,Spain,Italy
+276,208,9.686908e+06,1999,Germany,Denmark
+392,124,9.603495e+06,1999,Japan,Canada
+757,842,9.470602e+06,1999,Switzerland,USA
+56,842,9.305843e+06,1999,Belgium,USA
+56,380,9.245087e+06,1999,Belgium,Italy
+410,344,9.231645e+06,1999,Rep. of Korea,"China, Hong Kong SAR"
+764,392,9.107963e+06,1999,Thailand,Japan
+156,410,9.00891e+06,1999,China,Rep. of Korea
+682,842,8.905987e+06,1999,Saudi Arabia,USA
+784,392,8.794554e+06,1999,United Arab Emirates,Japan
+344,826,8.456647e+06,1999,"China, Hong Kong SAR",United Kingdom
+392,528,8.405754e+06,1999,Japan,Netherlands
+276,348,8.395853e+06,1999,Germany,Hungary
+392,36,8.338899e+06,1999,Japan,Australia
+752,276,8.3154135e+06,1999,Sweden,Germany
+682,392,8.27649e+06,1999,Saudi Arabia,Japan
+528,842,8.2694575e+06,1999,Netherlands,USA
+842,458,8.17151e+06,1999,USA,Malaysia
+757,826,8.085112e+06,1999,Switzerland,United Kingdom
+842,757,8.042977e+06,1999,USA,Switzerland
+752,842,8.0169745e+06,1999,Sweden,USA
+156,251,7.9966335e+06,1999,China,France
+842,724,7.987723e+06,1999,USA,Spain
+702,344,7.928137e+06,1999,Singapore,"China, Hong Kong SAR"
+380,757,7.7950905e+06,1999,Italy,Switzerland
+752,826,7.7577905e+06,1999,Sweden,United Kingdom
+208,276,7.7117435e+06,1999,Denmark,Germany
+643,276,7.602363e+06,1999,Russian Federation,Germany
+410,490,7.5850915e+06,1999,Rep. of Korea,"Other Asia, nes"
+842,372,7.541913e+06,1999,USA,Ireland
+757,380,7.4741805e+06,1999,Switzerland,Italy
+276,156,7.295791e+06,1999,Germany,China
+757,251,7.1836055e+06,1999,Switzerland,France
+124,392,7.153526e+06,1999,Canada,Japan
+392,608,6.9772215e+06,1999,Japan,Philippines
+842,376,6.775641e+06,1999,USA,Israel
+392,591,6.7409625e+06,1999,Japan,Panama
+380,56,6.59546e+06,1999,Italy,Belgium
+579,826,6.5112515e+06,1999,Norway,United Kingdom
+826,752,6.466223e+06,1999,United Kingdom,Sweden
+842,682,6.3943255e+06,1999,USA,Saudi Arabia
+579,276,6.380123e+06,1999,Norway,Germany
+842,764,6.3347035e+06,1999,USA,Thailand
+702,392,6.3089945e+06,1999,Singapore,Japan
+276,620,6.2361835e+06,1999,Germany,Portugal
+792,276,6.2024885e+06,1999,TÃ¼rkiye,Germany
+170,842,6.1528035e+06,1999,Colombia,USA
+276,792,6.019852e+06,1999,Germany,TÃ¼rkiye
+484,124,5.9861925e+06,1999,Mexico,Canada
+156,826,5.98227e+06,1999,China,United Kingdom
+528,724,5.979452e+06,1999,Netherlands,Spain
+32,76,5.919888e+06,1999,Argentina,Brazil
+156,124,5.885175e+06,1999,China,Canada
+826,124,5.880548e+06,1999,United Kingdom,Canada
+490,276,5.864607e+06,1999,"Other Asia, nes",Germany
+156,702,5.744319e+06,1999,China,Singapore
+682,410,5.664369e+06,1999,Saudi Arabia,Rep. of Korea
+643,842,5.635988e+06,1999,Russian Federation,USA
+380,528,5.6048835e+06,1999,Italy,Netherlands
+76,32,5.5984165e+06,1999,Brazil,Argentina
+56,724,5.562293e+06,1999,Belgium,Spain
+826,392,5.547333e+06,1999,United Kingdom,Japan
+251,392,5.541519e+06,1999,France,Japan
+752,208,5.4978485e+06,1999,Sweden,Denmark
+764,702,5.4708055e+06,1999,Thailand,Singapore
+392,380,5.4587095e+06,1999,Japan,Italy
+380,40,5.449138e+06,1999,Italy,Austria
+40,380,5.4332605e+06,1999,Austria,Italy
+156,380,5.3726835e+06,1999,China,Italy
+608,392,5.3611915e+06,1999,Philippines,Japan
+842,862,5.3473905e+06,1999,USA,Venezuela
+36,842,5.267391e+06,1999,Australia,USA
+752,579,5.266638e+06,1999,Sweden,Norway
+392,56,5.2217355e+06,1999,Japan,Belgium
+724,842,5.20627e+06,1999,Spain,USA
+276,76,5.1718775e+06,1999,Germany,Brazil
+276,490,5.1449545e+06,1999,Germany,"Other Asia, nes"
+643,804,5.1396605e+06,1999,Russian Federation,Ukraine
+842,32,5.0666235e+06,1999,USA,Argentina
+410,826,5.056065e+06,1999,Rep. of Korea,United Kingdom
+124,826,5.051552e+06,1999,Canada,United Kingdom
+372,251,5.034052e+06,1999,Ireland,France
+276,246,5.0317825e+06,1999,Germany,Finland
+276,484,4.989471e+06,1999,Germany,Mexico
+156,490,4.971391e+06,1999,China,"Other Asia, nes"
+392,484,4.9500635e+06,1999,Japan,Mexico
+276,643,4.9450415e+06,1999,Germany,Russian Federation
+579,752,4.9443775e+06,1999,Norway,Sweden

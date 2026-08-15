@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trade & Citation Chord Diagram</title>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#1a1a2e;color:#eee;overflow:hidden;height:100vh}
+#app{display:flex;height:100vh}
+#left,#right{flex:1;position:relative;padding-bottom:60px}
+#left h2{position:absolute;top:12px;left:18px;text-align:left;font-size:15px;font-weight:600;letter-spacing:.5px;z-index:10;pointer-events:none}
+#right h2{position:absolute;top:12px;right:18px;text-align:right;font-size:15px;font-weight:600;letter-spacing:.5px;z-index:10;pointer-events:none}
+#left h2{color:#4ECDC4}#right h2{color:#FF6B6B}
+svg{width:100%;height:calc(100% - 60px)}
+#controls{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:rgba(30,30,50,.95);border:1px solid rgba(255,255,255,.15);border-radius:12px;padding:14px 24px;display:flex;gap:20px;align-items:center;z-index:100;backdrop-filter:blur(10px)}
+#controls label{font-size:12px;text-transform:uppercase;letter-spacing:.8px;color:#aaa}
+#year-slider{width:220px;accent-color:#4ECDC4}
+#year-display{font-size:18px;font-weight:700;min-width:48px;text-align:center}
+#play-btn{background:#4ECDC4;color:#1a1a2e;border:none;border-radius:6px;padding:6px 14px;cursor:pointer;font-weight:700;font-size:13px}
+#play-btn:hover{background:#6ee7dd}
+#play-btn.paused{background:#FF6B6B}
+select{background:#2a2a40;color:#eee;border:1px solid rgba(255,255,255,.2);border-radius:6px;padding:6px 10px;font-size:12px;cursor:pointer}
+.tooltip{position:fixed;background:rgba(0,0,0,.85);color:#fff;padding:8px 12px;border-radius:6px;font-size:11px;pointer-events:none;z-index:200;opacity:0;transition:opacity .15s}
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="left"><h2>TRADE FLOWS</h2></div>
+  <div id="right"><h2>PATENT CITATIONS</h2>
+    <div id="cite-overlay" style="position:absolute;top:0;left:0;right:0;bottom:60px;display:none;align-items:center;justify-content:center;z-index:20;pointer-events:none;">
+      <div style="background:rgba(0,0,0,0.72);border:1px solid rgba(255,107,107,0.5);border-radius:10px;padding:16px 28px;text-align:center;">
+        <div style="font-size:15px;font-weight:700;color:#FF6B6B;">Citation data ends 2017</div>
+        <div style="font-size:10px;color:#aaa;margin-top:4px;">~2013 last fully reliable year</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="controls">
+  <label>Year</label><span id="year-display">2015</span>
+  <input type="range" id="year-slider" min="1995" max="2024" value="2015" step="1">
+  <button id="play-btn" onclick="togglePlay()">Play</button>
+  <select id="highlight-select" onchange="setHighlight(this.value)"><option value="">All Countries</option></select>
+</div>
+<div class="tooltip" id="tooltip"></div>
+
+<script>
+d3.json("chord_data.json").then(data => {
+  const N = data.countries.length;
+  const countries = data.countries;
+  const colors = data.colors;
+
+  // Faded import colors
+  const impColors = {};
+  countries.forEach(c => {
+    const h = colors[c]; const r = parseInt(h[1]+h[2],16), g = parseInt(h[3]+h[4],16), b = parseInt(h[5]+h[6],16);
+    impColors[c] = `rgb(${Math.round(r*.5+127)},${Math.round(g*.5+127)},${Math.round(b*.5+127)})`;
+  });
+
+  // Setup
+  const slider = document.getElementById("year-slider");
+  slider.min = data.all_years[0]; slider.max = data.all_years[data.all_years.length-1]; slider.value = 2015;
+  document.getElementById("year-display").textContent = 2015;
+
+  const sel = document.getElementById("highlight-select");
+  countries.forEach(c => { const o = document.createElement("option"); o.value = c; o.textContent = data.country_names[c]||c; sel.appendChild(o); });
+
+  const tradeSvg = d3.select("#left").append("svg");
+  const citeSvg = d3.select("#right").append("svg");
+
+  const tradeLayout = { svg: tradeSvg };
+  const citeLayout = { svg: citeSvg };
+  let highlight = "";
+
+  // Format trade values: BACI data are in thousands of USD → label in billions
+  function fmtVal(v, isTrade) {
+    if (isTrade) {
+      if (v >= 1e6) return '$' + (v / 1e6).toFixed(1) + 'B';
+      if (v >= 1e3) return '$' + (v / 1e3).toFixed(1) + 'M';
+      return '$' + d3.format(',.0f')(v) + 'K';
+    }
+    return d3.format(',.0f')(v);
+  }
+
+  function render(svg, key, year) {
+    const yrData = data[key][String(year)];
+    if (!yrData) return;
+
+    const el = svg.node().parentNode;
+    const W = el.clientWidth, H = el.clientHeight;
+    const cx = W/2, cy = H/2;
+    const outerR = Math.min(W,H) * 0.40;
+    const innerR = outerR * 0.90;  // thinner ring
+
+    svg.selectAll("*").remove();
+    svg.attr("viewBox", `0 0 ${W} ${H}`);
+
+    const g = svg.append("g").attr("transform", `translate(${cx},${cy})`);
+
+    // White center
+    g.append("circle").attr("r", innerR).attr("fill", "#fff");
+
+    const matrix = yrData.matrix;
+    const arcSizes = yrData.arc_sizes;           // [US_e, CN_e, ..., US_i, CN_i, ...]
+    const interleavedSizes = yrData.interleaved_sizes; // [US_e, US_i, CN_e, CN_i, ...]
+
+    // Minimum arc size: ensure each country gets at least 2.5% of circle
+    const totalSize = d3.sum(interleavedSizes);
+    const minSize = totalSize * 0.025;
+    const adjSizes = interleavedSizes.map(s => Math.max(s, minSize));
+    const adjTotal = d3.sum(adjSizes);
+
+    // Scale matrix rows for exports to match adjusted sizes
+    const adjMatrix = matrix.map((row, i) => {
+      if (i < N) {
+        const rowSum = d3.sum(row);
+        const adjSum = adjSizes[i];  // export size
+        if (rowSum > 0 && adjSum > rowSum) {
+          const scale = adjSum / rowSum;
+          return row.map(v => v * scale);
+        }
+      }
+      return [...row];
+    });
+
+    // Recompute chord layout with adjusted matrix
+    const layout2 = d3.chord().padAngle(0.002).sortGroups(null).sortSubgroups(d3.descending)(adjMatrix);
+    const rawGroups = layout2.groups;
+
+    // Build interleaved groups from adjusted sizes
+    const padAng = 0.002;
+    const usableAngle = 2*Math.PI - (2*N)*padAng;
+    let cursor = 0;
+    const groups = [];
+    for (let i = 0; i < N; i++) {
+      const eSpan = (adjSizes[2*i]/adjTotal)*usableAngle;
+      const iSpan = (adjSizes[2*i+1]/adjTotal)*usableAngle;
+      groups.push({startAngle:cursor, endAngle:cursor+eSpan, _isExport:true, _country:i,
+        value: interleavedSizes[2*i], _actualValue: interleavedSizes[2*i]});
+      cursor += eSpan + padAng;
+      groups.push({startAngle:cursor, endAngle:cursor+iSpan, _isExport:false, _country:i,
+        value: interleavedSizes[2*i+1], _actualValue: interleavedSizes[2*i+1]});
+      cursor += iSpan + padAng;
+    }
+
+    // Filter + remap chords to interleaved positions
+    const chords = layout2
+      .filter(d => d.source.index < N && d.target.index >= N)
+      .map(d => {
+        const si = d.source.index, ti = d.target.index - N;
+        const newSi = 2*si, newTi = 2*ti+1;
+        const sGrp = groups[newSi], tGrp = groups[newTi];
+        if (!sGrp || !tGrp) return null;
+
+        const sRaw = rawGroups[si];
+        const sRawSpan = sRaw.endAngle - sRaw.startAngle || 1;
+        const sf0 = (d.source.startAngle - sRaw.startAngle) / sRawSpan;
+        const sf1 = (d.source.endAngle - sRaw.startAngle) / sRawSpan;
+        const ss = sGrp.endAngle - sGrp.startAngle;
+
+        const ts = tGrp.endAngle - tGrp.startAngle;
+        const tCol = adjMatrix.map(r => r[ti+N]);
+        const tSum = d3.sum(tCol) || 1;
+        const tCum = d3.sum(tCol.slice(0, si));
+        const val = d.source.value;
+        const tf0 = tCum / tSum;
+        const tf1 = (tCum + val) / tSum;
+
+        const sa = sGrp.startAngle + sf0*ss, sb = sGrp.startAngle + sf1*ss;
+        const ta = tGrp.startAngle + tf0*ts, tb = tGrp.startAngle + tf1*ts;
+        if (isNaN(sa+sb+ta+tb)) { console.log('NaN chord',{si,ti,sa,sb,ta,tb,sf0,sf1,tf0,tf1}); return null; }
+
+        return {
+          source: {index:newSi, startAngle:sa, endAngle:sb, value:val},
+          target: {index:newTi, startAngle:ta, endAngle:tb, value:val}
+        };
+      }).filter(Boolean);
+
+    console.log(`[${key}/${year}] groups:${groups.length} chords:${chords.length}`);
+    console.log(`[${key}/${year}] ${chords.length} chords, ${groups.length} groups`);
+
+    // Country outlines — wrap each export+import pair with a colored border
+    const outlineArcGen = d3.arc().innerRadius(innerR - 0.5).outerRadius(outerR + 4);
+    const countryOutlines = [];
+    for (let i = 0; i < N; i++) {
+      const expGrp = groups[2*i];
+      const impGrp = groups[2*i + 1];
+      if (expGrp && impGrp && (expGrp.endAngle - expGrp.startAngle + impGrp.endAngle - impGrp.startAngle) > 0.001) {
+        countryOutlines.push({
+          startAngle: expGrp.startAngle,
+          endAngle: impGrp.endAngle,
+          _country: i
+        });
+      }
+    }
+
+    g.selectAll("path.country-outline").data(countryOutlines).join("path")
+      .attr("class", "country-outline")
+      .attr("d", outlineArcGen)
+      .attr("fill", "none")
+      .attr("stroke", d => colors[countries[d._country]])
+      .attr("stroke-width", 2.5)
+      .style("opacity", d => highlight && countries[d._country] !== highlight ? 0.12 : 0.85);
+
+    // Arc generator
+    const arcGen = d3.arc().innerRadius(innerR).outerRadius(outerR);
+
+    // Draw arcs
+    g.selectAll("path.arc").data(groups).join("path")
+      .attr("class", "arc")
+      .attr("d", arcGen)
+      .attr("fill", d => d._isExport ? colors[countries[d._country]] : impColors[countries[d._country]])
+      .attr("stroke", "none")
+      .style("opacity", d => highlight && countries[d._country]!==highlight ? 0.25 : 1)
+      .on("mouseover", (ev,d) => {
+        const c = countries[d._country];
+        const side = key==="trade" ? (d._isExport?"Export":"Import") : (d._isExport?"Citing":"Cited");
+        showTip(ev, `<b>${data.country_names[c]||c}</b> ${side}<br>${fmtVal(d._actualValue||d.value, key==='trade')}`);
+      }).on("mousemove", moveTip).on("mouseout", hideTip);
+
+    // Replace layout2.groups so d3.ribbon() sees our interleaved groups
+    layout2.groups = groups;
+
+    const ribbon = d3.ribbon().radius(innerR);  // explicit radius prevents NaN from missing d.radius
+
+    // Draw chords
+    g.selectAll("path.chord").data(chords).join("path")
+      .attr("class", "chord")
+      .attr("d", ribbon)
+      .attr("fill", d => colors[countries[Math.floor(d.source.index/2)]])
+      .attr("stroke", "none")
+      .style("opacity", d => {
+        if (!highlight) return 0.75;
+        const s = countries[Math.floor(d.source.index/2)], t = countries[Math.floor(d.target.index/2)];
+        return (s===highlight||t===highlight) ? 0.95 : 0.04;
+      })
+      .on("mouseover", (ev,d) => {
+        const s = countries[Math.floor(d.source.index/2)], t = countries[Math.floor(d.target.index/2)];
+        showTip(ev, `<b>${data.country_names[s]||s}</b> → <b>${data.country_names[t]||t}</b><br>${fmtVal(d.source.value, key==='trade')}`);
+      }).on("mousemove", moveTip).on("mouseout", hideTip);
+
+    // Labels — centered inside each country's export+import pair
+    g.selectAll("text.label").data(countryOutlines).join("text")
+      .attr("class", "label")
+      .attr("transform", d => {
+        const midAngle = (d.startAngle + d.endAngle) / 2 - Math.PI / 2;
+        const r = (innerR + outerR) / 2;
+        return `translate(${r*Math.cos(midAngle)},${r*Math.sin(midAngle)})`;
+      })
+      .attr("text-anchor", "middle")
+      .attr("dy", ".35em")
+      .style("font-size", d => {
+        const span = d.endAngle - d.startAngle;
+        return Math.max(8, Math.min(14, span * 42)) + "px";
+      })
+      .style("font-weight", "800")
+      .style("fill", "#1a1a2e")
+      .style("paint-order", "stroke fill")
+      .style("stroke", "#fff")
+      .style("stroke-width", "2.5px")
+      .style("stroke-linejoin", "round")
+      .style("opacity", d => highlight && countries[d._country] !== highlight ? 0.25 : 1)
+      .text(d => countries[d._country]);
+
+    // Small-arc note
+    g.append("text")
+      .attr("x", 0).attr("y", outerR + 32)
+      .attr("text-anchor", "middle")
+      .style("fill", "#888").style("font-size", "9.5px")
+      .text("Small arcs enlarged to 2.5% min for readability");
+
+    // Caveat line — dynamic for citation undercounting
+    let caveat;
+    if (key === "trade") {
+      caveat = "Self-flows excluded";
+    } else {
+      caveat = "Self-citations excluded · Country = filing office (proxy)";
+      if (year >= 2014 && year <= 2017) {
+        caveat += " · ⚠ Undercounted (2018 edition, ~2013 last reliable)";
+      }
+    }
+    const caveatColor = (key === "citation" && year >= 2014 && year <= 2017) ? "#E9C46A" : "#777";
+    g.append("text")
+      .attr("x", 0).attr("y", outerR + 44)
+      .attr("text-anchor", "middle")
+      .style("fill", caveatColor).style("font-size", "9.5px").style("font-style", "italic")
+      .text(caveat);
+  }
+
+  function showTip(ev, html) { d3.select("#tooltip").style("opacity",1).html(html); }
+  function moveTip(ev) { d3.select("#tooltip").style("left",(ev.pageX+12)+"px").style("top",(ev.pageY-12)+"px"); }
+  function hideTip() { d3.select("#tooltip").style("opacity",0); }
+
+  window.setHighlight = function(c) { highlight = c; update(); };
+  function update() {
+    render(tradeSvg, "trade", +slider.value);
+    render(citeSvg, "citation", +slider.value);
+    const maxCiteYr = data.citation_years[data.citation_years.length - 1];
+    const overlay = document.getElementById("cite-overlay");
+    if (overlay) overlay.style.display = (+slider.value > maxCiteYr) ? "flex" : "none";
+  }
+
+  slider.addEventListener("input", () => { document.getElementById("year-display").textContent = slider.value; update(); });
+
+  window._pi = null;
+  window.togglePlay = function() {
+    const btn = document.getElementById("play-btn");
+    if (window._pi) { clearInterval(window._pi); window._pi = null; btn.textContent = "Play"; btn.classList.add("paused"); }
+    else { btn.textContent = "Pause"; btn.classList.remove("paused");
+      window._pi = setInterval(() => { let y = +slider.value+1; if (y>+slider.max) y=+slider.min; slider.value=y; document.getElementById("year-display").textContent=y; update(); }, 600); }
+  };
+
+  update();
+});
+</script>
+</body>
+</html>

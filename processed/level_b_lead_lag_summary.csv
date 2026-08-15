@@ -1,0 +1,41 @@
+sector,country,name,best_lag,r
+electronics,CN,China,3,0.9599645585631401
+electronics,US,USA,2,0.6724346028474832
+electronics,JP,Japan,-5,0.890916940218351
+electronics,DE,Germany,-5,0.8538082883871109
+electronics,HK,"China, Hong Kong SAR",-5,0.5754866721620999
+electronics,KR,South Korea,2,-0.09409103843168092
+electronics,TW,TW,-3,-0.9633544765185689
+electronics,SG,Singapore,-5,-0.6771714080640158
+electronics,MX,Mexico,-4,0.873488904287409
+electronics,MY,Malaysia,0,0.7435338713580156
+vehicles,US,USA,1,0.7429241660570564
+vehicles,DE,Germany,5,0.8794708364307522
+vehicles,JP,Japan,1,-0.865236325542208
+vehicles,CA,Canada,3,0.7444468378378385
+vehicles,FR,France,4,0.3597917479386071
+vehicles,GB,United Kingdom,-5,0.9272773813794999
+vehicles,ES,Spain,-1,-0.6030098787882276
+vehicles,IT,Italy,-1,0.7521976651629414
+vehicles,BE,Belgium,-3,0.6304740529587002
+vehicles,MX,Mexico,-5,0.5807718539107808
+pharma,US,USA,-5,0.5194819459056436
+pharma,DE,Germany,-2,-0.7896960428420062
+pharma,FR,France,2,-0.7659340622820046
+pharma,GB,United Kingdom,-4,0.8123783527262486
+pharma,CH,Switzerland,3,-0.7514704820065163
+pharma,BE,Belgium,4,-0.4117307615130948
+pharma,IT,Italy,-5,0.6197590270452611
+pharma,IE,Ireland,4,0.562751542871747
+pharma,NL,Netherlands,-2,-0.31869663557845934
+pharma,ES,Spain,3,0.3880709584849063
+machinery,US,USA,3,0.8339111427401413
+machinery,DE,Germany,-3,0.9609836853470785
+machinery,CN,China,2,0.868925600559105
+machinery,JP,Japan,-5,-0.817304655978782
+machinery,GB,United Kingdom,-5,0.9772480896953416
+machinery,FR,France,-5,0.9108504094638199
+machinery,IT,Italy,-5,0.8714636525339955
+machinery,NL,Netherlands,0,0.8375026817756549
+machinery,CA,Canada,4,0.6886105587095939
+machinery,KR,South Korea,-3,0.5132486500879608

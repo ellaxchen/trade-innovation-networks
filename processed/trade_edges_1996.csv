@@ -1,0 +1,201 @@
+exporter,importer,trade_value,year,exporter_name,importer_name
+124,842,1.5270854e+08,1996,Canada,USA
+392,842,1.1464456e+08,1996,Japan,USA
+842,124,1.1295528e+08,1996,USA,Canada
+842,392,7.620067e+07,1996,USA,Japan
+484,842,7.456833e+07,1996,Mexico,USA
+156,344,6.589179e+07,1996,China,"China, Hong Kong SAR"
+842,484,6.482471e+07,1996,USA,Mexico
+276,251,5.1116468e+07,1996,Germany,France
+156,842,5.055275e+07,1996,China,USA
+251,276,4.606366e+07,1996,France,Germany
+276,826,4.072768e+07,1996,Germany,United Kingdom
+276,842,3.944493e+07,1996,Germany,USA
+156,392,3.9015588e+07,1996,China,Japan
+276,380,3.884946e+07,1996,Germany,Italy
+380,276,3.8441284e+07,1996,Italy,Germany
+528,276,3.783429e+07,1996,Netherlands,Germany
+842,826,3.6138132e+07,1996,USA,United Kingdom
+276,528,3.530698e+07,1996,Germany,Netherlands
+842,410,3.2228668e+07,1996,USA,Rep. of Korea
+392,410,3.0681222e+07,1996,Japan,Rep. of Korea
+490,842,3.0545414e+07,1996,"Other Asia, nes",USA
+276,58,2.9320156e+07,1996,Germany,Belgium-Luxembourg (...1998)
+380,251,2.930136e+07,1996,Italy,France
+826,276,2.9121348e+07,1996,United Kingdom,Germany
+528,58,2.904721e+07,1996,Netherlands,Belgium-Luxembourg (...1998)
+58,276,2.8953688e+07,1996,Belgium-Luxembourg (...1998),Germany
+842,276,2.8714506e+07,1996,USA,Germany
+276,40,2.84567e+07,1996,Germany,Austria
+251,380,2.8068118e+07,1996,France,Italy
+826,842,2.8033576e+07,1996,United Kingdom,USA
+251,826,2.6812024e+07,1996,France,United Kingdom
+392,156,2.6789992e+07,1996,Japan,China
+392,344,2.6430996e+07,1996,Japan,"China, Hong Kong SAR"
+392,490,2.5394046e+07,1996,Japan,"Other Asia, nes"
+276,757,2.497917e+07,1996,Germany,Switzerland
+58,251,2.4970768e+07,1996,Belgium-Luxembourg (...1998),France
+251,58,2.4270818e+07,1996,France,Belgium-Luxembourg (...1998)
+826,251,2.3598344e+07,1996,United Kingdom,France
+251,724,2.2555756e+07,1996,France,Spain
+392,702,2.2369988e+07,1996,Japan,Singapore
+392,276,2.212539e+07,1996,Japan,Germany
+410,842,2.1823676e+07,1996,Rep. of Korea,USA
+842,251,2.085899e+07,1996,USA,France
+702,842,2.0352492e+07,1996,Singapore,USA
+458,702,1.9804678e+07,1996,Malaysia,Singapore
+724,251,1.9740056e+07,1996,Spain,France
+380,842,1.891123e+07,1996,Italy,USA
+58,528,1.8816454e+07,1996,Belgium-Luxembourg (...1998),Netherlands
+842,702,1.8788926e+07,1996,USA,Singapore
+458,842,1.8492388e+07,1996,Malaysia,USA
+392,764,1.84817e+07,1996,Japan,Thailand
+251,842,1.8386044e+07,1996,France,USA
+276,724,1.8362044e+07,1996,Germany,Spain
+40,276,1.8218208e+07,1996,Austria,Germany
+528,826,1.8144092e+07,1996,Netherlands,United Kingdom
+757,276,1.806857e+07,1996,Switzerland,Germany
+842,490,1.8012352e+07,1996,USA,"Other Asia, nes"
+392,458,1.7734162e+07,1996,Japan,Malaysia
+490,156,1.6178409e+07,1996,"Other Asia, nes",China
+490,344,1.5873262e+07,1996,"Other Asia, nes","China, Hong Kong SAR"
+826,528,1.5856136e+07,1996,United Kingdom,Netherlands
+410,392,1.5851648e+07,1996,Rep. of Korea,Japan
+842,344,1.5848207e+07,1996,USA,"China, Hong Kong SAR"
+842,156,1.5259791e+07,1996,USA,China
+380,826,1.5257765e+07,1996,Italy,United Kingdom
+528,251,1.5159169e+07,1996,Netherlands,France
+842,528,1.4738574e+07,1996,USA,Netherlands
+490,392,1.4595935e+07,1996,"Other Asia, nes",Japan
+360,392,1.4568487e+07,1996,Indonesia,Japan
+724,276,1.4556762e+07,1996,Spain,Germany
+842,36,1.421185e+07,1996,USA,Australia
+36,392,1.4105019e+07,1996,Australia,Japan
+276,392,1.4012213e+07,1996,Germany,Japan
+862,842,1.3901018e+07,1996,Venezuela,USA
+392,826,1.3768928e+07,1996,Japan,United Kingdom
+826,380,1.3637109e+07,1996,United Kingdom,Italy
+58,826,1.3635572e+07,1996,Belgium-Luxembourg (...1998),United Kingdom
+826,58,1.3390635e+07,1996,United Kingdom,Belgium-Luxembourg (...1998)
+842,76,1.3328416e+07,1996,USA,Brazil
+410,156,1.2916514e+07,1996,Rep. of Korea,China
+826,372,1.2552713e+07,1996,United Kingdom,Ireland
+276,752,1.2398603e+07,1996,Germany,Sweden
+764,842,1.2394296e+07,1996,Thailand,USA
+528,380,1.2289914e+07,1996,Netherlands,Italy
+380,724,1.2113023e+07,1996,Italy,Spain
+251,528,1.1800883e+07,1996,France,Netherlands
+156,276,1.1790938e+07,1996,China,Germany
+344,156,1.1780343e+07,1996,"China, Hong Kong SAR",China
+458,392,1.1581459e+07,1996,Malaysia,Japan
+784,392,1.1513233e+07,1996,United Arab Emirates,Japan
+372,826,1.1332062e+07,1996,Ireland,United Kingdom
+410,344,1.1233983e+07,1996,Rep. of Korea,"China, Hong Kong SAR"
+702,458,1.1167447e+07,1996,Singapore,Malaysia
+344,842,1.0734226e+07,1996,"China, Hong Kong SAR",USA
+682,392,1.0617746e+07,1996,Saudi Arabia,Japan
+702,344,1.0607753e+07,1996,Singapore,"China, Hong Kong SAR"
+826,724,1.0565235e+07,1996,United Kingdom,Spain
+251,757,1.048265e+07,1996,France,Switzerland
+608,842,1.02893e+07,1996,Philippines,USA
+842,380,1.0080027e+07,1996,USA,Italy
+842,58,1.0053177e+07,1996,USA,Belgium-Luxembourg (...1998)
+276,616,1.0029925e+07,1996,Germany,Poland
+764,392,1.0005175e+07,1996,Thailand,Japan
+58,380,9.970032e+06,1996,Belgium-Luxembourg (...1998),Italy
+76,842,9.734344e+06,1996,Brazil,USA
+682,842,9.58816e+06,1996,Saudi Arabia,USA
+124,392,9.498015e+06,1996,Canada,Japan
+392,360,9.286524e+06,1996,Japan,Indonesia
+752,276,9.091041e+06,1996,Sweden,Germany
+842,458,8.869919e+06,1996,USA,Malaysia
+360,842,8.846846e+06,1996,Indonesia,USA
+156,410,8.790866e+06,1996,China,Rep. of Korea
+276,208,8.788879e+06,1996,Germany,Denmark
+276,203,8.71963e+06,1996,Germany,Czechia
+380,757,8.687556e+06,1996,Italy,Switzerland
+724,380,8.685107e+06,1996,Spain,Italy
+842,764,8.670647e+06,1996,USA,Thailand
+643,276,8.636342e+06,1996,Russian Federation,Germany
+392,251,8.616505e+06,1996,Japan,France
+724,826,8.529094e+06,1996,Spain,United Kingdom
+616,276,8.501559e+06,1996,Poland,Germany
+208,276,8.489319e+06,1996,Denmark,Germany
+579,826,8.086902e+06,1996,Norway,United Kingdom
+643,804,8.055121e+06,1996,Russian Federation,Ukraine
+392,608,8.0228715e+06,1996,Japan,Philippines
+842,757,7.964694e+06,1996,USA,Switzerland
+724,620,7.9384225e+06,1996,Spain,Portugal
+757,380,7.895258e+06,1996,Switzerland,Italy
+203,276,7.832201e+06,1996,Czechia,Germany
+757,826,7.812242e+06,1996,Switzerland,United Kingdom
+579,276,7.70978e+06,1996,Norway,Germany
+392,36,7.7001715e+06,1996,Japan,Australia
+757,842,7.5917635e+06,1996,Switzerland,USA
+702,392,7.560695e+06,1996,Singapore,Japan
+276,792,7.528999e+06,1996,Germany,TÃ¼rkiye
+842,724,7.5277455e+06,1996,USA,Spain
+764,702,7.43543e+06,1996,Thailand,Singapore
+752,826,7.3280375e+06,1996,Sweden,United Kingdom
+392,124,7.256156e+06,1996,Japan,Canada
+58,842,7.157277e+06,1996,Belgium-Luxembourg (...1998),USA
+752,842,7.0498505e+06,1996,Sweden,USA
+757,251,7.0196e+06,1996,Switzerland,France
+699,842,6.9921155e+06,1996,India,USA
+826,392,6.938469e+06,1996,United Kingdom,Japan
+392,528,6.916981e+06,1996,Japan,Netherlands
+276,410,6.89901e+06,1996,Germany,Rep. of Korea
+826,752,6.8518285e+06,1996,United Kingdom,Sweden
+380,58,6.7539895e+06,1996,Italy,Belgium-Luxembourg (...1998)
+682,410,6.7060085e+06,1996,Saudi Arabia,Rep. of Korea
+32,76,6.6870095e+06,1996,Argentina,Brazil
+528,842,6.624507e+06,1996,Netherlands,USA
+276,156,6.5862055e+06,1996,Germany,China
+376,842,6.570064e+06,1996,Israel,USA
+36,410,6.495584e+06,1996,Australia,Rep. of Korea
+276,643,6.433778e+06,1996,Germany,Russian Federation
+344,826,6.404745e+06,1996,"China, Hong Kong SAR",United Kingdom
+842,682,6.4004e+06,1996,USA,Saudi Arabia
+842,376,6.311167e+06,1996,USA,Israel
+410,702,6.3100855e+06,1996,Rep. of Korea,Singapore
+380,528,6.2164015e+06,1996,Italy,Netherlands
+566,842,6.2008455e+06,1996,Nigeria,USA
+380,392,6.0098755e+06,1996,Italy,Japan
+380,40,5.96288e+06,1996,Italy,Austria
+752,579,5.949819e+06,1996,Sweden,Norway
+251,392,5.893263e+06,1996,France,Japan
+156,251,5.8558565e+06,1996,China,France
+804,643,5.8072295e+06,1996,Ukraine,Russian Federation
+792,276,5.7372955e+06,1996,TÃ¼rkiye,Germany
+826,757,5.7159105e+06,1996,United Kingdom,Switzerland
+392,591,5.707509e+06,1996,Japan,Panama
+76,32,5.584931e+06,1996,Brazil,Argentina
+490,276,5.432701e+06,1996,"Other Asia, nes",Germany
+842,372,5.3683535e+06,1996,USA,Ireland
+458,344,5.275881e+06,1996,Malaysia,"China, Hong Kong SAR"
+276,620,5.269836e+06,1996,Germany,Portugal
+490,702,5.2539225e+06,1996,"Other Asia, nes",Singapore
+348,276,5.1614805e+06,1996,Hungary,Germany
+372,276,5.1583425e+06,1996,Ireland,Germany
+842,360,5.127856e+06,1996,USA,Indonesia
+620,276,5.1218465e+06,1996,Portugal,Germany
+579,752,5.0855225e+06,1996,Norway,Sweden
+643,156,5.028894e+06,1996,Russian Federation,China
+842,170,5.022304e+06,1996,USA,Colombia
+208,752,5.0205195e+06,1996,Denmark,Sweden
+752,208,5.0171565e+06,1996,Sweden,Denmark
+682,702,5.00826e+06,1996,Saudi Arabia,Singapore
+528,724,5.00135e+06,1996,Netherlands,Spain
+276,76,4.975892e+06,1996,Germany,Brazil
+842,608,4.962073e+06,1996,USA,Philippines
+608,392,4.960701e+06,1996,Philippines,Japan
+826,344,4.9169725e+06,1996,United Kingdom,"China, Hong Kong SAR"
+528,752,4.9005895e+06,1996,Netherlands,Sweden
+380,300,4.8503305e+06,1996,Italy,Greece
+40,380,4.833238e+06,1996,Austria,Italy
+842,32,4.789317e+06,1996,USA,Argentina
+702,490,4.780258e+06,1996,Singapore,"Other Asia, nes"
+410,276,4.7495665e+06,1996,Rep. of Korea,Germany
+276,246,4.742221e+06,1996,Germany,Finland
+643,842,4.728189e+06,1996,Russian Federation,USA
+826,124,4.684482e+06,1996,United Kingdom,Canada

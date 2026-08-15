@@ -1,0 +1,201 @@
+exporter,importer,trade_value,year,exporter_name,importer_name
+156,842,4.475761e+08,2020,China,USA
+484,842,3.3064448e+08,2020,Mexico,USA
+124,842,2.5994578e+08,2020,Canada,USA
+156,344,2.517118e+08,2020,China,"China, Hong Kong SAR"
+842,124,1.9245805e+08,2020,USA,Canada
+842,484,1.6896526e+08,2020,USA,Mexico
+156,392,1.6183674e+08,2020,China,Japan
+392,156,1.5350346e+08,2020,Japan,China
+410,156,1.483592e+08,2020,Rep. of Korea,China
+156,276,1.2918225e+08,2020,China,Germany
+842,156,1.2763511e+08,2020,USA,China
+392,842,1.16843016e+08,2020,Japan,USA
+276,842,1.1312824e+08,2020,Germany,USA
+490,156,1.1236476e+08,2020,"Other Asia, nes",China
+36,156,1.11262104e+08,2020,Australia,China
+156,410,1.08365096e+08,2020,China,Rep. of Korea
+276,156,1.0608201e+08,2020,Germany,China
+276,251,9.913214e+07,2020,Germany,France
+156,704,8.862831e+07,2020,China,Viet Nam
+276,528,8.2224264e+07,2020,Germany,Netherlands
+528,276,8.020542e+07,2020,Netherlands,Germany
+704,842,7.963626e+07,2020,Viet Nam,USA
+410,842,7.672036e+07,2020,Rep. of Korea,USA
+156,826,7.5641464e+07,2020,China,United Kingdom
+276,826,7.396747e+07,2020,Germany,United Kingdom
+842,276,7.2800424e+07,2020,USA,Germany
+76,156,7.033475e+07,2020,Brazil,China
+156,484,6.991268e+07,2020,China,Mexico
+842,392,6.931414e+07,2020,USA,Japan
+276,380,6.807332e+07,2020,Germany,Italy
+616,276,6.496268e+07,2020,Poland,Germany
+156,490,6.2601316e+07,2020,China,"Other Asia, nes"
+704,156,6.2180172e+07,2020,Viet Nam,China
+251,276,6.143136e+07,2020,France,Germany
+276,616,6.05206e+07,2020,Germany,Poland
+458,156,6.0004496e+07,2020,Malaysia,China
+156,699,6.0002776e+07,2020,China,India
+156,36,5.9906212e+07,2020,China,Australia
+380,276,5.9623004e+07,2020,Italy,Germany
+490,842,5.9214016e+07,2020,"Other Asia, nes",USA
+276,40,5.8731956e+07,2020,Germany,Austria
+372,842,5.790602e+07,2020,Ireland,USA
+528,56,5.757622e+07,2020,Netherlands,Belgium
+276,757,5.6969456e+07,2020,Germany,Switzerland
+842,410,5.6808616e+07,2020,USA,Rep. of Korea
+156,124,5.6514696e+07,2020,China,Canada
+156,643,5.579639e+07,2020,China,Russian Federation
+156,528,5.48752e+07,2020,China,Netherlands
+757,842,5.3693188e+07,2020,Switzerland,USA
+490,344,5.3547876e+07,2020,"Other Asia, nes","China, Hong Kong SAR"
+56,251,5.350081e+07,2020,Belgium,France
+699,842,5.3101e+07,2020,India,USA
+203,276,5.2087304e+07,2020,Czechia,Germany
+156,764,5.196948e+07,2020,China,Thailand
+643,156,5.1669292e+07,2020,Russian Federation,China
+156,702,5.133767e+07,2020,China,Singapore
+757,276,4.9809108e+07,2020,Switzerland,Germany
+380,842,4.975649e+07,2020,Italy,USA
+528,251,4.8142508e+07,2020,Netherlands,France
+380,251,4.7738596e+07,2020,Italy,France
+826,842,4.769958e+07,2020,United Kingdom,USA
+410,704,4.698086e+07,2020,Rep. of Korea,Viet Nam
+56,528,4.6062624e+07,2020,Belgium,Netherlands
+724,251,4.6037496e+07,2020,Spain,France
+528,826,4.602058e+07,2020,Netherlands,United Kingdom
+842,826,4.567738e+07,2020,USA,United Kingdom
+392,410,4.51707e+07,2020,Japan,Rep. of Korea
+392,490,4.488907e+07,2020,Japan,"Other Asia, nes"
+276,56,4.445779e+07,2020,Germany,Belgium
+156,458,4.404958e+07,2020,China,Malaysia
+40,276,4.352791e+07,2020,Austria,Germany
+458,842,4.2977664e+07,2020,Malaysia,USA
+458,702,4.142335e+07,2020,Malaysia,Singapore
+156,251,4.1359516e+07,2020,China,France
+156,784,4.1256156e+07,2020,China,United Arab Emirates
+764,156,4.1000044e+07,2020,Thailand,China
+702,344,4.0904116e+07,2020,Singapore,"China, Hong Kong SAR"
+56,276,4.0889668e+07,2020,Belgium,Germany
+842,528,4.0822184e+07,2020,USA,Netherlands
+251,842,4.0741876e+07,2020,France,USA
+276,203,4.062053e+07,2020,Germany,Czechia
+156,360,4.0576164e+07,2020,China,Indonesia
+276,724,4.0040444e+07,2020,Germany,Spain
+682,156,3.9203104e+07,2020,Saudi Arabia,China
+764,842,3.90012e+07,2020,Thailand,USA
+156,76,3.794198e+07,2020,China,Brazil
+156,616,3.7481284e+07,2020,China,Poland
+156,380,3.691027e+07,2020,China,Italy
+826,276,3.6532216e+07,2020,United Kingdom,Germany
+251,380,3.595403e+07,2020,France,Italy
+360,156,3.5608404e+07,2020,Indonesia,China
+490,702,3.5108496e+07,2020,"Other Asia, nes",Singapore
+36,392,3.4434692e+07,2020,Australia,Japan
+724,276,3.4347852e+07,2020,Spain,Germany
+251,56,3.3926196e+07,2020,France,Belgium
+251,724,3.3714876e+07,2020,France,Spain
+156,724,3.3558916e+07,2020,China,Spain
+702,156,3.3547236e+07,2020,Singapore,China
+842,702,3.3113198e+07,2020,USA,Singapore
+410,344,3.209555e+07,2020,Rep. of Korea,"China, Hong Kong SAR"
+392,344,3.2047434e+07,2020,Japan,"China, Hong Kong SAR"
+348,276,3.0580842e+07,2020,Hungary,Germany
+251,826,2.9964544e+07,2020,France,United Kingdom
+842,490,2.9607142e+07,2020,USA,"Other Asia, nes"
+152,156,2.8680864e+07,2020,Chile,China
+842,76,2.8509462e+07,2020,USA,Brazil
+156,682,2.8313824e+07,2020,China,Saudi Arabia
+842,251,2.761932e+07,2020,USA,France
+156,203,2.753467e+07,2020,China,Czechia
+56,826,2.7467002e+07,2020,Belgium,United Kingdom
+842,699,2.6663156e+07,2020,USA,India
+276,348,2.6607306e+07,2020,Germany,Hungary
+392,764,2.6227588e+07,2020,Japan,Thailand
+702,842,2.6028056e+07,2020,Singapore,USA
+276,752,2.5687552e+07,2020,Germany,Sweden
+826,528,2.5264546e+07,2020,United Kingdom,Netherlands
+490,392,2.520607e+07,2020,"Other Asia, nes",Japan
+724,620,2.5174372e+07,2020,Spain,Portugal
+410,392,2.5117672e+07,2020,Rep. of Korea,Japan
+156,608,2.5021054e+07,2020,China,Philippines
+528,380,2.4953918e+07,2020,Netherlands,Italy
+842,36,2.4698794e+07,2020,USA,Australia
+643,826,2.4425162e+07,2020,Russian Federation,United Kingdom
+380,826,2.4354062e+07,2020,Italy,United Kingdom
+276,643,2.4214998e+07,2020,Germany,Russian Federation
+784,699,2.39872e+07,2020,United Arab Emirates,India
+826,372,2.3982758e+07,2020,United Kingdom,Ireland
+372,276,2.3768458e+07,2020,Ireland,Germany
+380,757,2.3675632e+07,2020,Italy,Switzerland
+764,392,2.3483342e+07,2020,Thailand,Japan
+156,792,2.313432e+07,2020,China,TÃ¼rkiye
+251,156,2.2936014e+07,2020,France,China
+344,156,2.2924928e+07,2020,"China, Hong Kong SAR",China
+724,380,2.2891034e+07,2020,Spain,Italy
+842,344,2.2619806e+07,2020,USA,"China, Hong Kong SAR"
+76,842,2.2518162e+07,2020,Brazil,USA
+484,124,2.207218e+07,2020,Mexico,Canada
+392,276,2.1981924e+07,2020,Japan,Germany
+826,251,2.1755286e+07,2020,United Kingdom,France
+276,792,2.1712366e+07,2020,Germany,TÃ¼rkiye
+704,392,2.1644488e+07,2020,Viet Nam,Japan
+56,842,2.1563282e+07,2020,Belgium,USA
+699,156,2.1424228e+07,2020,India,China
+360,842,2.1357398e+07,2020,Indonesia,USA
+276,208,2.0890866e+07,2020,Germany,Denmark
+380,724,2.0854978e+07,2020,Italy,Spain
+458,344,2.0757312e+07,2020,Malaysia,"China, Hong Kong SAR"
+842,757,2.0677304e+07,2020,USA,Switzerland
+56,380,2.0462024e+07,2020,Belgium,Italy
+276,410,2.0412882e+07,2020,Germany,Rep. of Korea
+276,392,2.0335104e+07,2020,Germany,Japan
+124,156,2.0208322e+07,2020,Canada,China
+410,490,2.0174174e+07,2020,Rep. of Korea,"Other Asia, nes"
+704,410,1.9816826e+07,2020,Viet Nam,Rep. of Korea
+528,842,1.9720936e+07,2020,Netherlands,USA
+368,156,1.9303616e+07,2020,Iraq,China
+392,704,1.9272538e+07,2020,Japan,Viet Nam
+276,642,1.910374e+07,2020,Germany,Romania
+724,826,1.8996938e+07,2020,Spain,United Kingdom
+608,156,1.863579e+07,2020,Philippines,China
+392,702,1.8635256e+07,2020,Japan,Singapore
+36,410,1.8628422e+07,2020,Australia,Rep. of Korea
+784,156,1.8545756e+07,2020,United Arab Emirates,China
+682,392,1.8443478e+07,2020,Saudi Arabia,Japan
+702,458,1.8354262e+07,2020,Singapore,Malaysia
+826,156,1.8091832e+07,2020,United Kingdom,China
+682,699,1.8082772e+07,2020,Saudi Arabia,India
+643,528,1.802696e+07,2020,Russian Federation,Netherlands
+156,566,1.8019736e+07,2020,China,Nigeria
+699,784,1.78628e+07,2020,India,United Arab Emirates
+251,528,1.7755646e+07,2020,France,Netherlands
+372,826,1.751629e+07,2020,Ireland,United Kingdom
+703,276,1.7505288e+07,2020,Slovakia,Germany
+380,156,1.730921e+07,2020,Italy,China
+490,410,1.7307816e+07,2020,"Other Asia, nes",Rep. of Korea
+792,276,1.7063982e+07,2020,TÃ¼rkiye,Germany
+784,392,1.6908256e+07,2020,United Arab Emirates,Japan
+826,757,1.6888482e+07,2020,United Kingdom,Switzerland
+842,56,1.6862792e+07,2020,USA,Belgium
+704,344,1.6771674e+07,2020,Viet Nam,"China, Hong Kong SAR"
+757,156,1.6409201e+07,2020,Switzerland,China
+842,380,1.6354234e+07,2020,USA,Italy
+368,699,1.6172887e+07,2020,Iraq,India
+682,410,1.6145137e+07,2020,Saudi Arabia,Rep. of Korea
+276,703,1.6141336e+07,2020,Germany,Slovakia
+842,458,1.6072607e+07,2020,USA,Malaysia
+490,704,1.6065938e+07,2020,"Other Asia, nes",Viet Nam
+643,112,1.5956775e+07,2020,Russian Federation,Belarus
+643,276,1.5822271e+07,2020,Russian Federation,Germany
+842,724,1.5820773e+07,2020,USA,Spain
+512,156,1.5802799e+07,2020,Oman,China
+752,276,1.5721555e+07,2020,Sweden,Germany
+458,392,1.5682338e+07,2020,Malaysia,Japan
+156,152,1.5651206e+07,2020,China,Chile
+724,842,1.5616518e+07,2020,Spain,USA
+642,276,1.5540585e+07,2020,Romania,Germany
+842,784,1.5415789e+07,2020,USA,United Arab Emirates
+380,56,1.5405491e+07,2020,Italy,Belgium
+360,392,1.5275489e+07,2020,Indonesia,Japan
+156,50,1.5059831e+07,2020,China,Bangladesh

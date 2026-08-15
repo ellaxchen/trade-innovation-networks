@@ -1,0 +1,201 @@
+exporter,importer,trade_value,year,exporter_name,importer_name
+156,842,4.7558064e+08,2014,China,USA
+124,842,3.4282195e+08,2014,Canada,USA
+484,842,2.9809184e+08,2014,Mexico,USA
+156,344,2.7205213e+08,2014,China,"China, Hong Kong SAR"
+842,124,2.4757125e+08,2014,USA,Canada
+842,484,2.0223104e+08,2014,USA,Mexico
+156,392,1.6569944e+08,2014,China,Japan
+410,156,1.4661579e+08,2014,Rep. of Korea,China
+392,156,1.4444502e+08,2014,Japan,China
+842,156,1.4187442e+08,2014,USA,China
+392,842,1.3137537e+08,2014,Japan,USA
+276,842,1.22511336e+08,2014,Germany,USA
+276,251,1.169705e+08,2014,Germany,France
+156,276,1.0191637e+08,2014,China,Germany
+276,826,1.0010126e+08,2014,Germany,United Kingdom
+528,276,9.921485e+07,2014,Netherlands,Germany
+276,156,9.8058536e+07,2014,Germany,China
+490,156,9.6238984e+07,2014,"Other Asia, nes",China
+36,156,9.139382e+07,2014,Australia,China
+156,410,8.996781e+07,2014,China,Rep. of Korea
+251,276,8.563753e+07,2014,France,Germany
+276,528,8.292904e+07,2014,Germany,Netherlands
+528,56,7.882785e+07,2014,Netherlands,Belgium
+410,842,7.191061e+07,2014,Rep. of Korea,USA
+276,380,7.07101e+07,2014,Germany,Italy
+842,392,6.91331e+07,2014,USA,Japan
+156,826,6.5041828e+07,2014,China,United Kingdom
+276,40,6.4257904e+07,2014,Germany,Austria
+344,156,6.399612e+07,2014,"China, Hong Kong SAR",China
+842,276,6.218161e+07,2014,USA,Germany
+380,276,6.141567e+07,2014,Italy,Germany
+276,757,5.968246e+07,2014,Germany,Switzerland
+156,484,5.7929716e+07,2014,China,Mexico
+156,251,5.5867416e+07,2014,China,France
+643,528,5.3703144e+07,2014,Russian Federation,Netherlands
+528,826,5.325e+07,2014,Netherlands,United Kingdom
+392,410,5.3007096e+07,2014,Japan,Rep. of Korea
+156,124,5.25616e+07,2014,China,Canada
+156,528,5.2365044e+07,2014,China,Netherlands
+842,826,5.2162412e+07,2014,USA,United Kingdom
+156,699,5.206574e+07,2014,China,India
+156,643,5.174249e+07,2014,China,Russian Federation
+757,276,5.1728164e+07,2014,Switzerland,Germany
+826,842,5.172138e+07,2014,United Kingdom,USA
+276,616,5.139448e+07,2014,Germany,Poland
+616,276,5.131431e+07,2014,Poland,Germany
+276,56,5.0233268e+07,2014,Germany,Belgium
+203,276,4.937858e+07,2014,Czechia,Germany
+380,251,4.936665e+07,2014,Italy,France
+56,276,4.901776e+07,2014,Belgium,Germany
+682,842,4.850579e+07,2014,Saudi Arabia,USA
+682,156,4.813974e+07,2014,Saudi Arabia,China
+36,392,4.7890744e+07,2014,Australia,Japan
+56,528,4.7726644e+07,2014,Belgium,Netherlands
+682,392,4.743352e+07,2014,Saudi Arabia,Japan
+156,490,4.672137e+07,2014,China,"Other Asia, nes"
+699,842,4.6709756e+07,2014,India,USA
+458,156,4.6692944e+07,2014,Malaysia,China
+56,251,4.610537e+07,2014,Belgium,France
+826,276,4.549543e+07,2014,United Kingdom,Germany
+40,276,4.535791e+07,2014,Austria,Germany
+156,702,4.5294224e+07,2014,China,Singapore
+156,704,4.5041156e+07,2014,China,Viet Nam
+156,36,4.4953696e+07,2014,China,Australia
+842,410,4.454607e+07,2014,USA,Rep. of Korea
+276,724,4.408702e+07,2014,Germany,Spain
+251,826,4.30845e+07,2014,France,United Kingdom
+76,156,4.2170496e+07,2014,Brazil,China
+724,251,4.1831236e+07,2014,Spain,France
+380,842,4.170255e+07,2014,Italy,USA
+784,392,4.1621236e+07,2014,United Arab Emirates,Japan
+251,842,4.1571204e+07,2014,France,USA
+251,724,4.102997e+07,2014,France,Spain
+251,380,4.0829584e+07,2014,France,Italy
+490,842,4.069363e+07,2014,"Other Asia, nes",USA
+156,76,4.0673424e+07,2014,China,Brazil
+276,203,4.061896e+07,2014,Germany,Czechia
+842,251,4.0545924e+07,2014,USA,France
+490,344,4.0340796e+07,2014,"Other Asia, nes","China, Hong Kong SAR"
+392,490,4.0250504e+07,2014,Japan,"Other Asia, nes"
+643,156,3.9855524e+07,2014,Russian Federation,China
+156,764,3.86748e+07,2014,China,Thailand
+251,56,3.8572932e+07,2014,France,Belgium
+156,458,3.8458732e+07,2014,China,Malaysia
+458,702,3.8222532e+07,2014,Malaysia,Singapore
+392,344,3.8042588e+07,2014,Japan,"China, Hong Kong SAR"
+682,410,3.7105916e+07,2014,Saudi Arabia,Rep. of Korea
+842,76,3.6612156e+07,2014,USA,Brazil
+842,702,3.593358e+07,2014,USA,Singapore
+702,156,3.5639224e+07,2014,Singapore,China
+702,344,3.556803e+07,2014,Singapore,"China, Hong Kong SAR"
+842,344,3.539066e+07,2014,USA,"China, Hong Kong SAR"
+276,643,3.5251804e+07,2014,Germany,Russian Federation
+826,757,3.3541412e+07,2014,United Kingdom,Switzerland
+392,764,3.352897e+07,2014,Japan,Thailand
+156,380,3.3528678e+07,2014,China,Italy
+842,528,3.35256e+07,2014,USA,Netherlands
+682,699,3.3262252e+07,2014,Saudi Arabia,India
+724,276,3.283781e+07,2014,Spain,Germany
+634,392,3.235372e+07,2014,Qatar,Japan
+410,392,3.2271e+07,2014,Rep. of Korea,Japan
+764,156,3.2228388e+07,2014,Thailand,China
+156,360,3.2165002e+07,2014,China,Indonesia
+704,842,3.1851576e+07,2014,Viet Nam,USA
+826,528,3.1500988e+07,2014,United Kingdom,Netherlands
+372,842,3.133388e+07,2014,Ireland,USA
+643,276,3.127958e+07,2014,Russian Federation,Germany
+862,842,3.0781164e+07,2014,Venezuela,USA
+364,156,3.0574952e+07,2014,Iran,China
+458,842,3.0124526e+07,2014,Malaysia,USA
+56,826,3.0077838e+07,2014,Belgium,United Kingdom
+24,156,2.9739734e+07,2014,Angola,China
+528,251,2.9732308e+07,2014,Netherlands,France
+348,276,2.958538e+07,2014,Hungary,Germany
+490,702,2.9506404e+07,2014,"Other Asia, nes",Singapore
+643,380,2.9152794e+07,2014,Russian Federation,Italy
+76,842,2.8526356e+07,2014,Brazil,USA
+156,784,2.8492768e+07,2014,China,United Arab Emirates
+380,826,2.8287916e+07,2014,Italy,United Kingdom
+579,826,2.8234096e+07,2014,Norway,United Kingdom
+757,842,2.8069262e+07,2014,Switzerland,USA
+764,842,2.7929756e+07,2014,Thailand,USA
+458,392,2.7598656e+07,2014,Malaysia,Japan
+528,380,2.7254306e+07,2014,Netherlands,Italy
+784,699,2.7185966e+07,2014,United Arab Emirates,India
+826,251,2.6948284e+07,2014,United Kingdom,France
+156,724,2.6865304e+07,2014,China,Spain
+702,458,2.6772616e+07,2014,Singapore,Malaysia
+826,156,2.6728518e+07,2014,United Kingdom,China
+579,276,2.6494946e+07,2014,Norway,Germany
+276,752,2.6282912e+07,2014,Germany,Sweden
+702,360,2.6127134e+07,2014,Singapore,Indonesia
+724,620,2.5690526e+07,2014,Spain,Portugal
+360,392,2.5430838e+07,2014,Indonesia,Japan
+842,490,2.5360132e+07,2014,USA,"Other Asia, nes"
+276,348,2.5142456e+07,2014,Germany,Hungary
+484,124,2.5137432e+07,2014,Mexico,Canada
+156,792,2.481554e+07,2014,China,TÃ¼rkiye
+634,410,2.479514e+07,2014,Qatar,Rep. of Korea
+156,682,2.4766006e+07,2014,China,Saudi Arabia
+410,344,2.4445472e+07,2014,Rep. of Korea,"China, Hong Kong SAR"
+826,372,2.4276578e+07,2014,United Kingdom,Ireland
+392,276,2.4266762e+07,2014,Japan,Germany
+842,36,2.40505e+07,2014,USA,Australia
+276,792,2.3923976e+07,2014,Germany,TÃ¼rkiye
+512,156,2.3770846e+07,2014,Oman,China
+251,156,2.3482836e+07,2014,France,China
+276,392,2.3371238e+07,2014,Germany,Japan
+251,528,2.3190346e+07,2014,France,Netherlands
+643,392,2.2699382e+07,2014,Russian Federation,Japan
+757,344,2.2678196e+07,2014,Switzerland,"China, Hong Kong SAR"
+376,842,2.2675398e+07,2014,Israel,USA
+360,156,2.2665106e+07,2014,Indonesia,China
+490,392,2.237742e+07,2014,"Other Asia, nes",Japan
+724,826,2.226544e+07,2014,Spain,United Kingdom
+842,682,2.2075868e+07,2014,USA,Saudi Arabia
+380,757,2.1965786e+07,2014,Italy,Switzerland
+764,392,2.184402e+07,2014,Thailand,Japan
+724,380,2.1826178e+07,2014,Spain,Italy
+156,616,2.1779006e+07,2014,China,Poland
+842,757,2.1683502e+07,2014,USA,Switzerland
+699,784,2.1586954e+07,2014,India,United Arab Emirates
+410,704,2.132972e+07,2014,Rep. of Korea,Viet Nam
+380,724,2.1292214e+07,2014,Italy,Spain
+276,410,2.1280858e+07,2014,Germany,Rep. of Korea
+757,699,2.1234882e+07,2014,Switzerland,India
+392,702,2.110774e+07,2014,Japan,Singapore
+368,156,2.0761238e+07,2014,Iraq,China
+528,842,2.0677718e+07,2014,Netherlands,USA
+36,410,2.0586454e+07,2014,Australia,Rep. of Korea
+643,112,2.0470078e+07,2014,Russian Federation,Belarus
+360,842,2.0390922e+07,2014,Indonesia,USA
+276,208,2.0355052e+07,2014,Germany,Denmark
+410,702,2.0336114e+07,2014,Rep. of Korea,Singapore
+842,699,2.01178e+07,2014,USA,India
+372,826,1.9682724e+07,2014,Ireland,United Kingdom
+360,702,1.9130434e+07,2014,Indonesia,Singapore
+842,784,1.9072764e+07,2014,USA,United Arab Emirates
+56,842,1.9059358e+07,2014,Belgium,USA
+124,156,1.8967926e+07,2014,Canada,China
+152,156,1.865146e+07,2014,Chile,China
+757,156,1.8471062e+07,2014,Switzerland,China
+704,156,1.8463432e+07,2014,Viet Nam,China
+643,842,1.8305966e+07,2014,Russian Federation,USA
+842,170,1.819015e+07,2014,USA,Colombia
+643,616,1.8154346e+07,2014,Russian Federation,Poland
+251,757,1.8122704e+07,2014,France,Switzerland
+56,380,1.7573812e+07,2014,Belgium,Italy
+792,276,1.7361076e+07,2014,TÃ¼rkiye,Germany
+703,276,1.7281854e+07,2014,Slovakia,Germany
+842,643,1.724631e+07,2014,USA,Russian Federation
+682,490,1.6972412e+07,2014,Saudi Arabia,"Other Asia, nes"
+414,410,1.6912404e+07,2014,Kuwait,Rep. of Korea
+826,56,1.6806236e+07,2014,United Kingdom,Belgium
+784,156,1.6800886e+07,2014,United Arab Emirates,China
+634,699,1.6767279e+07,2014,Qatar,India
+752,276,1.664706e+07,2014,Sweden,Germany
+842,380,1.659954e+07,2014,USA,Italy
+566,699,1.6441758e+07,2014,Nigeria,India
+757,251,1.6345963e+07,2014,Switzerland,France

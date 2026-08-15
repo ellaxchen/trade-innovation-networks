@@ -1,0 +1,201 @@
+exporter,importer,trade_value,year,exporter_name,importer_name
+156,842,2.9358944e+08,2009,China,USA
+124,842,2.187061e+08,2009,Canada,USA
+484,842,1.7462243e+08,2009,Mexico,USA
+156,344,1.6581805e+08,2009,China,"China, Hong Kong SAR"
+842,124,1.6213286e+08,2009,USA,Canada
+156,392,1.19539416e+08,2009,China,Japan
+392,156,1.1944425e+08,2009,Japan,China
+842,484,1.133336e+08,2009,USA,Mexico
+410,156,9.581846e+07,2009,Rep. of Korea,China
+392,842,9.478752e+07,2009,Japan,USA
+276,251,9.3451544e+07,2009,Germany,France
+156,276,7.771543e+07,2009,China,Germany
+490,156,7.495626e+07,2009,"Other Asia, nes",China
+842,156,7.434463e+07,2009,USA,China
+251,276,7.126595e+07,2009,France,Germany
+276,842,7.0933464e+07,2009,Germany,USA
+276,380,6.716533e+07,2009,Germany,Italy
+528,276,6.672842e+07,2009,Netherlands,Germany
+276,826,6.6202624e+07,2009,Germany,United Kingdom
+528,56,6.293537e+07,2009,Netherlands,Belgium
+276,528,6.1788636e+07,2009,Germany,Netherlands
+276,56,5.892063e+07,2009,Germany,Belgium
+842,392,5.623732e+07,2009,USA,Japan
+276,40,5.5707372e+07,2009,Germany,Austria
+156,410,5.249325e+07,2009,China,Rep. of Korea
+276,757,5.1946776e+07,2009,Germany,Switzerland
+276,156,5.158766e+07,2009,Germany,China
+842,276,5.0632244e+07,2009,USA,Germany
+392,410,4.9854292e+07,2009,Japan,Rep. of Korea
+380,276,4.811501e+07,2009,Italy,Germany
+56,251,4.701073e+07,2009,Belgium,France
+156,826,4.5979176e+07,2009,China,United Kingdom
+826,842,4.5383304e+07,2009,United Kingdom,USA
+380,251,4.3727908e+07,2009,Italy,France
+56,276,4.1661504e+07,2009,Belgium,Germany
+826,276,4.140996e+07,2009,United Kingdom,Germany
+156,251,4.1031564e+07,2009,China,France
+410,842,4.014074e+07,2009,Rep. of Korea,USA
+251,56,3.9882852e+07,2009,France,Belgium
+276,724,3.9775424e+07,2009,Germany,Spain
+36,156,3.732746e+07,2009,Australia,China
+757,276,3.717574e+07,2009,Switzerland,Germany
+276,616,3.6720844e+07,2009,Germany,Poland
+251,380,3.6356896e+07,2009,France,Italy
+724,251,3.6325708e+07,2009,Spain,France
+40,276,3.5768916e+07,2009,Austria,Germany
+251,724,3.5696916e+07,2009,France,Spain
+56,528,3.5363004e+07,2009,Belgium,Netherlands
+842,826,3.5343132e+07,2009,USA,United Kingdom
+392,490,3.4756644e+07,2009,Japan,"Other Asia, nes"
+156,124,3.4396056e+07,2009,China,Canada
+36,392,3.4312628e+07,2009,Australia,Japan
+203,276,3.381261e+07,2009,Czechia,Germany
+842,251,3.3484516e+07,2009,USA,France
+251,826,3.3432554e+07,2009,France,United Kingdom
+528,826,3.3293964e+07,2009,Netherlands,United Kingdom
+643,528,3.2632938e+07,2009,Russian Federation,Netherlands
+156,528,3.1420182e+07,2009,China,Netherlands
+616,276,3.1285186e+07,2009,Poland,Germany
+392,344,3.1196112e+07,2009,Japan,"China, Hong Kong SAR"
+251,842,3.110355e+07,2009,France,USA
+156,484,3.1025078e+07,2009,China,Mexico
+156,36,2.9637408e+07,2009,China,Australia
+682,392,2.9235352e+07,2009,Saudi Arabia,Japan
+458,156,2.9034156e+07,2009,Malaysia,China
+156,699,2.8942478e+07,2009,China,India
+862,842,2.8721378e+07,2009,Venezuela,USA
+842,410,2.8676512e+07,2009,USA,Rep. of Korea
+276,203,2.8087034e+07,2009,Germany,Czechia
+490,842,2.794967e+07,2009,"Other Asia, nes",USA
+458,702,2.7941826e+07,2009,Malaysia,Singapore
+842,702,2.7583436e+07,2009,USA,Singapore
+156,380,2.7011664e+07,2009,China,Italy
+842,528,2.6595276e+07,2009,USA,Netherlands
+156,702,2.6488714e+07,2009,China,Singapore
+724,276,2.6408506e+07,2009,Spain,Germany
+372,842,2.6246688e+07,2009,Ireland,USA
+380,842,2.608962e+07,2009,Italy,USA
+392,276,2.5519086e+07,2009,Japan,Germany
+826,251,2.5435462e+07,2009,United Kingdom,France
+699,784,2.5273386e+07,2009,India,United Arab Emirates
+276,643,2.4698862e+07,2009,Germany,Russian Federation
+156,490,2.416324e+07,2009,China,"Other Asia, nes"
+392,764,2.3953996e+07,2009,Japan,Thailand
+579,826,2.3860626e+07,2009,Norway,United Kingdom
+56,826,2.3779122e+07,2009,Belgium,United Kingdom
+724,620,2.3607198e+07,2009,Spain,Portugal
+528,251,2.3543244e+07,2009,Netherlands,France
+682,156,2.3459288e+07,2009,Saudi Arabia,China
+682,842,2.3436218e+07,2009,Saudi Arabia,USA
+458,842,2.335169e+07,2009,Malaysia,USA
+156,643,2.3000952e+07,2009,China,Russian Federation
+360,392,2.2853246e+07,2009,Indonesia,Japan
+528,380,2.2821674e+07,2009,Netherlands,Italy
+702,344,2.280162e+07,2009,Singapore,"China, Hong Kong SAR"
+784,392,2.2635982e+07,2009,United Arab Emirates,Japan
+764,156,2.2088276e+07,2009,Thailand,China
+699,842,2.2070024e+07,2009,India,USA
+76,156,2.2069594e+07,2009,Brazil,China
+372,56,2.1705808e+07,2009,Ireland,Belgium
+410,392,2.1615456e+07,2009,Rep. of Korea,Japan
+380,724,2.1159162e+07,2009,Italy,Spain
+842,76,2.1016692e+07,2009,USA,Brazil
+826,528,2.0879098e+07,2009,United Kingdom,Netherlands
+643,380,2.0744018e+07,2009,Russian Federation,Italy
+380,826,2.0656066e+07,2009,Italy,United Kingdom
+156,724,2.0402914e+07,2009,China,Spain
+842,56,2.03779e+07,2009,USA,Belgium
+490,344,2.0376326e+07,2009,"Other Asia, nes","China, Hong Kong SAR"
+276,752,1.9980706e+07,2009,Germany,Sweden
+682,410,1.9809608e+07,2009,Saudi Arabia,Rep. of Korea
+566,842,1.9804e+07,2009,Nigeria,USA
+784,699,1.9687806e+07,2009,United Arab Emirates,India
+764,842,1.9560204e+07,2009,Thailand,USA
+826,56,1.943691e+07,2009,United Kingdom,Belgium
+842,344,1.9082564e+07,2009,USA,"China, Hong Kong SAR"
+348,276,1.9042244e+07,2009,Hungary,Germany
+392,702,1.902033e+07,2009,Japan,Singapore
+372,826,1.8859876e+07,2009,Ireland,United Kingdom
+842,36,1.8773908e+07,2009,USA,Australia
+702,156,1.874916e+07,2009,Singapore,China
+826,372,1.8735804e+07,2009,United Kingdom,Ireland
+76,842,1.8628358e+07,2009,Brazil,USA
+156,784,1.8567872e+07,2009,China,United Arab Emirates
+156,458,1.8534362e+07,2009,China,Malaysia
+380,757,1.8433358e+07,2009,Italy,Switzerland
+376,842,1.8385724e+07,2009,Israel,USA
+490,392,1.8147568e+07,2009,"Other Asia, nes",Japan
+643,276,1.8131974e+07,2009,Russian Federation,Germany
+156,764,1.7744012e+07,2009,China,Thailand
+842,490,1.7682548e+07,2009,USA,"Other Asia, nes"
+251,528,1.7555346e+07,2009,France,Netherlands
+724,380,1.751207e+07,2009,Spain,Italy
+643,156,1.7478532e+07,2009,Russian Federation,China
+156,76,1.744002e+07,2009,China,Brazil
+579,276,1.7432116e+07,2009,Norway,Germany
+410,344,1.7211588e+07,2009,Rep. of Korea,"China, Hong Kong SAR"
+643,842,1.6751965e+07,2009,Russian Federation,USA
+276,348,1.6738706e+07,2009,Germany,Hungary
+156,704,1.6724401e+07,2009,China,Viet Nam
+276,208,1.6581335e+07,2009,Germany,Denmark
+344,156,1.6434851e+07,2009,"China, Hong Kong SAR",China
+702,360,1.6403169e+07,2009,Singapore,Indonesia
+56,380,1.63919e+07,2009,Belgium,Italy
+643,112,1.6353364e+07,2009,Russian Federation,Belarus
+458,392,1.6177645e+07,2009,Malaysia,Japan
+410,702,1.6023095e+07,2009,Rep. of Korea,Singapore
+764,392,1.579231e+07,2009,Thailand,Japan
+276,392,1.5640085e+07,2009,Germany,Japan
+392,458,1.539116e+07,2009,Japan,Malaysia
+757,842,1.5333789e+07,2009,Switzerland,USA
+842,699,1.5283679e+07,2009,USA,India
+634,392,1.5114817e+07,2009,Qatar,Japan
+36,410,1.4982327e+07,2009,Australia,Rep. of Korea
+702,458,1.4971552e+07,2009,Singapore,Malaysia
+156,56,1.4959906e+07,2009,China,Belgium
+360,842,1.4897096e+07,2009,Indonesia,USA
+156,360,1.477661e+07,2009,China,Indonesia
+682,699,1.4722696e+07,2009,Saudi Arabia,India
+724,826,1.4706614e+07,2009,Spain,United Kingdom
+702,842,1.4602616e+07,2009,Singapore,USA
+757,380,1.4586724e+07,2009,Switzerland,Italy
+251,757,1.4499926e+07,2009,France,Switzerland
+24,156,1.4293049e+07,2009,Angola,China
+276,792,1.4217967e+07,2009,Germany,TÃ¼rkiye
+360,156,1.4168356e+07,2009,Indonesia,China
+484,124,1.4111932e+07,2009,Mexico,Canada
+56,842,1.4098802e+07,2009,Belgium,USA
+826,724,1.378562e+07,2009,United Kingdom,Spain
+156,616,1.3712094e+07,2009,China,Poland
+643,804,1.3683285e+07,2009,Russian Federation,Ukraine
+360,702,1.3675685e+07,2009,Indonesia,Singapore
+752,276,1.3536622e+07,2009,Sweden,Germany
+392,36,1.3493963e+07,2009,Japan,Australia
+392,826,1.3406522e+07,2009,Japan,United Kingdom
+528,842,1.3378648e+07,2009,Netherlands,USA
+434,380,1.335678e+07,2009,Libya,Italy
+757,251,1.3339488e+07,2009,Switzerland,France
+364,156,1.3286547e+07,2009,Iran,China
+704,842,1.3207084e+07,2009,Viet Nam,USA
+36,699,1.3137568e+07,2009,Australia,India
+826,380,1.3129706e+07,2009,United Kingdom,Italy
+152,156,1.3042431e+07,2009,Chile,China
+699,156,1.3038217e+07,2009,India,China
+170,842,1.2938146e+07,2009,Colombia,USA
+392,591,1.2894819e+07,2009,Japan,Panama
+208,276,1.2771907e+07,2009,Denmark,Germany
+528,724,1.2743875e+07,2009,Netherlands,Spain
+842,380,1.2569808e+07,2009,USA,Italy
+490,702,1.2542105e+07,2009,"Other Asia, nes",Singapore
+842,682,1.2303273e+07,2009,USA,Saudi Arabia
+156,792,1.2276675e+07,2009,China,TÃ¼rkiye
+842,757,1.2115831e+07,2009,USA,Switzerland
+76,32,1.2015462e+07,2009,Brazil,Argentina
+608,156,1.2001327e+07,2009,Philippines,China
+251,156,1.1988306e+07,2009,France,China
+276,410,1.1757283e+07,2009,Germany,Rep. of Korea
+276,699,1.1683374e+07,2009,Germany,India
+32,76,1.1604955e+07,2009,Argentina,Brazil
+643,792,1.1582068e+07,2009,Russian Federation,TÃ¼rkiye

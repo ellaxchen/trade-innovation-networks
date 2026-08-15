@@ -1,0 +1,201 @@
+exporter,importer,trade_value,year,exporter_name,importer_name
+156,842,4.4396646e+08,2013,China,USA
+124,842,3.2702458e+08,2013,Canada,USA
+484,842,2.798973e+08,2013,Mexico,USA
+156,344,2.7566342e+08,2013,China,"China, Hong Kong SAR"
+842,124,2.3607454e+08,2013,USA,Canada
+842,484,1.8787931e+08,2013,USA,Mexico
+156,392,1.6632904e+08,2013,China,Japan
+410,156,1.4638302e+08,2013,Rep. of Korea,China
+392,156,1.450669e+08,2013,Japan,China
+392,842,1.3658195e+08,2013,Japan,USA
+842,156,1.3652581e+08,2013,USA,China
+276,251,1.1849953e+08,2013,Germany,France
+276,842,1.14308616e+08,2013,Germany,USA
+528,276,1.0316921e+08,2013,Netherlands,Germany
+156,276,9.841574e+07,2013,China,Germany
+490,156,9.133834e+07,2013,"Other Asia, nes",China
+36,156,8.935977e+07,2013,Australia,China
+276,826,8.813213e+07,2013,Germany,United Kingdom
+276,156,8.799453e+07,2013,Germany,China
+344,156,8.500076e+07,2013,"China, Hong Kong SAR",China
+276,528,8.257685e+07,2013,Germany,Netherlands
+251,276,8.242717e+07,2013,France,Germany
+156,410,8.2270856e+07,2013,China,Rep. of Korea
+528,56,8.126241e+07,2013,Netherlands,Belgium
+276,380,6.942016e+07,2013,Germany,Italy
+842,392,6.823973e+07,2013,USA,Japan
+276,40,6.541215e+07,2013,Germany,Austria
+410,842,6.3715416e+07,2013,Rep. of Korea,USA
+842,276,6.237537e+07,2013,USA,Germany
+276,757,5.9934564e+07,2013,Germany,Switzerland
+380,276,5.936284e+07,2013,Italy,Germany
+392,410,5.887938e+07,2013,Japan,Rep. of Korea
+156,484,5.877619e+07,2013,China,Mexico
+156,826,5.818505e+07,2013,China,United Kingdom
+682,156,5.5633716e+07,2013,Saudi Arabia,China
+682,842,5.373232e+07,2013,Saudi Arabia,USA
+156,643,5.3731124e+07,2013,China,Russian Federation
+156,251,5.349196e+07,2013,China,France
+528,826,5.3317924e+07,2013,Netherlands,United Kingdom
+36,392,5.0470828e+07,2013,Australia,Japan
+458,156,5.030712e+07,2013,Malaysia,China
+156,124,5.0208116e+07,2013,China,Canada
+682,392,4.9866896e+07,2013,Saudi Arabia,Japan
+757,344,4.984543e+07,2013,Switzerland,"China, Hong Kong SAR"
+826,842,4.9765972e+07,2013,United Kingdom,USA
+276,56,4.976591e+07,2013,Germany,Belgium
+380,251,4.9478676e+07,2013,Italy,France
+156,699,4.8872796e+07,2013,China,India
+757,276,4.864933e+07,2013,Switzerland,Germany
+56,276,4.857811e+07,2013,Belgium,Germany
+56,528,4.800112e+07,2013,Belgium,Netherlands
+276,616,4.7056824e+07,2013,Germany,Poland
+76,156,4.7054796e+07,2013,Brazil,China
+616,276,4.6978384e+07,2013,Poland,Germany
+826,276,4.6660704e+07,2013,United Kingdom,Germany
+156,36,4.5622636e+07,2013,China,Australia
+56,251,4.5484516e+07,2013,Belgium,France
+643,528,4.547002e+07,2013,Russian Federation,Netherlands
+40,276,4.5259216e+07,2013,Austria,Germany
+156,528,4.5238132e+07,2013,China,Netherlands
+203,276,4.4466896e+07,2013,Czechia,Germany
+156,702,4.428382e+07,2013,China,Singapore
+699,842,4.3329756e+07,2013,India,USA
+724,251,4.29291e+07,2013,Spain,France
+842,251,4.2250396e+07,2013,USA,France
+784,392,4.221451e+07,2013,United Arab Emirates,Japan
+276,643,4.1655348e+07,2013,Germany,Russian Federation
+251,842,4.118146e+07,2013,France,USA
+392,490,4.0864756e+07,2013,Japan,"Other Asia, nes"
+156,490,4.0704428e+07,2013,China,"Other Asia, nes"
+842,410,4.0561104e+07,2013,USA,Rep. of Korea
+251,380,4.0270224e+07,2013,France,Italy
+156,76,4.017546e+07,2013,China,Brazil
+251,826,4.0131804e+07,2013,France,United Kingdom
+842,826,4.010565e+07,2013,USA,United Kingdom
+458,702,3.9756308e+07,2013,Malaysia,Singapore
+392,764,3.9117896e+07,2013,Japan,Thailand
+251,56,3.9023056e+07,2013,France,Belgium
+276,724,3.863434e+07,2013,Germany,Spain
+682,410,3.818236e+07,2013,Saudi Arabia,Rep. of Korea
+380,842,3.8079096e+07,2013,Italy,USA
+156,458,3.8029988e+07,2013,China,Malaysia
+643,156,3.790602e+07,2013,Russian Federation,China
+251,724,3.786879e+07,2013,France,Spain
+156,764,3.7694336e+07,2013,China,Thailand
+276,203,3.748022e+07,2013,Germany,Czechia
+156,704,3.7256812e+07,2013,China,Viet Nam
+842,344,3.7247268e+07,2013,USA,"China, Hong Kong SAR"
+490,842,3.722346e+07,2013,"Other Asia, nes",USA
+682,699,3.721407e+07,2013,Saudi Arabia,India
+392,344,3.6969624e+07,2013,Japan,"China, Hong Kong SAR"
+842,76,3.6818524e+07,2013,USA,Brazil
+634,392,3.6273564e+07,2013,Qatar,Japan
+842,702,3.540103e+07,2013,USA,Singapore
+490,344,3.524498e+07,2013,"Other Asia, nes","China, Hong Kong SAR"
+410,392,3.496032e+07,2013,Rep. of Korea,Japan
+842,528,3.3966828e+07,2013,USA,Netherlands
+826,528,3.3541024e+07,2013,United Kingdom,Netherlands
+764,156,3.3289178e+07,2013,Thailand,China
+702,344,3.2831146e+07,2013,Singapore,"China, Hong Kong SAR"
+784,699,3.2671558e+07,2013,United Arab Emirates,India
+862,842,3.2371022e+07,2013,Venezuela,USA
+156,360,3.1991228e+07,2013,China,Indonesia
+702,156,3.1892104e+07,2013,Singapore,China
+724,276,3.1720492e+07,2013,Spain,Germany
+643,276,3.1338402e+07,2013,Russian Federation,Germany
+156,380,3.0896436e+07,2013,China,Italy
+528,251,3.02963e+07,2013,Netherlands,France
+24,156,3.0135664e+07,2013,Angola,China
+56,826,2.9227248e+07,2013,Belgium,United Kingdom
+458,392,2.9007824e+07,2013,Malaysia,Japan
+360,392,2.8567776e+07,2013,Indonesia,Japan
+490,702,2.8473882e+07,2013,"Other Asia, nes",Singapore
+579,276,2.8461632e+07,2013,Norway,Germany
+372,842,2.8350056e+07,2013,Ireland,USA
+826,251,2.8123928e+07,2013,United Kingdom,France
+862,490,2.810525e+07,2013,Venezuela,"Other Asia, nes"
+360,156,2.7865528e+07,2013,Indonesia,China
+458,842,2.7198398e+07,2013,Malaysia,USA
+410,702,2.6794562e+07,2013,Rep. of Korea,Singapore
+528,380,2.6722296e+07,2013,Netherlands,Italy
+764,842,2.6624218e+07,2013,Thailand,USA
+579,826,2.627372e+07,2013,Norway,United Kingdom
+643,380,2.6267124e+07,2013,Russian Federation,Italy
+276,752,2.6264802e+07,2013,Germany,Sweden
+702,360,2.6227124e+07,2013,Singapore,Indonesia
+76,842,2.6154752e+07,2013,Brazil,USA
+702,458,2.6111494e+07,2013,Singapore,Malaysia
+276,792,2.6104448e+07,2013,Germany,TÃ¼rkiye
+704,842,2.5934668e+07,2013,Viet Nam,USA
+364,156,2.5869214e+07,2013,Iran,China
+348,276,2.5820444e+07,2013,Hungary,Germany
+156,792,2.5318954e+07,2013,China,TÃ¼rkiye
+757,699,2.5112082e+07,2013,Switzerland,India
+757,842,2.5068072e+07,2013,Switzerland,USA
+392,276,2.4998194e+07,2013,Japan,Germany
+380,757,2.4863078e+07,2013,Italy,Switzerland
+380,826,2.483795e+07,2013,Italy,United Kingdom
+484,124,2.4739504e+07,2013,Mexico,Canada
+842,757,2.4661036e+07,2013,USA,Switzerland
+842,36,2.4551408e+07,2013,USA,Australia
+724,620,2.4504218e+07,2013,Spain,Portugal
+643,804,2.4396462e+07,2013,Russian Federation,Ukraine
+156,724,2.3499452e+07,2013,China,Spain
+699,784,2.3297896e+07,2013,India,United Arab Emirates
+251,528,2.3204776e+07,2013,France,Netherlands
+826,372,2.3169214e+07,2013,United Kingdom,Ireland
+276,348,2.3070278e+07,2013,Germany,Hungary
+842,490,2.2841424e+07,2013,USA,"Other Asia, nes"
+276,392,2.2794254e+07,2013,Germany,Japan
+410,344,2.2570734e+07,2013,Rep. of Korea,"China, Hong Kong SAR"
+376,842,2.2549718e+07,2013,Israel,USA
+156,682,2.232111e+07,2013,China,Saudi Arabia
+156,784,2.2317278e+07,2013,China,United Arab Emirates
+643,392,2.2169914e+07,2013,Russian Federation,Japan
+764,392,2.1991522e+07,2013,Thailand,Japan
+643,112,2.1968072e+07,2013,Russian Federation,Belarus
+490,392,2.182247e+07,2013,"Other Asia, nes",Japan
+124,156,2.1423966e+07,2013,Canada,China
+251,757,2.1347168e+07,2013,France,Switzerland
+724,826,2.129113e+07,2013,Spain,United Kingdom
+392,702,2.12423e+07,2013,Japan,Singapore
+724,380,2.1170694e+07,2013,Spain,Italy
+410,704,2.1149182e+07,2013,Rep. of Korea,Viet Nam
+512,156,2.1015204e+07,2013,Oman,China
+757,156,2.0984088e+07,2013,Switzerland,China
+643,616,2.0642828e+07,2013,Russian Federation,Poland
+643,842,2.0447266e+07,2013,Russian Federation,USA
+251,156,2.0424944e+07,2013,France,China
+634,410,2.0411092e+07,2013,Qatar,Rep. of Korea
+276,208,2.0314314e+07,2013,Germany,Denmark
+368,699,2.0230196e+07,2013,Iraq,India
+380,724,2.0164238e+07,2013,Italy,Spain
+842,682,2.0159086e+07,2013,USA,Saudi Arabia
+36,410,1.9895938e+07,2013,Australia,Rep. of Korea
+360,842,1.9882244e+07,2013,Indonesia,USA
+842,699,1.978635e+07,2013,USA,India
+170,842,1.9646602e+07,2013,Colombia,USA
+842,784,1.9477916e+07,2013,USA,United Arab Emirates
+152,156,1.9344944e+07,2013,Chile,China
+156,616,1.9272522e+07,2013,China,Poland
+76,32,1.9260262e+07,2013,Brazil,Argentina
+276,410,1.9243706e+07,2013,Germany,Rep. of Korea
+372,826,1.9168018e+07,2013,Ireland,United Kingdom
+360,702,1.8989724e+07,2013,Indonesia,Singapore
+414,410,1.8736792e+07,2013,Kuwait,Rep. of Korea
+826,56,1.8673664e+07,2013,United Kingdom,Belgium
+784,702,1.8321582e+07,2013,United Arab Emirates,Singapore
+826,156,1.8114142e+07,2013,United Kingdom,China
+682,490,1.809533e+07,2013,Saudi Arabia,"Other Asia, nes"
+784,410,1.805591e+07,2013,United Arab Emirates,Rep. of Korea
+528,842,1.802154e+07,2013,Netherlands,USA
+368,156,1.7984764e+07,2013,Iraq,China
+392,360,1.7826276e+07,2013,Japan,Indonesia
+392,36,1.7778754e+07,2013,Japan,Australia
+414,699,1.7754394e+07,2013,Kuwait,India
+608,156,1.7742854e+07,2013,Philippines,China
+643,398,1.7663498e+07,2013,Russian Federation,Kazakhstan
+699,156,1.742401e+07,2013,India,China
+56,380,1.7422216e+07,2013,Belgium,Italy

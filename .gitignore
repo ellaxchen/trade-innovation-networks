@@ -1,0 +1,26 @@
+# Licensed raw data — NOT redistributable (BACI/CEPII + PATSTAT/EPO)
+rawdata/
+
+# Patent-level citation edges — 4.8 GB and NOT redistributable (PATSTAT)
+processed/citation_edges.csv
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local rollback/backup copies
+html/backup_*/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Claude Code local settings — CONTAINS API KEYS, never publish
+.claude/
+
+# Scratch notes
+next_steps.txt
+
+# Documentation (kept local)
+*.md

@@ -1,0 +1,201 @@
+exporter,importer,trade_value,year,hs2,exporter_name,importer_name
+156,410,6.4381165e+06,2015,72,China,Rep. of Korea
+392,156,5.656858e+06,2015,72,Japan,China
+392,410,4.577791e+06,2015,72,Japan,Rep. of Korea
+124,842,4.5596035e+06,2015,72,Canada,USA
+156,704,4.459187e+06,2015,72,China,Viet Nam
+842,484,4.18793e+06,2015,72,USA,Mexico
+842,124,4.1053935e+06,2015,72,USA,Canada
+392,764,3.7774722e+06,2015,72,Japan,Thailand
+410,156,3.2889768e+06,2015,72,Rep. of Korea,China
+251,276,3.104726e+06,2015,72,France,Germany
+643,792,3.0404952e+06,2015,72,Russian Federation,TÃ¼rkiye
+76,842,3.0305962e+06,2015,72,Brazil,USA
+56,251,2.8734162e+06,2015,72,Belgium,France
+56,276,2.5798848e+06,2015,72,Belgium,Germany
+276,528,2.5316202e+06,2015,72,Germany,Netherlands
+276,251,2.5182042e+06,2015,72,Germany,France
+40,276,2.4492145e+06,2015,72,Austria,Germany
+156,699,2.3739992e+06,2015,72,China,India
+410,842,2.3460388e+06,2015,72,Rep. of Korea,USA
+528,276,2.254161e+06,2015,72,Netherlands,Germany
+410,392,2.1506412e+06,2015,72,Rep. of Korea,Japan
+276,380,2.118376e+06,2015,72,Germany,Italy
+392,490,2.1133732e+06,2015,72,Japan,"Other Asia, nes"
+156,490,2.1111005e+06,2015,72,China,"Other Asia, nes"
+380,276,2.0551654e+06,2015,72,Italy,Germany
+156,764,2.0447701e+06,2015,72,China,Thailand
+156,842,1.9807801e+06,2015,72,China,USA
+156,360,1.972722e+06,2015,72,China,Indonesia
+251,56,1.8673838e+06,2015,72,France,Belgium
+156,458,1.8605918e+06,2015,72,China,Malaysia
+410,699,1.8157311e+06,2015,72,Rep. of Korea,India
+392,704,1.7366354e+06,2015,72,Japan,Viet Nam
+156,380,1.7294948e+06,2015,72,China,Italy
+276,616,1.7177138e+06,2015,72,Germany,Poland
+392,842,1.682626e+06,2015,72,Japan,USA
+251,724,1.6213209e+06,2015,72,France,Spain
+251,380,1.6068395e+06,2015,72,France,Italy
+156,682,1.6057535e+06,2015,72,China,Saudi Arabia
+392,699,1.5994662e+06,2015,72,Japan,India
+276,56,1.5724398e+06,2015,72,Germany,Belgium
+484,842,1.5077079e+06,2015,72,Mexico,USA
+804,792,1.457978e+06,2015,72,Ukraine,TÃ¼rkiye
+710,156,1.446589e+06,2015,72,South Africa,China
+392,360,1.4231816e+06,2015,72,Japan,Indonesia
+246,528,1.4026121e+06,2015,72,Finland,Netherlands
+643,842,1.3798992e+06,2015,72,Russian Federation,USA
+276,40,1.3639891e+06,2015,72,Germany,Austria
+56,528,1.3473028e+06,2015,72,Belgium,Netherlands
+156,608,1.312418e+06,2015,72,China,Philippines
+410,764,1.3069284e+06,2015,72,Rep. of Korea,Thailand
+490,156,1.305612e+06,2015,72,"Other Asia, nes",China
+156,792,1.2892426e+06,2015,72,China,TÃ¼rkiye
+156,702,1.2485781e+06,2015,72,China,Singapore
+276,842,1.2478022e+06,2015,72,Germany,USA
+752,276,1.2402798e+06,2015,72,Sweden,Germany
+392,484,1.2313684e+06,2015,72,Japan,Mexico
+410,484,1.2285178e+06,2015,72,Rep. of Korea,Mexico
+156,586,1.205635e+06,2015,72,China,Pakistan
+528,56,1.1702631e+06,2015,72,Netherlands,Belgium
+826,792,1.1615121e+06,2015,72,United Kingdom,TÃ¼rkiye
+276,203,1.155835e+06,2015,72,Germany,Czechia
+804,818,1.1446558e+06,2015,72,Ukraine,Egypt
+792,842,1.141681e+06,2015,72,TÃ¼rkiye,USA
+804,380,1.1328265e+06,2015,72,Ukraine,Italy
+156,392,1.1241502e+06,2015,72,China,Japan
+490,842,1.1227066e+06,2015,72,"Other Asia, nes",USA
+246,276,1.1212701e+06,2015,72,Finland,Germany
+643,380,1.0998248e+06,2015,72,Russian Federation,Italy
+156,104,1.0600835e+06,2015,72,China,Myanmar
+842,792,1.0577706e+06,2015,72,USA,TÃ¼rkiye
+410,704,1.0551669e+06,2015,72,Rep. of Korea,Viet Nam
+156,344,1.0485821e+06,2015,72,China,"China, Hong Kong SAR"
+380,251,1.0111633e+06,2015,72,Italy,France
+156,76,987364.5,2015,72,China,Brazil
+276,724,984050.6,2015,72,Germany,Spain
+276,757,956924.6,2015,72,Germany,Switzerland
+724,12,942683.5,2015,72,Spain,Algeria
+724,251,904528.94,2015,72,Spain,France
+724,276,902371.5,2015,72,Spain,Germany
+203,276,897018.0,2015,72,Czechia,Germany
+410,792,887086.94,2015,72,Rep. of Korea,TÃ¼rkiye
+276,826,874207.2,2015,72,Germany,United Kingdom
+40,380,869557.44,2015,72,Austria,Italy
+76,528,865857.5,2015,72,Brazil,Netherlands
+392,458,855508.1,2015,72,Japan,Malaysia
+380,12,850438.75,2015,72,Italy,Algeria
+156,50,846894.75,2015,72,China,Bangladesh
+643,112,846537.9,2015,72,Russian Federation,Belarus
+156,364,844805.44,2015,72,China,Iran
+616,276,844305.94,2015,72,Poland,Germany
+643,818,843409.9,2015,72,Russian Federation,Egypt
+643,490,827717.44,2015,72,Russian Federation,"Other Asia, nes"
+826,842,817193.0,2015,72,United Kingdom,USA
+156,784,815447.4,2015,72,China,United Arab Emirates
+804,643,780641.2,2015,72,Ukraine,Russian Federation
+410,360,771913.7,2015,72,Rep. of Korea,Indonesia
+703,203,771906.0,2015,72,Slovakia,Czechia
+643,484,761716.8,2015,72,Russian Federation,Mexico
+276,752,746767.44,2015,72,Germany,Sweden
+724,380,742683.9,2015,72,Spain,Italy
+156,724,740700.56,2015,72,China,Spain
+276,156,706526.4,2015,72,Germany,China
+724,620,704161.25,2015,72,Spain,Portugal
+156,818,701483.1,2015,72,China,Egypt
+616,203,679473.0,2015,72,Poland,Czechia
+643,56,679464.2,2015,72,Russian Federation,Belgium
+528,380,666734.75,2015,72,Netherlands,Italy
+643,398,664705.25,2015,72,Russian Federation,Kazakhstan
+792,784,664169.6,2015,72,TÃ¼rkiye,United Arab Emirates
+826,276,649312.2,2015,72,United Kingdom,Germany
+380,724,643119.8,2015,72,Italy,Spain
+826,724,636878.4,2015,72,United Kingdom,Spain
+699,842,633398.6,2015,72,India,USA
+528,842,631735.8,2015,72,Netherlands,USA
+490,704,629504.1,2015,72,"Other Asia, nes",Viet Nam
+643,276,617792.8,2015,72,Russian Federation,Germany
+710,842,615532.8,2015,72,South Africa,USA
+490,392,612938.2,2015,72,"Other Asia, nes",Japan
+528,246,609203.8,2015,72,Netherlands,Finland
+380,842,606057.8,2015,72,Italy,USA
+156,152,604161.7,2015,72,China,Chile
+56,792,601771.3,2015,72,Belgium,TÃ¼rkiye
+76,156,599858.7,2015,72,Brazil,China
+156,604,597589.4,2015,72,China,Peru
+398,643,597305.6,2015,72,Kazakhstan,Russian Federation
+276,792,595767.3,2015,72,Germany,TÃ¼rkiye
+528,251,595228.4,2015,72,Netherlands,France
+784,364,592198.4,2015,72,United Arab Emirates,Iran
+156,484,585919.4,2015,72,China,Mexico
+490,458,584023.25,2015,72,"Other Asia, nes",Malaysia
+724,826,583035.44,2015,72,Spain,United Kingdom
+56,380,582590.4,2015,72,Belgium,Italy
+442,276,580194.7,2015,72,Luxembourg,Germany
+156,276,580154.6,2015,72,China,Germany
+490,764,576123.06,2015,72,"Other Asia, nes",Thailand
+251,842,571865.94,2015,72,France,USA
+528,724,571793.9,2015,72,Netherlands,Spain
+76,32,570823.8,2015,72,Brazil,Argentina
+410,458,564452.25,2015,72,Rep. of Korea,Malaysia
+410,490,560022.9,2015,72,Rep. of Korea,"Other Asia, nes"
+752,842,559764.25,2015,72,Sweden,USA
+528,826,548941.06,2015,72,Netherlands,United Kingdom
+643,528,540445.2,2015,72,Russian Federation,Netherlands
+251,792,531126.0,2015,72,France,TÃ¼rkiye
+156,566,530116.9,2015,72,China,Nigeria
+56,826,523255.8,2015,72,Belgium,United Kingdom
+699,524,521816.78,2015,72,India,Nepal
+410,380,520140.88,2015,72,Rep. of Korea,Italy
+842,490,514020.7,2015,72,USA,"Other Asia, nes"
+826,699,510183.38,2015,72,United Kingdom,India
+792,818,506089.9,2015,72,TÃ¼rkiye,Egypt
+392,702,503991.0,2015,72,Japan,Singapore
+842,699,503413.1,2015,72,USA,India
+826,251,500142.2,2015,72,United Kingdom,France
+699,364,495974.53,2015,72,India,Iran
+410,364,493859.44,2015,72,Rep. of Korea,Iran
+699,380,493020.66,2015,72,India,Italy
+643,724,491546.53,2015,72,Russian Federation,Spain
+156,710,489172.0,2015,72,China,South Africa
+276,442,487534.12,2015,72,Germany,Luxembourg
+203,616,484664.22,2015,72,Czechia,Poland
+410,682,484208.5,2015,72,Rep. of Korea,Saudi Arabia
+392,50,480378.0,2015,72,Japan,Bangladesh
+398,392,479600.9,2015,72,Kazakhstan,Japan
+392,344,474423.75,2015,72,Japan,"China, Hong Kong SAR"
+842,156,474342.9,2015,72,USA,China
+344,156,470929.6,2015,72,"China, Hong Kong SAR",China
+703,616,470734.1,2015,72,Slovakia,Poland
+156,643,468844.84,2015,72,China,Russian Federation
+710,699,462713.25,2015,72,South Africa,India
+392,682,460566.9,2015,72,Japan,Saudi Arabia
+784,699,458837.84,2015,72,United Arab Emirates,India
+380,40,455914.25,2015,72,Italy,Austria
+792,368,455042.0,2015,72,TÃ¼rkiye,Iraq
+757,276,450449.6,2015,72,Switzerland,Germany
+380,792,450021.03,2015,72,Italy,TÃ¼rkiye
+642,792,449754.66,2015,72,Romania,TÃ¼rkiye
+156,826,448607.12,2015,72,China,United Kingdom
+528,792,443639.1,2015,72,Netherlands,TÃ¼rkiye
+203,703,440848.8,2015,72,Czechia,Slovakia
+251,442,440483.62,2015,72,France,Luxembourg
+620,724,437991.2,2015,72,Portugal,Spain
+398,156,437351.47,2015,72,Kazakhstan,China
+842,410,429980.03,2015,72,USA,Rep. of Korea
+246,752,429452.03,2015,72,Finland,Sweden
+124,484,422079.78,2015,72,Canada,Mexico
+380,757,419533.22,2015,72,Italy,Switzerland
+251,826,415235.47,2015,72,France,United Kingdom
+784,682,414816.84,2015,72,United Arab Emirates,Saudi Arabia
+276,703,414799.25,2015,72,Germany,Slovakia
+380,616,413030.2,2015,72,Italy,Poland
+76,276,409026.34,2015,72,Brazil,Germany
+752,380,401407.47,2015,72,Sweden,Italy
+780,842,399784.97,2015,72,Trinidad and Tobago,USA
+276,348,392728.22,2015,72,Germany,Hungary
+380,642,392448.66,2015,72,Italy,Romania
+724,792,389788.5,2015,72,Spain,TÃ¼rkiye
+752,156,388008.44,2015,72,Sweden,China
+398,364,384620.56,2015,72,Kazakhstan,Iran
+360,156,379320.78,2015,72,Indonesia,China

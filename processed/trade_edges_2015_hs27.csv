@@ -1,0 +1,201 @@
+exporter,importer,trade_value,year,hs2,exporter_name,importer_name
+124,842,7.421224e+07,2015,27,Canada,USA
+643,528,2.6262614e+07,2015,27,Russian Federation,Netherlands
+784,392,2.2592178e+07,2015,27,United Arab Emirates,Japan
+682,842,2.1845718e+07,2015,27,Saudi Arabia,USA
+842,484,2.1794826e+07,2015,27,USA,Mexico
+36,392,2.1294754e+07,2015,27,Australia,Japan
+682,156,2.1257536e+07,2015,27,Saudi Arabia,China
+528,56,2.1235014e+07,2015,27,Netherlands,Belgium
+842,124,2.0675916e+07,2015,27,USA,Canada
+643,156,1.9069902e+07,2015,27,Russian Federation,China
+682,410,1.8468212e+07,2015,27,Saudi Arabia,Rep. of Korea
+643,380,1.696981e+07,2015,27,Russian Federation,Italy
+579,826,1.6406235e+07,2015,27,Norway,United Kingdom
+682,699,1.6347779e+07,2015,27,Saudi Arabia,India
+634,410,1.6166074e+07,2015,27,Qatar,Rep. of Korea
+634,392,1.6061296e+07,2015,27,Qatar,Japan
+862,842,1.5435856e+07,2015,27,Venezuela,USA
+579,276,1.5409704e+07,2015,27,Norway,Germany
+24,156,1.5278571e+07,2015,27,Angola,China
+528,276,1.4998591e+07,2015,27,Netherlands,Germany
+643,276,1.4196087e+07,2015,27,Russian Federation,Germany
+484,842,1.4054272e+07,2015,27,Mexico,USA
+512,156,1.4036663e+07,2015,27,Oman,China
+364,156,1.2847153e+07,2015,27,Iran,China
+368,156,1.2672949e+07,2015,27,Iraq,China
+643,392,1.1778511e+07,2015,27,Russian Federation,Japan
+368,699,1.1239106e+07,2015,27,Iraq,India
+566,699,1.0153407e+07,2015,27,Nigeria,India
+458,392,9.897872e+06,2015,27,Malaysia,Japan
+643,410,9.193761e+06,2015,27,Russian Federation,Rep. of Korea
+702,360,9.047413e+06,2015,27,Singapore,Indonesia
+414,410,8.948076e+06,2015,27,Kuwait,Rep. of Korea
+643,112,8.864984e+06,2015,27,Russian Federation,Belarus
+682,490,8.76988e+06,2015,27,Saudi Arabia,"Other Asia, nes"
+643,842,8.761038e+06,2015,27,Russian Federation,USA
+643,616,8.664548e+06,2015,27,Russian Federation,Poland
+784,699,8.583325e+06,2015,27,United Arab Emirates,India
+784,156,8.511712e+06,2015,27,United Arab Emirates,China
+634,699,8.490779e+06,2015,27,Qatar,India
+784,410,7.803617e+06,2015,27,United Arab Emirates,Rep. of Korea
+795,156,7.716421e+06,2015,27,Turkmenistan,China
+784,764,7.6650485e+06,2015,27,United Arab Emirates,Thailand
+458,702,7.100645e+06,2015,27,Malaysia,Singapore
+36,156,7.087624e+06,2015,27,Australia,China
+784,702,7.0628805e+06,2015,27,United Arab Emirates,Singapore
+360,392,6.956413e+06,2015,27,Indonesia,Japan
+702,458,6.9076465e+06,2015,27,Singapore,Malaysia
+12,724,6.737665e+06,2015,27,Algeria,Spain
+36,410,6.7350905e+06,2015,27,Australia,Rep. of Korea
+579,528,6.6557585e+06,2015,27,Norway,Netherlands
+360,699,6.6430245e+06,2015,27,Indonesia,India
+826,528,6.633107e+06,2015,27,United Kingdom,Netherlands
+862,699,6.6190115e+06,2015,27,Venezuela,India
+56,528,6.516526e+06,2015,27,Belgium,Netherlands
+862,156,6.4844855e+06,2015,27,Venezuela,China
+414,392,6.4028025e+06,2015,27,Kuwait,Japan
+170,842,6.3309875e+06,2015,27,Colombia,USA
+368,410,6.26532e+06,2015,27,Iraq,Rep. of Korea
+104,764,6.253244e+06,2015,27,Myanmar,Thailand
+360,156,6.167592e+06,2015,27,Indonesia,China
+414,156,6.1255485e+06,2015,27,Kuwait,China
+56,251,5.9340975e+06,2015,27,Belgium,France
+36,699,5.857124e+06,2015,27,Australia,India
+682,834,5.8196395e+06,2015,27,Saudi Arabia,United Rep. of Tanzania
+410,156,5.8074715e+06,2015,27,Rep. of Korea,China
+579,251,5.800345e+06,2015,27,Norway,France
+682,251,5.3986985e+06,2015,27,Saudi Arabia,France
+682,702,5.3362265e+06,2015,27,Saudi Arabia,Singapore
+842,528,5.2728555e+06,2015,27,USA,Netherlands
+48,682,5.2328625e+06,2015,27,Bahrain,Saudi Arabia
+566,724,5.211658e+06,2015,27,Nigeria,Spain
+458,156,5.208936e+06,2015,27,Malaysia,China
+156,344,5.057646e+06,2015,27,China,"China, Hong Kong SAR"
+414,699,5.0088715e+06,2015,27,Kuwait,India
+643,792,4.8290905e+06,2015,27,Russian Federation,TÃ¼rkiye
+643,826,4.8264535e+06,2015,27,Russian Federation,United Kingdom
+76,842,4.80271e+06,2015,27,Brazil,USA
+566,76,4.7567325e+06,2015,27,Nigeria,Brazil
+784,586,4.64632e+06,2015,27,United Arab Emirates,Pakistan
+414,842,4.561751e+06,2015,27,Kuwait,USA
+368,842,4.55497e+06,2015,27,Iraq,USA
+643,251,4.477766e+06,2015,27,Russian Federation,France
+360,410,4.4419415e+06,2015,27,Indonesia,Rep. of Korea
+364,699,4.430933e+06,2015,27,Iran,India
+398,528,4.4277165e+06,2015,27,Kazakhstan,Netherlands
+842,170,4.3591735e+06,2015,27,USA,Colombia
+218,842,4.3508925e+06,2015,27,Ecuador,USA
+31,380,4.3216555e+06,2015,27,Azerbaijan,Italy
+410,36,4.318575e+06,2015,27,Rep. of Korea,Australia
+842,76,4.309118e+06,2015,27,USA,Brazil
+76,156,4.304106e+06,2015,27,Brazil,China
+643,246,4.2250315e+06,2015,27,Russian Federation,Finland
+360,702,4.1752085e+06,2015,27,Indonesia,Singapore
+12,251,4.093247e+06,2015,27,Algeria,France
+682,764,4.052355e+06,2015,27,Saudi Arabia,Thailand
+682,48,3.9538182e+06,2015,27,Saudi Arabia,Bahrain
+410,702,3.9397738e+06,2015,27,Rep. of Korea,Singapore
+276,528,3.8996495e+06,2015,27,Germany,Netherlands
+579,56,3.887096e+06,2015,27,Norway,Belgium
+826,276,3.7864328e+06,2015,27,United Kingdom,Germany
+643,703,3.7661752e+06,2015,27,Russian Federation,Slovakia
+414,490,3.7645342e+06,2015,27,Kuwait,"Other Asia, nes"
+643,804,3.746068e+06,2015,27,Russian Federation,Ukraine
+643,752,3.7397805e+06,2015,27,Russian Federation,Sweden
+643,440,3.7354222e+06,2015,27,Russian Federation,Lithuania
+434,380,3.728055e+06,2015,27,Libya,Italy
+368,380,3.7145005e+06,2015,27,Iraq,Italy
+842,152,3.7070978e+06,2015,27,USA,Chile
+634,490,3.680756e+06,2015,27,Qatar,"Other Asia, nes"
+826,842,3.6495288e+06,2015,27,United Kingdom,USA
+634,156,3.624285e+06,2015,27,Qatar,China
+276,757,3.590801e+06,2015,27,Germany,Switzerland
+458,360,3.5861658e+06,2015,27,Malaysia,Indonesia
+643,702,3.5740895e+06,2015,27,Russian Federation,Singapore
+410,392,3.57083e+06,2015,27,Rep. of Korea,Japan
+702,36,3.497784e+06,2015,27,Singapore,Australia
+360,490,3.4102902e+06,2015,27,Indonesia,"Other Asia, nes"
+634,702,3.3704068e+06,2015,27,Qatar,Singapore
+826,372,3.3621015e+06,2015,27,United Kingdom,Ireland
+56,276,3.3501585e+06,2015,27,Belgium,Germany
+368,300,3.3276628e+06,2015,27,Iraq,Greece
+156,702,3.3172525e+06,2015,27,China,Singapore
+643,100,3.3024108e+06,2015,27,Russian Federation,Bulgaria
+12,380,3.259336e+06,2015,27,Algeria,Italy
+104,156,3.201833e+06,2015,27,Myanmar,China
+364,392,3.1991912e+06,2015,27,Iran,Japan
+566,251,3.1909998e+06,2015,27,Nigeria,France
+643,300,3.1695872e+06,2015,27,Russian Federation,Greece
+458,410,3.1672998e+06,2015,27,Malaysia,Rep. of Korea
+276,251,3.156352e+06,2015,27,Germany,France
+682,724,3.11586e+06,2015,27,Saudi Arabia,Spain
+643,203,3.0323175e+06,2015,27,Russian Federation,Czechia
+842,251,3.0292262e+06,2015,27,USA,France
+643,348,3.0174862e+06,2015,27,Russian Federation,Hungary
+410,842,3.0100468e+06,2015,27,Rep. of Korea,USA
+699,702,3.0071332e+06,2015,27,India,Singapore
+566,710,2.999419e+06,2015,27,Nigeria,South Africa
+24,699,2.9960688e+06,2015,27,Angola,India
+566,528,2.98469e+06,2015,27,Nigeria,Netherlands
+784,490,2.9826175e+06,2015,27,United Arab Emirates,"Other Asia, nes"
+528,826,2.973858e+06,2015,27,Netherlands,United Kingdom
+12,842,2.9597738e+06,2015,27,Algeria,USA
+276,40,2.9453325e+06,2015,27,Germany,Austria
+826,56,2.9315882e+06,2015,27,United Kingdom,Belgium
+634,826,2.9078485e+06,2015,27,Qatar,United Kingdom
+112,826,2.8779135e+06,2015,27,Belarus,United Kingdom
+398,380,2.8640002e+06,2015,27,Kazakhstan,Italy
+702,156,2.8613838e+06,2015,27,Singapore,China
+682,380,2.857699e+06,2015,27,Saudi Arabia,Italy
+398,251,2.8519108e+06,2015,27,Kazakhstan,France
+24,842,2.844983e+06,2015,27,Angola,USA
+710,699,2.8422395e+06,2015,27,South Africa,India
+490,608,2.773601e+06,2015,27,"Other Asia, nes",Philippines
+842,392,2.770967e+06,2015,27,USA,Japan
+36,490,2.766815e+06,2015,27,Australia,"Other Asia, nes"
+699,842,2.749665e+06,2015,27,India,USA
+682,360,2.7487262e+06,2015,27,Saudi Arabia,Indonesia
+579,752,2.7227275e+06,2015,27,Norway,Sweden
+512,410,2.7159142e+06,2015,27,Oman,Rep. of Korea
+458,36,2.6901438e+06,2015,27,Malaysia,Australia
+634,764,2.6650925e+06,2015,27,Qatar,Thailand
+566,392,2.64749e+06,2015,27,Nigeria,Japan
+12,826,2.6327508e+06,2015,27,Algeria,United Kingdom
+414,702,2.6250185e+06,2015,27,Kuwait,Singapore
+752,826,2.6227702e+06,2015,27,Sweden,United Kingdom
+702,344,2.535933e+06,2015,27,Singapore,"China, Hong Kong SAR"
+842,156,2.5261265e+06,2015,27,USA,China
+458,764,2.5082505e+06,2015,27,Malaysia,Thailand
+598,392,2.5024092e+06,2015,27,Papua New Guinea,Japan
+68,76,2.487099e+06,2015,27,Bolivia (Plurinational State of),Brazil
+842,218,2.4577688e+06,2015,27,USA,Ecuador
+392,36,2.453637e+06,2015,27,Japan,Australia
+251,380,2.4225455e+06,2015,27,France,Italy
+484,724,2.407883e+06,2015,27,Mexico,Spain
+643,56,2.4066582e+06,2015,27,Russian Federation,Belgium
+643,724,2.3910488e+06,2015,27,Russian Federation,Spain
+528,251,2.357058e+06,2015,27,Netherlands,France
+364,410,2.3387185e+06,2015,27,Iran,Rep. of Korea
+702,50,2.335058e+06,2015,27,Singapore,Bangladesh
+728,156,2.3268715e+06,2015,27,South Sudan,China
+392,410,2.3175392e+06,2015,27,Japan,Rep. of Korea
+528,566,2.3008015e+06,2015,27,Netherlands,Nigeria
+842,604,2.298193e+06,2015,27,USA,Peru
+842,862,2.2861815e+06,2015,27,USA,Venezuela
+702,704,2.2655145e+06,2015,27,Singapore,Viet Nam
+178,156,2.2621812e+06,2015,27,Congo,China
+842,826,2.2322732e+06,2015,27,USA,United Kingdom
+360,458,2.232269e+06,2015,27,Indonesia,Malaysia
+360,764,2.2273218e+06,2015,27,Indonesia,Thailand
+251,528,2.226522e+06,2015,27,France,Netherlands
+682,710,2.2208952e+06,2015,27,Saudi Arabia,South Africa
+398,156,2.166713e+06,2015,27,Kazakhstan,China
+566,826,2.1606365e+06,2015,27,Nigeria,United Kingdom
+12,792,2.160452e+06,2015,27,Algeria,TÃ¼rkiye
+96,392,2.1479348e+06,2015,27,Brunei Darussalam,Japan
+410,360,2.1436408e+06,2015,27,Rep. of Korea,Indonesia
+512,490,2.123606e+06,2015,27,Oman,"Other Asia, nes"
+56,842,2.0835804e+06,2015,27,Belgium,USA
+414,528,2.077364e+06,2015,27,Kuwait,Netherlands
+566,276,2.0747488e+06,2015,27,Nigeria,Germany

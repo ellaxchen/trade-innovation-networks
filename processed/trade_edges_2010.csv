@@ -1,0 +1,201 @@
+exporter,importer,trade_value,year,exporter_name,importer_name
+156,842,3.7173757e+08,2010,China,USA
+124,842,2.7328813e+08,2010,Canada,USA
+484,842,2.3338506e+08,2010,Mexico,USA
+156,344,2.0554664e+08,2010,China,"China, Hong Kong SAR"
+842,124,1.9602906e+08,2010,USA,Canada
+392,156,1.6034261e+08,2010,Japan,China
+156,392,1.4935451e+08,2010,China,Japan
+842,484,1.4733547e+08,2010,USA,Mexico
+410,156,1.2634819e+08,2010,Rep. of Korea,China
+392,842,1.197908e+08,2010,Japan,USA
+276,251,1.07073144e+08,2010,Germany,France
+156,276,9.8637944e+07,2010,China,Germany
+842,156,9.6723816e+07,2010,USA,China
+490,156,8.368957e+07,2010,"Other Asia, nes",China
+276,842,8.355358e+07,2010,Germany,USA
+528,276,8.0985976e+07,2010,Netherlands,Germany
+251,276,7.727215e+07,2010,France,Germany
+276,380,7.644281e+07,2010,Germany,Italy
+276,826,7.570078e+07,2010,Germany,United Kingdom
+156,410,7.039141e+07,2010,China,Rep. of Korea
+276,156,7.035149e+07,2010,Germany,China
+276,528,6.877353e+07,2010,Germany,Netherlands
+528,56,6.5734916e+07,2010,Netherlands,Belgium
+842,392,6.5581468e+07,2010,USA,Japan
+392,410,6.3472436e+07,2010,Japan,Rep. of Korea
+156,826,5.9708096e+07,2010,China,United Kingdom
+276,40,5.965446e+07,2010,Germany,Austria
+276,757,5.9415076e+07,2010,Germany,Switzerland
+842,276,5.525244e+07,2010,USA,Germany
+36,156,5.4517268e+07,2010,Australia,China
+380,276,5.3399416e+07,2010,Italy,Germany
+410,842,5.0243464e+07,2010,Rep. of Korea,USA
+392,490,4.9911252e+07,2010,Japan,"Other Asia, nes"
+826,842,4.9225588e+07,2010,United Kingdom,USA
+156,251,4.8607756e+07,2010,China,France
+56,251,4.6459116e+07,2010,Belgium,France
+380,251,4.6396976e+07,2010,Italy,France
+276,56,4.605934e+07,2010,Germany,Belgium
+826,276,4.5977748e+07,2010,United Kingdom,Germany
+458,156,4.536866e+07,2010,Malaysia,China
+56,276,4.425546e+07,2010,Belgium,Germany
+36,392,4.3637364e+07,2010,Australia,Japan
+156,484,4.3378796e+07,2010,China,Mexico
+156,124,4.2655324e+07,2010,China,Canada
+156,528,4.2602504e+07,2010,China,Netherlands
+276,616,4.2214196e+07,2010,Germany,Poland
+251,380,4.2106136e+07,2010,France,Italy
+528,826,4.163898e+07,2010,Netherlands,United Kingdom
+757,276,4.163007e+07,2010,Switzerland,Germany
+392,344,4.139929e+07,2010,Japan,"China, Hong Kong SAR"
+40,276,4.111433e+07,2010,Austria,Germany
+842,826,3.9937788e+07,2010,USA,United Kingdom
+842,410,3.9793384e+07,2010,USA,Rep. of Korea
+724,251,3.9422136e+07,2010,Spain,France
+156,643,3.9302884e+07,2010,China,Russian Federation
+643,528,3.8999372e+07,2010,Russian Federation,Netherlands
+276,724,3.883022e+07,2010,Germany,Spain
+203,276,3.861336e+07,2010,Czechia,Germany
+156,380,3.861001e+07,2010,China,Italy
+156,699,3.8290516e+07,2010,China,India
+156,36,3.7921056e+07,2010,China,Australia
+56,528,3.7912104e+07,2010,Belgium,Netherlands
+616,276,3.6780276e+07,2010,Poland,Germany
+392,764,3.6132376e+07,2010,Japan,Thailand
+490,842,3.6073724e+07,2010,"Other Asia, nes",USA
+682,392,3.5995724e+07,2010,Saudi Arabia,Japan
+251,56,3.5694024e+07,2010,France,Belgium
+251,826,3.534884e+07,2010,France,United Kingdom
+251,724,3.5155652e+07,2010,France,Spain
+156,490,3.4988356e+07,2010,China,"Other Asia, nes"
+842,251,3.4267044e+07,2010,USA,France
+251,842,3.398341e+07,2010,France,USA
+458,702,3.390189e+07,2010,Malaysia,Singapore
+862,842,3.3445218e+07,2010,Venezuela,USA
+682,842,3.2983272e+07,2010,Saudi Arabia,USA
+682,156,3.2659176e+07,2010,Saudi Arabia,China
+490,344,3.2280122e+07,2010,"Other Asia, nes","China, Hong Kong SAR"
+566,842,3.2198624e+07,2010,Nigeria,USA
+842,702,3.2139698e+07,2010,USA,Singapore
+276,203,3.1832176e+07,2010,Germany,Czechia
+76,156,3.1706718e+07,2010,Brazil,China
+156,702,3.1203682e+07,2010,China,Singapore
+702,344,3.087971e+07,2010,Singapore,"China, Hong Kong SAR"
+784,699,3.0858956e+07,2010,United Arab Emirates,India
+579,826,3.0597972e+07,2010,Norway,United Kingdom
+372,842,3.03998e+07,2010,Ireland,USA
+276,643,3.0226838e+07,2010,Germany,Russian Federation
+699,842,2.9823906e+07,2010,India,USA
+156,76,2.9659632e+07,2010,China,Brazil
+764,156,2.9542836e+07,2010,Thailand,China
+360,392,2.9365094e+07,2010,Indonesia,Japan
+784,392,2.9298382e+07,2010,United Arab Emirates,Japan
+380,842,2.8686784e+07,2010,Italy,USA
+702,156,2.8675922e+07,2010,Singapore,China
+392,276,2.8617284e+07,2010,Japan,Germany
+842,76,2.8570868e+07,2010,USA,Brazil
+842,528,2.8303536e+07,2010,USA,Netherlands
+410,392,2.815338e+07,2010,Rep. of Korea,Japan
+699,784,2.709761e+07,2010,India,United Arab Emirates
+682,410,2.692335e+07,2010,Saudi Arabia,Rep. of Korea
+826,251,2.6766072e+07,2010,United Kingdom,France
+724,276,2.6527308e+07,2010,Spain,Germany
+528,251,2.6054082e+07,2010,Netherlands,France
+528,380,2.5863862e+07,2010,Netherlands,Italy
+458,842,2.578628e+07,2010,Malaysia,USA
+56,826,2.5716574e+07,2010,Belgium,United Kingdom
+276,752,2.5448074e+07,2010,Germany,Sweden
+156,724,2.5261786e+07,2010,China,Spain
+156,764,2.502547e+07,2010,China,Thailand
+826,528,2.5013684e+07,2010,United Kingdom,Netherlands
+724,620,2.491264e+07,2010,Spain,Portugal
+842,490,2.4725844e+07,2010,USA,"Other Asia, nes"
+643,276,2.4221208e+07,2010,Russian Federation,Germany
+392,702,2.3928886e+07,2010,Japan,Singapore
+842,344,2.3867756e+07,2010,USA,"China, Hong Kong SAR"
+764,842,2.339879e+07,2010,Thailand,USA
+380,724,2.3300944e+07,2010,Italy,Spain
+380,826,2.2819892e+07,2010,Italy,United Kingdom
+156,458,2.2805198e+07,2010,China,Malaysia
+643,804,2.2629642e+07,2010,Russian Federation,Ukraine
+76,842,2.2550764e+07,2010,Brazil,USA
+757,699,2.2411148e+07,2010,Switzerland,India
+842,36,2.218177e+07,2010,USA,Australia
+458,392,2.2177714e+07,2010,Malaysia,Japan
+24,156,2.2123298e+07,2010,Angola,China
+344,156,2.203798e+07,2010,"China, Hong Kong SAR",China
+643,380,2.1984374e+07,2010,Russian Federation,Italy
+724,380,2.1914366e+07,2010,Spain,Italy
+643,156,2.1714572e+07,2010,Russian Federation,China
+348,276,2.14802e+07,2010,Hungary,Germany
+156,360,2.14049e+07,2010,China,Indonesia
+156,784,2.1234036e+07,2010,China,United Arab Emirates
+702,360,2.1208658e+07,2010,Singapore,Indonesia
+410,344,2.0991306e+07,2010,Rep. of Korea,"China, Hong Kong SAR"
+156,704,2.0955038e+07,2010,China,Viet Nam
+634,392,2.0954554e+07,2010,Qatar,Japan
+484,124,2.0902576e+07,2010,Mexico,Canada
+764,392,2.0795074e+07,2010,Thailand,Japan
+643,842,2.0767186e+07,2010,Russian Federation,USA
+376,842,2.075357e+07,2010,Israel,USA
+380,757,2.0728886e+07,2010,Italy,Switzerland
+682,699,2.065088e+07,2010,Saudi Arabia,India
+372,826,2.0345878e+07,2010,Ireland,United Kingdom
+699,156,2.0208498e+07,2010,India,China
+702,458,2.0029622e+07,2010,Singapore,Malaysia
+360,156,1.9954784e+07,2010,Indonesia,China
+392,458,1.9896916e+07,2010,Japan,Malaysia
+826,372,1.968354e+07,2010,United Kingdom,Ireland
+36,410,1.939439e+07,2010,Australia,Rep. of Korea
+826,56,1.8996542e+07,2010,United Kingdom,Belgium
+36,699,1.887978e+07,2010,Australia,India
+757,842,1.8746256e+07,2010,Switzerland,USA
+276,348,1.8613358e+07,2010,Germany,Hungary
+251,528,1.860741e+07,2010,France,Netherlands
+364,156,1.8294006e+07,2010,Iran,China
+276,792,1.8175118e+07,2010,Germany,TÃ¼rkiye
+276,392,1.8081814e+07,2010,Germany,Japan
+76,32,1.8018242e+07,2010,Brazil,Argentina
+360,842,1.7815772e+07,2010,Indonesia,USA
+490,392,1.7753092e+07,2010,"Other Asia, nes",Japan
+643,112,1.7660094e+07,2010,Russian Federation,Belarus
+152,156,1.7319426e+07,2010,Chile,China
+276,208,1.7279122e+07,2010,Germany,Denmark
+842,699,1.7235404e+07,2010,USA,India
+392,36,1.7179422e+07,2010,Japan,Australia
+170,842,1.6902158e+07,2010,Colombia,USA
+410,702,1.679542e+07,2010,Rep. of Korea,Singapore
+490,702,1.6751547e+07,2010,"Other Asia, nes",Singapore
+156,792,1.6639944e+07,2010,China,TÃ¼rkiye
+528,842,1.6485697e+07,2010,Netherlands,USA
+410,490,1.6459031e+07,2010,Rep. of Korea,"Other Asia, nes"
+702,842,1.6399422e+07,2010,Singapore,USA
+724,826,1.6398646e+07,2010,Spain,United Kingdom
+392,826,1.6382909e+07,2010,Japan,United Kingdom
+156,616,1.6326558e+07,2010,China,Poland
+579,276,1.6285453e+07,2010,Norway,Germany
+56,380,1.6195322e+07,2010,Belgium,Italy
+752,276,1.6178722e+07,2010,Sweden,Germany
+704,842,1.6066784e+07,2010,Viet Nam,USA
+608,156,1.5692101e+07,2010,Philippines,China
+251,156,1.5542415e+07,2010,France,China
+434,380,1.5534641e+07,2010,Libya,Italy
+392,360,1.5489648e+07,2010,Japan,Indonesia
+392,591,1.547953e+07,2010,Japan,Panama
+251,757,1.5408419e+07,2010,France,Switzerland
+56,842,1.5264757e+07,2010,Belgium,USA
+784,364,1.5153703e+07,2010,United Arab Emirates,Iran
+156,203,1.4995175e+07,2010,China,Czechia
+360,702,1.4929785e+07,2010,Indonesia,Singapore
+643,392,1.4845654e+07,2010,Russian Federation,Japan
+410,276,1.4835215e+07,2010,Rep. of Korea,Germany
+32,76,1.4701006e+07,2010,Argentina,Brazil
+12,842,1.4542731e+07,2010,Algeria,USA
+826,724,1.449461e+07,2010,United Kingdom,Spain
+643,616,1.4254055e+07,2010,Russian Federation,Poland
+392,484,1.4228932e+07,2010,Japan,Mexico
+528,724,1.4174986e+07,2010,Netherlands,Spain
+842,380,1.4114832e+07,2010,USA,Italy
+643,792,1.4054952e+07,2010,Russian Federation,TÃ¼rkiye
+682,490,1.4029187e+07,2010,Saudi Arabia,"Other Asia, nes"

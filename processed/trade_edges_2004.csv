@@ -1,0 +1,201 @@
+exporter,importer,trade_value,year,exporter_name,importer_name
+124,842,2.4851394e+08,2004,Canada,USA
+156,842,1.9172011e+08,2004,China,USA
+842,124,1.5982106e+08,2004,USA,Canada
+484,842,1.5378125e+08,2004,Mexico,USA
+392,842,1.2784948e+08,2004,Japan,USA
+842,484,1.1464049e+08,2004,USA,Mexico
+156,344,1.1330404e+08,2004,China,"China, Hong Kong SAR"
+156,392,9.157382e+07,2004,China,Japan
+392,156,8.747618e+07,2004,Japan,China
+276,251,7.889334e+07,2004,Germany,France
+276,842,7.785419e+07,2004,Germany,USA
+276,826,6.580838e+07,2004,Germany,United Kingdom
+276,380,6.0644012e+07,2004,Germany,Italy
+842,392,5.9576436e+07,2004,USA,Japan
+251,276,5.87777e+07,2004,France,Germany
+410,156,5.652344e+07,2004,Rep. of Korea,China
+490,156,5.300702e+07,2004,"Other Asia, nes",China
+276,56,5.1801656e+07,2004,Germany,Belgium
+276,528,4.888881e+07,2004,Germany,Netherlands
+528,276,4.827092e+07,2004,Netherlands,Germany
+410,842,4.745837e+07,2004,Rep. of Korea,USA
+276,40,4.683591e+07,2004,Germany,Austria
+528,56,4.650644e+07,2004,Netherlands,Belgium
+826,842,4.555987e+07,2004,United Kingdom,USA
+392,410,4.4493444e+07,2004,Japan,Rep. of Korea
+842,276,4.3360504e+07,2004,USA,Germany
+842,156,4.3053212e+07,2004,USA,China
+276,724,4.2430756e+07,2004,Germany,Spain
+392,490,4.2176532e+07,2004,Japan,"Other Asia, nes"
+380,276,4.1259612e+07,2004,Italy,Germany
+251,724,4.06899e+07,2004,France,Spain
+380,251,4.029403e+07,2004,Italy,France
+156,276,3.9301376e+07,2004,China,Germany
+251,380,3.767803e+07,2004,France,Italy
+251,826,3.7509556e+07,2004,France,United Kingdom
+826,276,3.7098908e+07,2004,United Kingdom,Germany
+276,757,3.684813e+07,2004,Germany,Switzerland
+842,826,3.6790676e+07,2004,USA,United Kingdom
+251,56,3.4738732e+07,2004,France,Belgium
+56,276,3.455821e+07,2004,Belgium,Germany
+56,251,3.4351452e+07,2004,Belgium,France
+490,842,3.432202e+07,2004,"Other Asia, nes",USA
+392,344,3.363875e+07,2004,Japan,"China, Hong Kong SAR"
+528,826,3.357959e+07,2004,Netherlands,United Kingdom
+724,251,3.3182614e+07,2004,Spain,France
+251,842,3.0468898e+07,2004,France,USA
+156,410,3.006786e+07,2004,China,Rep. of Korea
+56,528,2.940304e+07,2004,Belgium,Netherlands
+826,251,2.9376644e+07,2004,United Kingdom,France
+156,826,2.9211288e+07,2004,China,United Kingdom
+380,842,2.9016798e+07,2004,Italy,USA
+40,276,2.890379e+07,2004,Austria,Germany
+842,410,2.8339006e+07,2004,USA,Rep. of Korea
+458,842,2.7841922e+07,2004,Malaysia,USA
+276,156,2.7352122e+07,2004,Germany,China
+372,842,2.705124e+07,2004,Ireland,USA
+842,251,2.6757656e+07,2004,USA,France
+862,842,2.600531e+07,2004,Venezuela,USA
+757,276,2.5523596e+07,2004,Switzerland,Germany
+490,344,2.4548538e+07,2004,"Other Asia, nes","China, Hong Kong SAR"
+458,702,2.4525644e+07,2004,Malaysia,Singapore
+56,826,2.4301014e+07,2004,Belgium,United Kingdom
+380,826,2.4288784e+07,2004,Italy,United Kingdom
+380,724,2.3828652e+07,2004,Italy,Spain
+392,276,2.3672798e+07,2004,Japan,Germany
+682,842,2.263212e+07,2004,Saudi Arabia,USA
+76,842,2.209499e+07,2004,Brazil,USA
+842,528,2.2072232e+07,2004,USA,Netherlands
+392,764,2.197583e+07,2004,Japan,Thailand
+276,616,2.1906964e+07,2004,Germany,Poland
+842,490,2.1178456e+07,2004,USA,"Other Asia, nes"
+276,203,2.1164964e+07,2004,Germany,Czechia
+203,276,2.1108058e+07,2004,Czechia,Germany
+410,392,2.0718954e+07,2004,Rep. of Korea,Japan
+392,826,2.0622572e+07,2004,Japan,United Kingdom
+842,702,2.0320032e+07,2004,USA,Singapore
+156,251,2.0167568e+07,2004,China,France
+724,276,2.0130532e+07,2004,Spain,Germany
+826,372,1.9935152e+07,2004,United Kingdom,Ireland
+528,251,1.9857996e+07,2004,Netherlands,France
+616,276,1.9773542e+07,2004,Poland,Germany
+826,56,1.965572e+07,2004,United Kingdom,Belgium
+392,702,1.9394062e+07,2004,Japan,Singapore
+826,528,1.9393846e+07,2004,United Kingdom,Netherlands
+36,392,1.9366042e+07,2004,Australia,Japan
+372,826,1.9364894e+07,2004,Ireland,United Kingdom
+528,380,1.9345026e+07,2004,Netherlands,Italy
+764,842,1.893513e+07,2004,Thailand,USA
+360,392,1.8562944e+07,2004,Indonesia,Japan
+682,392,1.846635e+07,2004,Saudi Arabia,Japan
+276,752,1.844494e+07,2004,Germany,Sweden
+156,124,1.8438638e+07,2004,China,Canada
+784,392,1.8312856e+07,2004,United Arab Emirates,Japan
+156,528,1.8097334e+07,2004,China,Netherlands
+372,56,1.8058144e+07,2004,Ireland,Belgium
+410,344,1.7611484e+07,2004,Rep. of Korea,"China, Hong Kong SAR"
+276,348,1.7248566e+07,2004,Germany,Hungary
+724,620,1.722865e+07,2004,Spain,Portugal
+344,156,1.7154042e+07,2004,"China, Hong Kong SAR",China
+566,842,1.7093236e+07,2004,Nigeria,USA
+156,490,1.7081574e+07,2004,China,"Other Asia, nes"
+724,826,1.7016172e+07,2004,Spain,United Kingdom
+579,826,1.6855358e+07,2004,Norway,United Kingdom
+699,842,1.6584517e+07,2004,India,USA
+842,56,1.6567355e+07,2004,USA,Belgium
+156,702,1.6441578e+07,2004,China,Singapore
+276,392,1.640079e+07,2004,Germany,Japan
+826,724,1.6154084e+07,2004,United Kingdom,Spain
+392,458,1.6020325e+07,2004,Japan,Malaysia
+842,36,1.5881954e+07,2004,USA,Australia
+724,380,1.5835696e+07,2004,Spain,Italy
+348,276,1.5773151e+07,2004,Hungary,Germany
+56,380,1.5445912e+07,2004,Belgium,Italy
+702,842,1.5264698e+07,2004,Singapore,USA
+276,643,1.5260468e+07,2004,Germany,Russian Federation
+842,344,1.5000003e+07,2004,USA,"China, Hong Kong SAR"
+251,528,1.4821786e+07,2004,France,Netherlands
+826,380,1.4659171e+07,2004,United Kingdom,Italy
+156,380,1.4580526e+07,2004,China,Italy
+702,344,1.454276e+07,2004,Singapore,"China, Hong Kong SAR"
+376,842,1.4412214e+07,2004,Israel,USA
+276,208,1.4335758e+07,2004,Germany,Denmark
+156,36,1.4171874e+07,2004,China,Australia
+764,392,1.3996458e+07,2004,Thailand,Japan
+458,392,1.3906213e+07,2004,Malaysia,Japan
+702,156,1.3893386e+07,2004,Singapore,China
+490,392,1.3889338e+07,2004,"Other Asia, nes",Japan
+56,842,1.3293738e+07,2004,Belgium,USA
+702,458,1.3221632e+07,2004,Singapore,Malaysia
+458,156,1.3209494e+07,2004,Malaysia,China
+752,842,1.3088263e+07,2004,Sweden,USA
+643,276,1.2861441e+07,2004,Russian Federation,Germany
+276,792,1.2821442e+07,2004,Germany,TÃ¼rkiye
+579,276,1.2803942e+07,2004,Norway,Germany
+392,36,1.2741716e+07,2004,Japan,Australia
+392,251,1.2726032e+07,2004,Japan,France
+380,757,1.2569e+07,2004,Italy,Switzerland
+842,76,1.2264798e+07,2004,USA,Brazil
+528,842,1.2228336e+07,2004,Netherlands,USA
+251,757,1.2226967e+07,2004,France,Switzerland
+360,842,1.2089568e+07,2004,Indonesia,USA
+643,528,1.2004745e+07,2004,Russian Federation,Netherlands
+842,380,1.1944835e+07,2004,USA,Italy
+757,380,1.1910239e+07,2004,Switzerland,Italy
+682,410,1.1862534e+07,2004,Saudi Arabia,Rep. of Korea
+643,842,1.1823902e+07,2004,Russian Federation,USA
+410,490,1.172822e+07,2004,Rep. of Korea,"Other Asia, nes"
+752,276,1.1632038e+07,2004,Sweden,Germany
+757,842,1.1350025e+07,2004,Switzerland,USA
+156,484,1.1247325e+07,2004,China,Mexico
+643,804,1.1207415e+07,2004,Russian Federation,Ukraine
+764,156,1.0842025e+07,2004,Thailand,China
+392,528,1.0746221e+07,2004,Japan,Netherlands
+528,724,1.0680962e+07,2004,Netherlands,Spain
+643,112,1.0606028e+07,2004,Russian Federation,Belarus
+36,156,1.0495521e+07,2004,Australia,China
+156,458,1.0490891e+07,2004,China,Malaysia
+372,276,1.0419038e+07,2004,Ireland,Germany
+208,276,1.0382186e+07,2004,Denmark,Germany
+392,124,1.0377971e+07,2004,Japan,Canada
+842,458,1.0242124e+07,2004,USA,Malaysia
+484,124,1.0119964e+07,2004,Mexico,Canada
+360,702,1.0039509e+07,2004,Indonesia,Singapore
+490,702,1.0036233e+07,2004,"Other Asia, nes",Singapore
+344,842,1.0027815e+07,2004,"China, Hong Kong SAR",USA
+792,276,1.0024639e+07,2004,TÃ¼rkiye,Germany
+757,251,9.917241e+06,2004,Switzerland,France
+156,724,9.909892e+06,2004,China,Spain
+608,842,9.732113e+06,2004,Philippines,USA
+643,156,9.677257e+06,2004,Russian Federation,China
+752,826,9.55781e+06,2004,Sweden,United Kingdom
+410,276,9.471141e+06,2004,Rep. of Korea,Germany
+380,56,9.172266e+06,2004,Italy,Belgium
+392,56,9.065995e+06,2004,Japan,Belgium
+368,842,9.056032e+06,2004,Iraq,USA
+752,208,8.914485e+06,2004,Sweden,Denmark
+40,380,8.906846e+06,2004,Austria,Italy
+208,752,8.834411e+06,2004,Denmark,Sweden
+56,724,8.799811e+06,2004,Belgium,Spain
+842,724,8.781636e+06,2004,USA,Spain
+620,724,8.774215e+06,2004,Portugal,Spain
+842,757,8.621518e+06,2004,USA,Switzerland
+392,484,8.594786e+06,2004,Japan,Mexico
+156,56,8.557321e+06,2004,China,Belgium
+643,251,8.536151e+06,2004,Russian Federation,France
+579,251,8.530337e+06,2004,Norway,France
+608,156,8.472426e+06,2004,Philippines,China
+842,372,8.277335e+06,2004,USA,Ireland
+372,251,8.2718935e+06,2004,Ireland,France
+156,764,8.189639e+06,2004,China,Thailand
+276,620,8.057511e+06,2004,Germany,Portugal
+276,410,8.011913e+06,2004,Germany,Rep. of Korea
+703,276,7.973795e+06,2004,Slovakia,Germany
+724,842,7.9325655e+06,2004,Spain,USA
+643,380,7.9165815e+06,2004,Russian Federation,Italy
+380,40,7.8979875e+06,2004,Italy,Austria
+434,380,7.8413305e+06,2004,Libya,Italy
+12,842,7.8258545e+06,2004,Algeria,USA
+752,579,7.819328e+06,2004,Sweden,Norway
+608,392,7.7835095e+06,2004,Philippines,Japan

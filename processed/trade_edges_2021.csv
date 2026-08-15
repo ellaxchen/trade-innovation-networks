@@ -1,0 +1,201 @@
+exporter,importer,trade_value,year,exporter_name,importer_name
+156,842,5.3004858e+08,2021,China,USA
+484,842,3.7127645e+08,2021,Mexico,USA
+124,842,3.4825334e+08,2021,Canada,USA
+156,344,3.1298272e+08,2021,China,"China, Hong Kong SAR"
+842,124,2.3160669e+08,2021,USA,Canada
+842,484,2.0998139e+08,2021,USA,Mexico
+410,156,1.8287635e+08,2021,Rep. of Korea,China
+392,156,1.8037154e+08,2021,Japan,China
+156,392,1.7142963e+08,2021,China,Japan
+156,276,1.6291906e+08,2021,China,Germany
+842,156,1.6274814e+08,2021,USA,China
+36,156,1.5638082e+08,2021,Australia,China
+156,410,1.3809835e+08,2021,China,Rep. of Korea
+490,156,1.3544413e+08,2021,"Other Asia, nes",China
+276,842,1.3460059e+08,2021,Germany,USA
+392,842,1.3293444e+08,2021,Japan,USA
+276,156,1.1934698e+08,2021,Germany,China
+276,251,1.1754273e+08,2021,Germany,France
+156,704,1.0957265e+08,2021,China,Viet Nam
+276,528,1.0344068e+08,2021,Germany,Netherlands
+528,276,1.0303507e+08,2021,Netherlands,Germany
+704,842,1.0087971e+08,2021,Viet Nam,USA
+410,842,9.644355e+07,2021,Rep. of Korea,USA
+76,156,9.120357e+07,2021,Brazil,China
+276,380,8.938028e+07,2021,Germany,Italy
+156,699,8.862878e+07,2021,China,India
+156,484,8.678284e+07,2021,China,Mexico
+156,826,8.637757e+07,2021,China,United Kingdom
+528,56,8.329582e+07,2021,Netherlands,Belgium
+842,276,7.9583144e+07,2021,USA,Germany
+156,490,7.9403704e+07,2021,China,"Other Asia, nes"
+616,276,7.9347656e+07,2021,Poland,Germany
+842,392,7.799526e+07,2021,USA,Japan
+490,842,7.670775e+07,2021,"Other Asia, nes",USA
+276,616,7.616163e+07,2021,Germany,Poland
+704,156,7.604976e+07,2021,Viet Nam,China
+699,842,7.591318e+07,2021,India,USA
+276,826,7.560534e+07,2021,Germany,United Kingdom
+458,156,7.4190776e+07,2021,Malaysia,China
+380,276,7.380562e+07,2021,Italy,Germany
+156,643,7.316693e+07,2021,China,Russian Federation
+643,156,7.293173e+07,2021,Russian Federation,China
+56,251,7.287017e+07,2021,Belgium,France
+156,36,7.2540696e+07,2021,China,Australia
+842,410,7.216057e+07,2021,USA,Rep. of Korea
+276,40,7.17147e+07,2021,Germany,Austria
+490,344,6.994082e+07,2021,"Other Asia, nes","China, Hong Kong SAR"
+251,276,6.985439e+07,2021,France,Germany
+156,764,6.927366e+07,2021,China,Thailand
+156,124,6.802855e+07,2021,China,Canada
+156,528,6.78498e+07,2021,China,Netherlands
+276,757,6.2427812e+07,2021,Germany,Switzerland
+528,251,6.1818404e+07,2021,Netherlands,France
+380,842,6.139427e+07,2021,Italy,USA
+56,528,6.133892e+07,2021,Belgium,Netherlands
+203,276,6.058791e+07,2021,Czechia,Germany
+56,276,6.0410772e+07,2021,Belgium,Germany
+360,156,5.9842148e+07,2021,Indonesia,China
+842,826,5.9199104e+07,2021,USA,United Kingdom
+380,251,5.8520104e+07,2021,Italy,France
+372,842,5.8372132e+07,2021,Ireland,USA
+156,458,5.757285e+07,2021,China,Malaysia
+156,360,5.753313e+07,2021,China,Indonesia
+682,156,5.6874456e+07,2021,Saudi Arabia,China
+757,276,5.6082904e+07,2021,Switzerland,Germany
+410,704,5.6053444e+07,2021,Rep. of Korea,Viet Nam
+724,251,5.6036036e+07,2021,Spain,France
+276,56,5.5923396e+07,2021,Germany,Belgium
+156,784,5.4858908e+07,2021,China,United Arab Emirates
+392,490,5.474303e+07,2021,Japan,"Other Asia, nes"
+392,410,5.3837304e+07,2021,Japan,Rep. of Korea
+156,76,5.3776976e+07,2021,China,Brazil
+702,344,5.3294988e+07,2021,Singapore,"China, Hong Kong SAR"
+826,842,5.3175176e+07,2021,United Kingdom,USA
+156,702,5.285933e+07,2021,China,Singapore
+458,702,5.239551e+07,2021,Malaysia,Singapore
+40,276,5.1087012e+07,2021,Austria,Germany
+757,842,5.065388e+07,2021,Switzerland,USA
+764,842,5.0473508e+07,2021,Thailand,USA
+36,392,4.92634e+07,2021,Australia,Japan
+156,616,4.9228496e+07,2021,China,Poland
+490,702,4.902226e+07,2021,"Other Asia, nes",Singapore
+764,156,4.8262216e+07,2021,Thailand,China
+156,251,4.817594e+07,2021,China,France
+276,203,4.8162064e+07,2021,Germany,Czechia
+842,528,4.7298864e+07,2021,USA,Netherlands
+251,842,4.693703e+07,2021,France,USA
+251,380,4.6191508e+07,2021,France,Italy
+276,724,4.6131e+07,2021,Germany,Spain
+156,380,4.5561988e+07,2021,China,Italy
+784,699,4.495001e+07,2021,United Arab Emirates,India
+528,826,4.306915e+07,2021,Netherlands,United Kingdom
+702,156,4.2380956e+07,2021,Singapore,China
+410,344,4.184906e+07,2021,Rep. of Korea,"China, Hong Kong SAR"
+251,56,4.1738532e+07,2021,France,Belgium
+842,76,4.1412148e+07,2021,USA,Brazil
+842,699,4.108113e+07,2021,USA,India
+156,724,4.0930508e+07,2021,China,Spain
+458,842,3.942125e+07,2021,Malaysia,USA
+842,702,3.915528e+07,2021,USA,Singapore
+251,724,3.804339e+07,2021,France,Spain
+724,276,3.7825428e+07,2021,Spain,Germany
+826,276,3.702001e+07,2021,United Kingdom,Germany
+152,156,3.6983316e+07,2021,Chile,China
+579,276,3.6785296e+07,2021,Norway,Germany
+826,757,3.642033e+07,2021,United Kingdom,Switzerland
+579,826,3.6227584e+07,2021,Norway,United Kingdom
+842,490,3.548133e+07,2021,USA,"Other Asia, nes"
+392,344,3.538659e+07,2021,Japan,"China, Hong Kong SAR"
+757,156,3.4491704e+07,2021,Switzerland,China
+348,276,3.442569e+07,2021,Hungary,Germany
+392,764,3.3097464e+07,2021,Japan,Thailand
+528,380,3.2507452e+07,2021,Netherlands,Italy
+724,620,3.217801e+07,2021,Spain,Portugal
+156,792,3.2176268e+07,2021,China,TÃ¼rkiye
+76,842,3.2032132e+07,2021,Brazil,USA
+251,156,3.1687046e+07,2021,France,China
+36,410,3.1500306e+07,2021,Australia,Rep. of Korea
+784,156,3.1342882e+07,2021,United Arab Emirates,China
+251,826,3.1001232e+07,2021,France,United Kingdom
+276,348,3.0974352e+07,2021,Germany,Hungary
+490,392,3.0971074e+07,2021,"Other Asia, nes",Japan
+643,528,3.0960048e+07,2021,Russian Federation,Netherlands
+842,251,3.0701068e+07,2021,USA,France
+156,608,3.0634436e+07,2021,China,Philippines
+156,682,3.0611252e+07,2021,China,Saudi Arabia
+56,826,3.0541524e+07,2021,Belgium,United Kingdom
+757,699,3.0499634e+07,2021,Switzerland,India
+344,156,3.0349288e+07,2021,"China, Hong Kong SAR",China
+410,392,3.0309436e+07,2021,Rep. of Korea,Japan
+410,490,3.012086e+07,2021,Rep. of Korea,"Other Asia, nes"
+276,752,2.9813182e+07,2021,Germany,Sweden
+724,380,2.9599878e+07,2021,Spain,Italy
+842,344,2.9523628e+07,2021,USA,"China, Hong Kong SAR"
+276,643,2.9229334e+07,2021,Germany,Russian Federation
+643,842,2.8840078e+07,2021,Russian Federation,USA
+512,156,2.8414646e+07,2021,Oman,China
+826,528,2.8363076e+07,2021,United Kingdom,Netherlands
+360,842,2.8142936e+07,2021,Indonesia,USA
+682,699,2.7785204e+07,2021,Saudi Arabia,India
+156,203,2.770443e+07,2021,China,Czechia
+784,392,2.769056e+07,2021,United Arab Emirates,Japan
+682,392,2.7505508e+07,2021,Saudi Arabia,Japan
+380,724,2.7172732e+07,2021,Italy,Spain
+156,152,2.7116138e+07,2021,China,Chile
+368,156,2.665292e+07,2021,Iraq,China
+368,699,2.6566068e+07,2021,Iraq,India
+699,156,2.6543068e+07,2021,India,China
+842,36,2.6458868e+07,2021,USA,Australia
+702,842,2.6360196e+07,2021,Singapore,USA
+484,124,2.6126276e+07,2021,Mexico,Canada
+380,826,2.6010028e+07,2021,Italy,United Kingdom
+392,276,2.5791726e+07,2021,Japan,Germany
+528,842,2.5647794e+07,2021,Netherlands,USA
+643,826,2.5513754e+07,2021,Russian Federation,United Kingdom
+276,208,2.5485818e+07,2021,Germany,Denmark
+764,392,2.514385e+07,2021,Thailand,Japan
+124,156,2.4606596e+07,2021,Canada,China
+682,410,2.4353658e+07,2021,Saudi Arabia,Rep. of Korea
+826,372,2.415201e+07,2021,United Kingdom,Ireland
+56,380,2.4091118e+07,2021,Belgium,Italy
+372,276,2.4039036e+07,2021,Ireland,Germany
+842,757,2.4035374e+07,2021,USA,Switzerland
+704,410,2.3889274e+07,2021,Viet Nam,Rep. of Korea
+156,50,2.3803942e+07,2021,China,Bangladesh
+380,757,2.377488e+07,2021,Italy,Switzerland
+826,251,2.3537584e+07,2021,United Kingdom,France
+276,642,2.32994e+07,2021,Germany,Romania
+490,410,2.300052e+07,2021,"Other Asia, nes",Rep. of Korea
+702,458,2.2982258e+07,2021,Singapore,Malaysia
+826,156,2.2826444e+07,2021,United Kingdom,China
+643,276,2.2773906e+07,2021,Russian Federation,Germany
+704,392,2.2667138e+07,2021,Viet Nam,Japan
+251,528,2.2632668e+07,2021,France,Netherlands
+699,784,2.2449098e+07,2021,India,United Arab Emirates
+276,392,2.239938e+07,2021,Germany,Japan
+380,156,2.2196024e+07,2021,Italy,China
+276,410,2.2004262e+07,2021,Germany,Rep. of Korea
+276,792,2.195463e+07,2021,Germany,TÃ¼rkiye
+710,156,2.1667426e+07,2021,South Africa,China
+392,704,2.1612848e+07,2021,Japan,Viet Nam
+56,842,2.1570954e+07,2021,Belgium,USA
+643,380,2.151749e+07,2021,Russian Federation,Italy
+156,586,2.1424142e+07,2021,China,Pakistan
+792,276,2.126223e+07,2021,TÃ¼rkiye,Germany
+410,702,2.1121924e+07,2021,Rep. of Korea,Singapore
+643,792,2.108964e+07,2021,Russian Federation,TÃ¼rkiye
+458,344,2.102119e+07,2021,Malaysia,"China, Hong Kong SAR"
+842,372,2.0990658e+07,2021,USA,Ireland
+643,112,2.0676564e+07,2021,Russian Federation,Belarus
+724,826,2.0576624e+07,2021,Spain,United Kingdom
+842,56,2.0382356e+07,2021,USA,Belgium
+703,276,2.0045038e+07,2021,Slovakia,Germany
+842,724,1.9933478e+07,2021,USA,Spain
+608,156,1.9836102e+07,2021,Philippines,China
+372,826,1.9823532e+07,2021,Ireland,United Kingdom
+528,724,1.9732182e+07,2021,Netherlands,Spain
+276,703,1.9714574e+07,2021,Germany,Slovakia
+156,710,1.9653294e+07,2021,China,South Africa
+392,702,1.9592048e+07,2021,Japan,Singapore
