@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trade &amp; Innovation Networks</title>
+<style>
+:root{
+  --surface-1:#fcfcfb; --page:#f9f9f7; --text-primary:#0b0b0b;
+  --text-secondary:#52514e; --muted:#898781; --border:rgba(11,11,11,0.10);
+  --blue:#2a78d6; --orange:#eb6834;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--page);color:var(--text-primary);line-height:1.6}
+.page{max-width:920px;margin:0 auto;padding:48px 24px 80px}
+h1{font-size:1.8rem;font-weight:700;margin-bottom:6px}
+.subtitle{color:var(--text-secondary);margin-bottom:28px;max-width:640px}
+h2{font-size:1.15rem;font-weight:700;margin:30px 0 12px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px}
+.card{background:var(--surface-1);border:1px solid var(--border);border-radius:12px;padding:16px 18px;text-decoration:none;color:inherit;display:block}
+.card:hover{border-color:var(--blue)}
+.card h3{font-size:0.95rem;margin-bottom:4px;color:var(--text-primary)}
+.card p{font-size:0.83rem;color:var(--text-secondary);margin:0}
+.card .tag{font-size:0.68rem;font-weight:700;padding:1px 8px;border-radius:20px;display:inline-block;margin-bottom:6px}
+.tag.b{background:rgba(42,120,214,0.14);color:#1c5cab}
+.tag.o{background:rgba(235,104,52,0.14);color:#c14e1e}
+.tag.g{background:rgba(137,135,129,0.16);color:#52514e}
+ul{margin:6px 0 6px 22px}
+li{font-size:0.9rem;margin:3px 0}
+a{color:var(--blue)}
+code{background:rgba(137,135,129,0.14);padding:1px 6px;border-radius:4px;font-size:0.85em}
+.foot{font-size:0.78rem;color:var(--muted);margin-top:40px}
+</style>
+</head>
+<body>
+<div class="page">
+<h1>Trade &amp; Innovation Networks</h1>
+<p class="subtitle">Two directed networks on the same countries — trade flows (BACI, 1995–2024)
+and patent citations (PATSTAT, through 2017) — built side by side to ask whether trading with
+a country causes you to build on its ideas, or the reverse.</p>
+
+<h2>Interactive reports</h2>
+<div class="cards">
+  <a class="card" href="centrality_report.html">
+    <span class="tag b">PageRank</span>
+    <h3>Centrality Report</h3>
+    <p>16 interactive per-country panels — trade vs. knowledge centrality overlaid, 1995–2013. Three pathways, lead/lag and crossing tables.</p>
+  </a>
+  <a class="card" href="china_2010_explainer.html">
+    <span class="tag o">Data artifact</span>
+    <h3>The China 2010 Puzzle</h3>
+    <p>Why China's citations jumped 566× in one year — and what China was actually doing before 2010.</p>
+  </a>
+  <a class="card" href="chord_interactive_standalone.html">
+    <span class="tag b">Chord</span>
+    <h3>Trade vs. Citations Chord</h3>
+    <p>D3 chord diagram — country flows with export/import arcs, year slider, play animation, country highlight.</p>
+  </a>
+  <a class="card" href="chord_level_b_electronics_standalone.html">
+    <span class="tag o">Level B</span>
+    <h3>Electronics Chord</h3>
+    <p>Industry × country view — Electronics trade (HS85) vs. Electricity citations (CPC H).</p>
+  </a>
+</div>
+
+<h2>Key findings</h2>
+<ul>
+  <li><strong>China's knowledge leads its trade by 5 years (r = 0.990)</strong> — the strongest cross-correlation in the data, after correcting the 2010 coverage artifact.</li>
+  <li><strong>Three development pathways:</strong> knowledge-first (US, Japan), trade-first (Korea, Netherlands, Switzerland), and dual rise (China, Canada, Italy).</li>
+  <li><strong>At sector level the picture reverses:</strong> within electronics and machinery, China's trade led its knowledge.</li>
+  <li><strong>Family-level citations are canonical:</strong> counting inventions (not filings) raises cross-border citations from 11% to 40.5%.</li>
+</ul>
+
+<h2>Repository</h2>
+<p><a href="https://github.com/ellaxchen/trade-innovation-networks">github.com/ellaxchen/trade-innovation-networks</a>
+— scripts in <code>scripts/</code>, static figures in <code>plots/</code>, country-level data in <code>processed/</code>.</p>
+
+<p class="foot">Trade &amp; Innovation Networks · 2026 · Built with BACI (CEPII) and PATSTAT (EPO) data —
+raw data is licensed and not redistributed; only country-level aggregates are shared.</p>
+</div>
+</body>
+</html>
