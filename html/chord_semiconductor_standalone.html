@@ -39,8 +39,8 @@ select{background:#2a2a40;color:#eee;border:1px solid rgba(255,255,255,.2);borde
   </div>
 </div>
 <div id="controls">
-  <label>Year</label><span id="year-display">2010</span>
-  <input type="range" id="year-slider" min="1995" max="2024" value="2010" step="1">
+  <label>Year</label><span id="year-display">2013</span>
+  <input type="range" id="year-slider" min="1995" max="2024" value="2013" step="1">
   <button id="play-btn" onclick="togglePlay()">Play</button>
   <select id="highlight-select" onchange="setHighlight(this.value)"><option value="">All Countries</option></select>
 </div>
@@ -63,8 +63,8 @@ const data = {"sector": "semiconductor", "sector_name": "Semiconductors", "trade
   });
 
   const slider = document.getElementById("year-slider");
-  slider.min = data.all_years[0]; slider.max = data.all_years[data.all_years.length-1]; slider.value = 2010;
-  document.getElementById("year-display").textContent = 2010;
+  slider.min = data.all_years[0]; slider.max = data.all_years[data.all_years.length-1]; slider.value = 2013;
+  document.getElementById("year-display").textContent = 2013;
 
   const sel = document.getElementById("highlight-select");
   countries.forEach(c => { const o = document.createElement("option"); o.value = c; o.textContent = data.country_names[c]||c; sel.appendChild(o); });
