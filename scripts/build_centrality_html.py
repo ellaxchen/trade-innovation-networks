@@ -79,21 +79,19 @@ records = []
 for c in top:
     ts = [trade_pr[y].get(c, 0) for y in YEARS]
     cs = [cite_pr[y].get(c, 0) for y in YEARS]
-    t_max, c_max = max(ts) or 1, max(cs) or 1
-    tn = [v / t_max for v in ts]
-    cn = [v / c_max for v in cs]
-    diffs = [tn[i] - cn[i] for i in range(len(YEARS))]
+    # RAW differences — PageRank sums to ~1 per network, so shares are comparable
+    diffs = [ts[i] - cs[i] for i in range(len(YEARS))]
     avg_diff = float(np.mean(diffs))
     trend = float(np.mean(diffs[-5:]) - np.mean(diffs[:5]))
 
-    if avg_diff > 0.05:
+    if avg_diff > 0.02:
         pathway = "Trade-leading"
-    elif avg_diff < -0.05:
+    elif avg_diff < -0.02:
         pathway = "Knowledge-leading"
     else:
         pathway = "Balanced"
 
-    # first crossing
+    # first crossing (raw)
     first_cross = None
     for i in range(1, len(YEARS)):
         if diffs[i - 1] * diffs[i] < 0:
@@ -102,9 +100,9 @@ for c in top:
     side = lambda d: "trade" if d > 0.02 else ("cite" if d < -0.02 else "tied")
     start_side, end_side = side(diffs[0]), side(diffs[-1])
 
-    # who rises first (year of fastest rise)
-    t_rise = YEARS[int(np.argmax(np.diff(tn)))]
-    c_rise = YEARS[int(np.argmax(np.diff(cn)))]
+    # who rises first (year of fastest rise, raw)
+    t_rise = YEARS[int(np.argmax(np.diff(ts)))]
+    c_rise = YEARS[int(np.argmax(np.diff(cs)))]
     rises = "trade" if t_rise < c_rise else ("cite" if c_rise < t_rise else "together")
 
     # lead/lag best correlation (canonical convention from lead_lag_analysis.py:
@@ -201,19 +199,20 @@ td.num{font-variant-numeric:tabular-nums}
 <div class="page">
 <h1>Centrality Report — Trade vs. Knowledge</h1>
 <p class="subtitle">PageRank centrality for each country and year in both networks, 1995–2013.
-Family-level citations, cross-border only, α = 0.85, each series normalized to its own maximum.</p>
+Family-level citations, cross-border only, α = 0.85, raw PageRank shares on a single
+shared scale (each network's PR sums to ~1, so shares are comparable).</p>
 
 <div class="tiles">
-  <div class="tile"><div class="num o">r = 0.990</div><div class="cap">China: knowledge leads trade by 5 years — the strongest cross-correlation in the data</div></div>
-  <div class="tile"><div class="num b">+0.236</div><div class="cap">South Korea: widest trade-centrality lead in the sample</div></div>
-  <div class="tile"><div class="num o">−0.180</div><div class="cap">Japan: widest knowledge-centrality lead, still widening</div></div>
-  <div class="tile"><div class="num">3</div><div class="cap">Pathways: knowledge-first, trade-first, dual rise</div></div>
+  <div class="tile"><div class="num">16.8% vs 27.9%</div><div class="cap">USA 2013: share of trade centrality vs share of knowledge centrality</div></div>
+  <div class="tile"><div class="num o">4.0% vs 2.7%</div><div class="cap">South Korea 2013: knowledge centrality already above trade — the earlier "widest trade lead" was a normalization artifact</div></div>
+  <div class="tile"><div class="num o">4.5% vs 15.1%</div><div class="cap">Japan 2013: trade vs knowledge centrality, still widening</div></div>
+  <div class="tile"><div class="num">3</div><div class="cap">Pathways: knowledge-first, trade-first, balanced</div></div>
 </div>
 
 <div class="legend">
   <span><span class="swatch" style="background:var(--series-1)"></span>Trade PageRank (blue)</span>
   <span><span class="swatch" style="background:var(--series-2)"></span>Citation PageRank (orange)</span>
-  <span class="muted small">Hover any panel for values. Divergences and crossings are the findings.</span>
+  <span class="muted small">One shared y-scale across all panels — vertical gaps are true PageRank-share differences. Hover for values.</span>
 </div>
 
 <div class="grid" id="grid"></div>
@@ -222,9 +221,9 @@ Family-level citations, cross-border only, α = 0.85, each series normalized to 
 <div class="card">
 <table>
   <tr><th>Pathway</th><th>Countries</th><th>Pattern</th></tr>
-  <tr><td><span class="tag k">Knowledge-first</span></td><td>US, Japan, Spain, Hong Kong, Singapore, Mexico</td><td>Citation PR consistently above trade PR; the knowledge gap widens for US and Japan</td></tr>
-  <tr><td><span class="tag b">Balanced / dual rise</span></td><td>China, Canada, Italy</td><td>Both lines rise in parallel — China is the only major country where neither leads</td></tr>
-  <tr><td><span class="tag t">Trade-first</span></td><td>Germany, Netherlands, Belgium, Korea, Switzerland, France, UK</td><td>Trade PR above knowledge PR; Korea's knowledge line is catching up fastest</td></tr>
+  <tr><td><span class="tag k">Knowledge-first</span></td><td>US (−0.108), Japan (−0.097)</td><td>Citation PR clearly above trade PR; Japan's gap still widening</td></tr>
+  <tr><td><span class="tag b">Balanced</span></td><td>Korea (−0.001), Singapore (+0.014), UK (+0.013), Germany (+0.012), Canada (+0.010), Switzerland (+0.008)</td><td>Close in raw shares; Korea is already knowledge-side and catching up fastest</td></tr>
+  <tr><td><span class="tag t">Trade-first</span></td><td>China (+0.035), Italy (+0.028), Mexico (+0.028), Belgium (+0.027), Netherlands (+0.026), Hong Kong (+0.024), Spain (+0.023), France (+0.022)</td><td>Trade PR above knowledge PR — China narrowly, its two lines rising in lockstep</td></tr>
 </table>
 </div>
 
@@ -236,15 +235,15 @@ Family-level citations, cross-border only, α = 0.85, each series normalized to 
 
 <h2>Crossings — where the lines change places</h2>
 <div class="card">
-<p class="small muted">First year the normalized trade and citation lines cross; start/end side of the comparison window (1995–2013).</p>
+<p class="small muted">First year the raw trade and citation lines cross; start/end side of the comparison window (1995–2013). "Tied" = within ±0.02 of raw PageRank share.</p>
 <table id="cross-table"></table>
 </div>
 
 <h2>What this tells us</h2>
-<div class="callout"><strong>China is the unique case.</strong> Trade and knowledge centrality rise in near lockstep from the early 2000s — the only major country where the two lines overlap throughout. The lag analysis says knowledge actually leads by 5 years (r = 0.990): Chinese innovation centrality rises first, and trade follows half a decade later. This is the opposite of the earlier app-level finding, which was an artifact of EPO's 2010 coverage discontinuity.</div>
-<div class="callout"><strong>Japan and the US are knowledge economies.</strong> Both sit clearly above their trade lines, and the gaps are widening. Japan's trade and knowledge centrality move in <em>opposite</em> directions (r = −0.927) — its trade position holds while its share of global knowledge grows.</div>
-<div class="callout"><strong>Korea is the convergence to watch.</strong> The widest trade lead in the sample (+0.236) but the fastest knowledge catch-up anywhere (trend −0.491). Canada crossed from knowledge to trade around 2009 and is still moving.</div>
-<div class="callout"><strong>Sector-level reversal.</strong> Within sectors, China's trade leads knowledge in electronics (lag +3, r = 0.960) and machinery (lag +2, r = 0.869) — the export boom led the knowledge build-up. The country-level knowledge-first result is a composition across sectors. The US flips in pharma (knowledge leads, −5).</div>
+<div class="callout"><strong>China is the unique case.</strong> Trade and knowledge centrality rise in near lockstep from the early 2000s — the only major country where the two lines stay close throughout. The lag analysis on <em>levels</em> says knowledge leads by 5 years (r = 0.990) — but that is a window-edge artifact of the common trend: the two series correlate at r ≥ 0.94 at <em>every</em> lag. On year-over-year changes China shows no lead either way, and a block bootstrap on the changes reproduces lag 0 in 62% of draws. Co-movement is contemporaneous.</div>
+<div class="callout"><strong>Japan and the US are knowledge economies.</strong> Both sit clearly above their trade lines in raw shares (US 16.8% trade vs 27.9% knowledge in 2013; Japan 4.5% vs 15.1%), and Japan's gap is still widening. Japan's two series move in opposite directions at the best lag (r = −0.72).</div>
+<div class="callout"><strong>Korea is the convergence to watch.</strong> In raw shares Korea is already knowledge-side (4.0% vs 2.7% in 2013) with the fastest catch-up among late industrializers (trend −0.022) — the earlier "widest trade lead (+0.236)" was an artifact of normalizing each series to its own maximum.</div>
+<div class="callout"><strong>Sector-level reversal — descriptive only.</strong> Within sectors, China's trade leads knowledge in electronics (lag +3, r = 0.960) and machinery (lag +2, r = 0.869) in the raw estimates — the export boom led the knowledge build-up. None of these sector lags survives the block bootstrap (only 3 of 56 do, all synchronous), and on year-over-year changes they scatter with unstable signs. The US flips in pharma (knowledge leads, −5).</div>
 
 <p class="small muted" style="margin-top:32px">Method: PageRank (α = 0.85) on yearly directed graphs, weighted by trade value (BACI) and family-level citation counts (PATSTAT tls228). Chosen over eigenvector centrality because PageRank converges on directed graphs with dead-ends and one-way structure — both present here. Citations stop at 2013 (last reliable year in the spring-2018 PATSTAT edition).</p>
 </div>
@@ -252,13 +251,16 @@ Family-level citations, cross-border only, α = 0.85, each series normalized to 
 <script>
 const DATA = __JSON_DATA__;
 const years = DATA.years;
-const W = 240, H = 120, mL = 30, mR = 8, mT = 8, mB = 16;
+const W = 240, H = 132, mL = 30, mR = 8, mT = 8, mB = 16;
 const ns = "http://www.w3.org/2000/svg";
 const tip = document.createElement("div");
 tip.className = "tooltip";
 document.body.appendChild(tip);
 
 function el(tag, attrs){ const e = document.createElementNS(ns, tag); for(const k in attrs) e.setAttribute(k, attrs[k]); return e; }
+
+// ONE shared y-scale across all panels: raw PageRank share, global max
+const GM = Math.max(...DATA.countries.flatMap(c => [...c.trade_series, ...c.cite_series])) || 1;
 
 const grid = document.getElementById("grid");
 DATA.countries.forEach((c, ci) => {
@@ -270,12 +272,11 @@ DATA.countries.forEach((c, ci) => {
   const svg = el("svg", {viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": `${c.name}: trade vs citation PageRank`});
 
   const x = i => mL + i / (years.length - 1) * (W - mL - mR);
-  const y = v => mT + (H - mT - mB) * (1 - v);
-  const tMax = Math.max(...c.trade_series), cMax = Math.max(...c.cite_series);
+  const y = v => mT + (H - mT - mB) * (1 - v / GM);   // v raw
 
   // gridlines
   [0, 0.5, 1].forEach(v => {
-    svg.appendChild(el("line", {x1: mL, y1: y(v), x2: W - mR, y2: y(v), stroke: v === 0 ? "#c3c2b7" : "#e1e0d9", "stroke-width": v === 0 ? 1 : 0.8}));
+    svg.appendChild(el("line", {x1: mL, y1: y(v * GM), x2: W - mR, y2: y(v * GM), stroke: v === 0 ? "#c3c2b7" : "#e1e0d9", "stroke-width": v === 0 ? 1 : 0.8}));
   });
   // x ticks: first, mid, last year
   [0, Math.floor((years.length-1)/2), years.length-1].forEach(i => {
@@ -286,11 +287,11 @@ DATA.countries.forEach((c, ci) => {
 
   // trade line
   let d = "";
-  c.trade_series.forEach((v, i) => { d += (i ? "L" : "M") + x(i) + "," + y(v / tMax); });
+  c.trade_series.forEach((v, i) => { d += (i ? "L" : "M") + x(i) + "," + y(v); });
   svg.appendChild(el("path", {d, fill: "none", stroke: "#2a78d6", "stroke-width": 1.8, "stroke-linejoin": "round"}));
   // cite line
   let d2 = "";
-  c.cite_series.forEach((v, i) => { d2 += (i ? "L" : "M") + x(i) + "," + y(v / cMax); });
+  c.cite_series.forEach((v, i) => { d2 += (i ? "L" : "M") + x(i) + "," + y(v); });
   svg.appendChild(el("path", {d: d2, fill: "none", stroke: "#eb6834", "stroke-width": 1.8, "stroke-linejoin": "round"}));
 
   // hover
@@ -305,12 +306,12 @@ DATA.countries.forEach((c, ci) => {
     const px = (ev.clientX - r.left) * (W / r.width);
     const idx = Math.max(0, Math.min(years.length - 1, Math.round((px - mL) / (W - mL - mR) * (years.length - 1))));
     cross.setAttribute("x1", x(idx)); cross.setAttribute("x2", x(idx)); cross.setAttribute("opacity", 1);
-    dA.setAttribute("cx", x(idx)); dA.setAttribute("cy", y(c.trade_series[idx] / tMax)); dA.setAttribute("opacity", 1);
-    dB.setAttribute("cx", x(idx)); dB.setAttribute("cy", y(c.cite_series[idx] / cMax)); dB.setAttribute("opacity", 1);
+    dA.setAttribute("cx", x(idx)); dA.setAttribute("cy", y(c.trade_series[idx])); dA.setAttribute("opacity", 1);
+    dB.setAttribute("cx", x(idx)); dB.setAttribute("cy", y(c.cite_series[idx])); dB.setAttribute("opacity", 1);
     tip.style.opacity = 1;
     tip.style.left = (ev.clientX + 14) + "px";
     tip.style.top = (ev.clientY - 8) + "px";
-    tip.innerHTML = `<b>${c.name} ${years[idx]}</b><br>Trade PR: <b>${(c.trade_series[idx]*100).toFixed(1)}</b>% of max<br>Cite PR: <b>${(c.cite_series[idx]*100).toFixed(1)}</b>% of max`;
+    tip.innerHTML = `<b>${c.name} ${years[idx]}</b><br>Trade PR: <b>${(c.trade_series[idx]*100).toFixed(1)}</b>%<br>Cite PR: <b>${(c.cite_series[idx]*100).toFixed(1)}</b>%`;
   });
   svg.addEventListener("mouseleave", () => {
     cross.setAttribute("opacity", 0); dA.setAttribute("opacity", 0); dB.setAttribute("opacity", 0); tip.style.opacity = 0;

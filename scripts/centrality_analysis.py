@@ -157,6 +157,12 @@ ROWS = int(np.ceil(len(top_countries) / COLS))
 fig, axes = plt.subplots(ROWS, COLS, figsize=(COLS * 3.5, ROWS * 2.8))
 axes = axes.flatten()
 
+# ONE shared y-scale across all panels: raw PageRank share (each network's
+# PR sums to ~1, so raw values are comparable across networks and countries)
+GM = max(max(trade_pr[yr].get(c, 0) for c in top_countries) for yr in range(TRADE_START, TRADE_END + 1))
+GM = max(GM, max(max(cite_pr[yr].get(c, 0) for c in top_countries) for yr in range(CITE_START, CITE_END + 1)))
+GM = GM if GM > 0 else 1
+
 for idx, country in enumerate(top_countries):
     ax = axes[idx]
     name = iso_to_name.get(country, country)
@@ -168,42 +174,34 @@ for idx, country in enumerate(top_countries):
     c_years = list(range(CITE_START, CITE_END + 1))
     c_vals = [cite_pr[yr].get(country, 0) for yr in c_years]
 
-    # Normalize each series to its own max for overlay comparison
-    t_max = max(t_vals) if max(t_vals) > 0 else 1
-    c_max = max(c_vals) if max(c_vals) > 0 else 1
-
-    t_norm = [v / t_max for v in t_vals]
-    c_norm = [v / c_max for v in c_vals]
-
-    ax.plot(t_years, t_norm, color="#3A7CA5", linewidth=1.8, label="Trade PR")
-    ax.plot(c_years, c_norm, color="#C87A4A", linewidth=1.8, label=f"Cite PR ({cite_label})")
+    ax.plot(t_years, t_vals, color="#3A7CA5", linewidth=1.8, label="Trade PR")
+    ax.plot(c_years, c_vals, color="#C87A4A", linewidth=1.8, label=f"Cite PR ({cite_label})")
 
     # Shade post-2013 citation gap
     ax.axvspan(2014, 2024, alpha=0.06, color="red")
     ax.axvline(x=2013.5, color="#aaa", linewidth=0.5, linestyle="--")
 
-    # Find crossing point
+    # Find crossing point (raw diffs)
     crossings = []
     for yr in c_years:
-        tv = trade_pr[yr].get(country, 0) / t_max if t_max > 0 else 0
-        cv = cite_pr[yr].get(country, 0) / c_max if c_max > 0 else 0
+        tv = trade_pr[yr].get(country, 0)
+        cv = cite_pr[yr].get(country, 0)
         crossings.append(tv - cv)
 
-    # Mark where trade > cite vs cite > trade
+    # Mark where trade > cite vs cite > trade (raw)
     trade_lead_yrs = sum(1 for yr in c_years
-                         if (trade_pr[yr].get(country, 0) / t_max) >
-                            (cite_pr[yr].get(country, 0) / c_max))
+                         if trade_pr[yr].get(country, 0) > cite_pr[yr].get(country, 0))
 
     ax.set_title(f"{name} ({country})", fontsize=9, fontweight="bold")
     ax.set_xlim(1993, 2026)
-    ax.set_ylim(-0.05, 1.12)
+    ax.set_ylim(-0.02 * GM, GM * 1.12)
     ax.tick_params(labelsize=7)
     ax.grid(True, alpha=0.2)
 
     if idx >= len(top_countries) - COLS:
         ax.set_xlabel("Year", fontsize=7)
     if idx % COLS == 0:
-        ax.set_ylabel("PageRank (norm.)", fontsize=7)
+        ax.set_ylabel("PageRank (raw share)", fontsize=7)
 
     # Only legend on first panel
     if idx == 0:
@@ -217,7 +215,8 @@ source_tag = "family-level" if args.family else "app-level"
 fig.suptitle(
     f"PageRank Centrality: Trade vs. Patent Citations ({source_tag})\n"
     f"Each panel: blue = trade PageRank, orange = citation PageRank "
-    f"(each normalized to its own max for comparison)\n"
+    f"(raw shares, one shared y-scale across all panels — vertical gaps are "
+    f"true share differences)\n"
     f"Citation data ends 2013 (red shading = no citation data). Cross-border only, α={ALPHA}.",
     fontsize=11, fontweight="bold", y=1.01
 )
@@ -231,18 +230,16 @@ print(f"  Saved → {out_path}")
 # 4. Analysis: divergences and crossings
 # ============================================================
 print(f"\n=== Centrality Divergence Analysis ({cite_label}-level) ===")
-print(f"Positive diff = trade PR (norm) > cite PR (norm); negative = cite leads\n")
+print(f"Positive diff = trade PR (raw) > cite PR (raw); negative = cite leads\n")
 
 for country in top_countries:
     name = iso_to_name.get(country, country)
-    t_max = max(trade_pr[yr].get(country, 0) for yr in range(TRADE_START, TRADE_END + 1)) or 1
-    c_max = max(cite_pr[yr].get(country, 0) for yr in range(CITE_START, CITE_END + 1)) or 1
 
-    # Average diff 1995-2013
+    # Average raw diff 1995-2013 (raw shares are comparable across networks)
     diffs = []
     for yr in range(CITE_START, CITE_END + 1):
-        tv = trade_pr[yr].get(country, 0) / t_max
-        cv = cite_pr[yr].get(country, 0) / c_max
+        tv = trade_pr[yr].get(country, 0)
+        cv = cite_pr[yr].get(country, 0)
         diffs.append(tv - cv)
     avg_diff = np.mean(diffs)
 
@@ -258,15 +255,15 @@ for country in top_countries:
     latest_trade = trade_pr[2013].get(country, 0) if 2013 in trade_pr else 0
     latest_cite = cite_pr[2013].get(country, 0) if 2013 in cite_pr else 0
 
-    # Classification
-    if avg_diff > 0.05:
+    # Classification (raw thresholds)
+    if avg_diff > 0.02:
         pathway = "Trade-leading"
-    elif avg_diff < -0.05:
+    elif avg_diff < -0.02:
         pathway = "Knowledge-leading"
     else:
         pathway = "Balanced"
 
-    trend_str = "trade gaining" if trend > 0.02 else ("cite gaining" if trend < -0.02 else "stable")
+    trend_str = "trade gaining" if trend > 0.01 else ("cite gaining" if trend < -0.01 else "stable")
     print(f"  {country:3s} {name:<20s}  avg diff={avg_diff:+.3f}  "
           f"trend={trend:+.3f} ({trend_str:<15s})  pathway={pathway}")
 
@@ -274,7 +271,7 @@ print(f"\n=== Key observations ===")
 print(f"  1. Compare this with lead_lag_analysis.py results (time-domain cross-correlation).")
 print(f"  2. Countries where trade PR rises before cite PR → 'trade-first' pathway.")
 print(f"  3. Countries where cite PR stays above trade PR → mature knowledge economies.")
-print(f"  4. The normalized overlay reveals SHAPE divergence, not magnitude differences.")
+print(f"  4. Raw shares on a shared scale — vertical gaps are true PageRank-share differences.")
 if args.family:
     print(f"  5. Family-level data removes JP's multi-filing inflation — check if JP's")
     print(f"     cited centrality drops relative to app-level results.")

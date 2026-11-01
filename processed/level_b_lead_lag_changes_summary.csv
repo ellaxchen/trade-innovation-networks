@@ -1,0 +1,81 @@
+sector,country,name,level_lag,level_r,change_lag,change_r
+electronics,CN,China,3,0.96,-2,-0.472
+electronics,US,USA,2,0.672,-5,-0.506
+electronics,JP,Japan,-5,0.891,-5,0.479
+electronics,DE,Germany,-5,0.854,-3,-0.348
+electronics,HK,"China, Hong Kong SAR",-5,0.575,2,-0.52
+electronics,KR,South Korea,2,-0.094,-5,0.41
+electronics,TW,TW,-3,-0.963,-3,-0.614
+electronics,SG,Singapore,-5,-0.677,5,-0.41
+electronics,MX,Mexico,-4,0.873,-4,0.404
+electronics,MY,Malaysia,0,0.744,-2,0.292
+vehicles,US,USA,1,0.743,4,0.378
+vehicles,DE,Germany,5,0.879,5,0.634
+vehicles,JP,Japan,1,-0.865,-5,0.528
+vehicles,CA,Canada,3,0.744,-2,-0.576
+vehicles,FR,France,4,0.36,-4,-0.649
+vehicles,GB,United Kingdom,-5,0.927,-1,-0.349
+vehicles,ES,Spain,-1,-0.603,4,0.541
+vehicles,IT,Italy,-1,0.752,-4,-0.58
+vehicles,BE,Belgium,-3,0.63,1,-0.607
+vehicles,MX,Mexico,-5,0.581,0,-0.356
+pharma,US,USA,-5,0.519,-5,0.593
+pharma,DE,Germany,-2,-0.79,-5,0.303
+pharma,FR,France,2,-0.766,-5,-0.486
+pharma,GB,United Kingdom,-4,0.812,-5,-0.508
+pharma,CH,Switzerland,3,-0.751,4,0.62
+pharma,BE,Belgium,4,-0.412,-4,-0.43
+pharma,IT,Italy,-5,0.62,5,-0.338
+pharma,IE,Ireland,4,0.563,-4,0.62
+pharma,NL,Netherlands,-2,-0.319,-3,0.412
+pharma,ES,Spain,3,0.388,0,-0.618
+machinery,US,USA,3,0.834,2,0.433
+machinery,DE,Germany,-3,0.961,4,-0.451
+machinery,CN,China,2,0.869,-3,-0.494
+machinery,JP,Japan,-5,-0.817,5,-0.491
+machinery,GB,United Kingdom,-5,0.977,-5,0.472
+machinery,FR,France,-5,0.911,-2,0.53
+machinery,IT,Italy,-5,0.871,1,-0.516
+machinery,NL,Netherlands,0,0.838,3,-0.517
+machinery,CA,Canada,4,0.689,-2,-0.425
+machinery,KR,South Korea,-3,0.513,3,0.63
+oil_fuels,US,USA,-1,0.861,3,0.627
+oil_fuels,RU,Russia,3,-0.788,-5,0.544
+oil_fuels,SA,Saudi Arabia,-3,-0.728,-1,0.55
+oil_fuels,JP,Japan,2,-0.812,2,-0.291
+oil_fuels,NL,Netherlands,-3,-0.767,-2,0.545
+oil_fuels,CN,China,-5,0.9,-5,0.569
+oil_fuels,KR,South Korea,5,-0.657,0,0.304
+oil_fuels,CA,Canada,-2,0.487,2,0.718
+oil_fuels,DE,Germany,2,0.913,2,0.575
+oil_fuels,GB,United Kingdom,0,0.748,-1,-0.441
+iron_steel,DE,Germany,5,-0.307,0,0.549
+iron_steel,CN,China,-5,-0.556,4,-0.382
+iron_steel,US,USA,2,0.747,4,-0.286
+iron_steel,JP,Japan,-1,-0.465,-1,-0.397
+iron_steel,KR,South Korea,5,-0.549,-4,-0.658
+iron_steel,FR,France,-5,0.638,1,0.377
+iron_steel,IT,Italy,-3,0.676,5,0.843
+iron_steel,BE,Belgium,5,-0.63,5,-0.496
+iron_steel,RU,Russia,-5,0.85,-3,-0.763
+iron_steel,NL,Netherlands,-5,-0.575,3,-0.458
+plastics,US,USA,-5,0.728,-5,0.621
+plastics,DE,Germany,0,0.852,-1,0.39
+plastics,CN,China,1,0.962,1,0.455
+plastics,FR,France,-4,0.773,-5,-0.428
+plastics,BE,Belgium,-1,0.545,4,-0.543
+plastics,IT,Italy,4,0.645,2,-0.545
+plastics,JP,Japan,4,-0.613,0,0.458
+plastics,NL,Netherlands,0,0.908,0,0.755
+plastics,GB,United Kingdom,-2,0.906,4,-0.446
+plastics,KR,South Korea,-3,0.371,1,0.462
+apparel,CN,China,-5,0.776,-5,0.413
+apparel,US,USA,2,0.869,1,0.374
+apparel,DE,Germany,3,0.767,-3,0.316
+apparel,IT,Italy,-3,-0.573,-3,-0.641
+apparel,GB,United Kingdom,-3,-0.446,2,0.381
+apparel,FR,France,1,-0.466,5,-0.61
+apparel,JP,Japan,3,-0.877,3,-0.745
+apparel,HK,"China, Hong Kong SAR",-2,0.683,5,0.663
+apparel,ES,Spain,3,0.455,3,0.333
+apparel,NL,Netherlands,-5,-0.795,4,-0.362

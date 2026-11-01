@@ -1,0 +1,57 @@
+sector,sector_label,country,sample_lag,sample_r,lag_share,r_lo,r_hi,ci_excludes_zero
+electronics,Electronics,CN,3,0.96,0.0,-0.755,0.56,False
+electronics,Electronics,US,2,0.672,0.036,-0.412,0.647,False
+electronics,Electronics,JP,-5,0.891,0.044,-0.567,0.507,False
+electronics,Electronics,DE,-5,0.854,0.032,-0.596,0.472,False
+electronics,Electronics,HK,-5,0.575,0.092,-0.596,0.483,False
+electronics,Electronics,TW,-3,-0.963,0.006,-0.62,0.767,False
+electronics,Electronics,SG,-5,-0.677,0.082,-0.594,0.531,False
+vehicles,Vehicles,US,1,0.743,0.014,0.1,0.746,True
+vehicles,Vehicles,DE,5,0.879,0.036,-0.65,0.471,False
+vehicles,Vehicles,JP,1,-0.865,0.118,-0.747,-0.072,True
+vehicles,Vehicles,CA,3,0.744,0.086,-0.675,0.61,False
+vehicles,Vehicles,GB,-5,0.927,0.0,-0.569,0.451,False
+vehicles,Vehicles,ES,-1,-0.603,0.218,-0.699,0.244,False
+vehicles,Vehicles,IT,-1,0.752,0.234,-0.024,0.773,False
+pharma,Pharma,US,-5,0.519,0.088,-0.512,0.591,False
+pharma,Pharma,DE,-2,-0.79,0.006,-0.653,0.276,False
+pharma,Pharma,FR,2,-0.766,0.024,-0.538,0.291,False
+pharma,Pharma,GB,-4,0.812,0.068,-0.59,0.518,False
+pharma,Pharma,CH,3,-0.751,0.034,-0.477,0.599,False
+pharma,Pharma,IT,-5,0.62,0.09,-0.532,0.53,False
+pharma,Pharma,IE,4,0.563,0.076,-0.449,0.529,False
+machinery,Machinery,US,3,0.834,0.12,-0.737,0.575,False
+machinery,Machinery,DE,-3,0.961,0.006,-0.742,0.587,False
+machinery,Machinery,CN,2,0.869,0.0,-0.218,0.646,False
+machinery,Machinery,JP,-5,-0.817,0.046,-0.473,0.572,False
+machinery,Machinery,GB,-5,0.977,0.0,-0.567,0.377,False
+machinery,Machinery,FR,-5,0.911,0.018,-0.573,0.408,False
+machinery,Machinery,IT,-5,0.871,0.01,-0.558,0.469,False
+machinery,Machinery,NL,0,0.838,0.942,0.301,0.96,True
+oil_fuels,Oil & Fuels,US,-1,0.861,0.08,0.026,0.753,True
+oil_fuels,Oil & Fuels,RU,3,-0.788,0.048,-0.578,0.669,False
+oil_fuels,Oil & Fuels,SA,-3,-0.728,0.06,-0.535,0.48,False
+oil_fuels,Oil & Fuels,JP,2,-0.812,0.038,-0.714,0.296,False
+oil_fuels,Oil & Fuels,NL,-3,-0.767,0.024,-0.494,0.669,False
+oil_fuels,Oil & Fuels,CN,-5,0.9,0.022,-0.583,0.469,False
+oil_fuels,Oil & Fuels,KR,5,-0.657,0.102,-0.526,0.614,False
+iron_steel,Iron & Steel,CN,-5,-0.556,0.112,-0.534,0.64,False
+iron_steel,Iron & Steel,US,2,0.747,0.034,-0.358,0.626,False
+iron_steel,Iron & Steel,KR,5,-0.549,0.118,-0.563,0.584,False
+iron_steel,Iron & Steel,FR,-5,0.638,0.1,-0.54,0.55,False
+iron_steel,Iron & Steel,IT,-3,0.676,0.116,-0.615,0.516,False
+iron_steel,Iron & Steel,BE,5,-0.63,0.104,-0.593,0.608,False
+plastics,Plastics,US,-5,0.728,0.056,-0.591,0.435,False
+plastics,Plastics,DE,0,0.852,0.922,0.481,0.896,True
+plastics,Plastics,CN,1,0.962,0.0,0.219,0.807,True
+plastics,Plastics,FR,-4,0.773,0.082,-0.597,0.582,False
+plastics,Plastics,BE,-1,0.545,0.174,-0.095,0.687,False
+plastics,Plastics,IT,4,0.645,0.052,-0.551,0.431,False
+plastics,Plastics,JP,4,-0.613,0.068,-0.555,0.516,False
+plastics,Plastics,NL,0,0.908,0.992,0.749,0.964,True
+apparel,Apparel,CN,-5,0.776,0.028,-0.498,0.46,False
+apparel,Apparel,US,2,0.869,0.014,-0.225,0.659,False
+apparel,Apparel,DE,3,0.767,0.054,-0.602,0.479,False
+apparel,Apparel,IT,-3,-0.573,0.126,-0.495,0.549,False
+apparel,Apparel,JP,3,-0.877,0.058,-0.494,0.669,False
+apparel,Apparel,HK,-2,0.683,0.056,-0.36,0.641,False

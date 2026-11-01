@@ -1,0 +1,49 @@
+version,window,country,name,level_lag,level_r,change_lag,change_r,change_r_lag0,n_years
+auth,core,CN,China,-3,0.991,-2,0.555,0.182,19
+auth,core,US,USA,1,0.913,-4,-0.525,-0.006,19
+auth,core,TW,Taiwan,-4,0.912,4,-0.307,0.289,19
+auth,core,SG,Singapore,5,-0.748,-2,-0.47,0.2,19
+auth,core,JP,Japan,0,0.958,0,0.547,0.547,19
+auth,core,KR,South Korea,-4,0.493,2,0.492,-0.225,19
+auth,core,MY,Malaysia,-3,0.256,-1,-0.577,0.501,19
+auth,core,HK,Hong Kong,0,-0.568,3,-0.429,-0.371,19
+auth,core,DE,Germany,5,-0.611,0,-0.71,-0.71,19
+auth,core,PH,Philippines,1,0.25,2,0.338,0.028,19
+auth,core,FR,France,-3,0.872,0,-0.587,-0.587,19
+auth,core,GB,United Kingdom,0,0.954,5,0.516,0.442,19
+auth,extended,CN,China,-4,0.987,-2,0.468,0.365,23
+auth,extended,TW,Taiwan,-5,0.844,5,0.343,0.325,23
+auth,extended,SG,Singapore,0,0.639,0,0.842,0.842,23
+auth,extended,US,USA,1,0.886,-4,-0.297,0.23,23
+auth,extended,KR,South Korea,-3,0.655,0,-0.336,-0.336,23
+auth,extended,HK,Hong Kong,-2,-0.577,0,-0.381,-0.381,23
+auth,extended,JP,Japan,1,0.949,1,0.459,0.392,23
+auth,extended,MY,Malaysia,-5,-0.457,5,0.563,0.395,23
+auth,extended,DE,Germany,-5,0.536,0,-0.68,-0.68,23
+auth,extended,PH,Philippines,2,0.303,3,-0.396,-0.134,23
+auth,extended,FR,France,-3,0.866,0,-0.531,-0.531,23
+auth,extended,MX,Mexico,-5,0.726,-1,0.267,0.126,23
+inventor,core,CN,China,0,0.993,0,0.769,0.769,19
+inventor,core,US,USA,3,0.966,-4,-0.498,0.329,19
+inventor,core,TW,Taiwan,5,0.73,2,-0.559,-0.054,19
+inventor,core,SG,Singapore,3,0.722,-5,0.459,-0.312,19
+inventor,core,JP,Japan,-3,0.952,2,0.565,0.12,19
+inventor,core,KR,South Korea,-4,0.471,-3,-0.515,0.144,19
+inventor,core,MY,Malaysia,5,0.503,1,-0.468,0.244,19
+inventor,core,HK,Hong Kong,-4,-0.639,2,-0.448,0.334,19
+inventor,core,DE,Germany,5,0.775,-4,-0.349,0.123,19
+inventor,core,PH,Philippines,-1,0.69,4,0.667,0.284,19
+inventor,core,TH,Thailand,2,-0.88,5,0.443,-0.0,19
+inventor,core,FR,France,-5,0.819,2,-0.664,-0.279,19
+inventor,extended,CN,China,-1,0.988,3,0.436,0.061,23
+inventor,extended,TW,Taiwan,-1,0.764,5,-0.349,-0.227,23
+inventor,extended,SG,Singapore,5,0.565,5,-0.354,0.21,23
+inventor,extended,US,USA,3,0.954,0,0.461,0.461,23
+inventor,extended,KR,South Korea,-4,0.631,-3,-0.432,0.077,23
+inventor,extended,HK,Hong Kong,-4,-0.498,-1,-0.37,0.279,23
+inventor,extended,JP,Japan,1,0.949,2,0.603,-0.133,23
+inventor,extended,MY,Malaysia,4,0.467,4,0.511,-0.014,23
+inventor,extended,DE,Germany,-5,-0.645,5,0.293,-0.193,23
+inventor,extended,PH,Philippines,-2,0.824,3,-0.479,0.253,23
+inventor,extended,TH,Thailand,4,-0.798,4,-0.548,-0.121,23
+inventor,extended,FR,France,-5,0.828,2,-0.64,-0.273,23

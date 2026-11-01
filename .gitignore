@@ -4,6 +4,9 @@ rawdata/
 # Patent-level citation edges — 4.8 GB and NOT redistributable (PATSTAT)
 processed/citation_edges.csv
 
+# Large derived intermediate (154 MB, rebuildable from build_inventor_country.py)
+processed/appln_inventor_country.parquet
+
 # Python
 .venv/
 __pycache__/

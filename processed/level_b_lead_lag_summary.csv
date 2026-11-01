@@ -39,3 +39,43 @@ machinery,IT,Italy,-5,0.8714636525339955
 machinery,NL,Netherlands,0,0.8375026817756549
 machinery,CA,Canada,4,0.6886105587095939
 machinery,KR,South Korea,-3,0.5132486500879608
+oil_fuels,US,USA,-1,0.860894188278514
+oil_fuels,RU,Russia,3,-0.788277429494456
+oil_fuels,SA,Saudi Arabia,-3,-0.7284307893152029
+oil_fuels,JP,Japan,2,-0.8116758688798853
+oil_fuels,NL,Netherlands,-3,-0.7674087475549551
+oil_fuels,CN,China,-5,0.8999090509562409
+oil_fuels,KR,South Korea,5,-0.656842232802772
+oil_fuels,CA,Canada,-2,0.48653582767311226
+oil_fuels,DE,Germany,2,0.9125376961198779
+oil_fuels,GB,United Kingdom,0,0.7478655122871607
+iron_steel,DE,Germany,5,-0.3073658213280738
+iron_steel,CN,China,-5,-0.5557242734686721
+iron_steel,US,USA,2,0.7474490044982647
+iron_steel,JP,Japan,-1,-0.4649793410624045
+iron_steel,KR,South Korea,5,-0.5485703854516013
+iron_steel,FR,France,-5,0.6377089527120299
+iron_steel,IT,Italy,-3,0.676216827591961
+iron_steel,BE,Belgium,5,-0.6297235817288972
+iron_steel,RU,Russia,-5,0.849997821146146
+iron_steel,NL,Netherlands,-5,-0.57471091451144
+plastics,US,USA,-5,0.7284269219330429
+plastics,DE,Germany,0,0.8523853346211109
+plastics,CN,China,1,0.962206341633422
+plastics,FR,France,-4,0.7728553312654539
+plastics,BE,Belgium,-1,0.5446476305906718
+plastics,IT,Italy,4,0.6448625407710613
+plastics,JP,Japan,4,-0.6130725222725575
+plastics,NL,Netherlands,0,0.9077163042707305
+plastics,GB,United Kingdom,-2,0.9059091475920295
+plastics,KR,South Korea,-3,0.37113038591065695
+apparel,CN,China,-5,0.7757411205395182
+apparel,US,USA,2,0.8687581954376837
+apparel,DE,Germany,3,0.7666403368459866
+apparel,IT,Italy,-3,-0.572799551648892
+apparel,GB,United Kingdom,-3,-0.44609275421640904
+apparel,FR,France,1,-0.4657873934481881
+apparel,JP,Japan,3,-0.8765349388487454
+apparel,HK,"China, Hong Kong SAR",-2,0.683295704000323
+apparel,ES,Spain,3,0.45468816532345147
+apparel,NL,Netherlands,-5,-0.7954462790756757

@@ -29,6 +29,10 @@ SECTORS = {
     "vehicles":    {"hs2": 87, "cpc": "B", "label": "Vehicles (HS87 ↔ CPC B)"},
     "pharma":      {"hs2": 30, "cpc": "C", "label": "Pharma (HS30 ↔ CPC C)"},
     "machinery":   {"hs2": 84, "cpc": "F", "label": "Machinery (HS84 ↔ CPC F)"},
+    "oil_fuels":   {"hs2": 27, "cpc": "B", "label": "Oil & Fuels (HS27 ↔ CPC B)"},
+    "iron_steel":  {"hs2": 72, "cpc": "C", "label": "Iron & Steel (HS72 ↔ CPC C)"},
+    "plastics":    {"hs2": 39, "cpc": "C", "label": "Plastics (HS39 ↔ CPC C)"},
+    "apparel":     {"hs2": 62, "cpc": "D", "label": "Apparel (HS62 ↔ CPC D)"},
 }
 
 NON_COUNTRIES = {"EP", "WO", "DD", "OA", "AP", "GC", "IB", "EM", "BX", "YU", "CS", "SU"}
