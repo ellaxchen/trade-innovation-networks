@@ -102,16 +102,6 @@ REFS = {
 
 CITATION_RE = re.compile(r"\[([^\[\]]*@[^\[\]]*)\]")
 
-CHORD_IFRAME_HTML = """
-<div class="chord-embed">
-<iframe src="../html/chord_semiconductor_standalone.html"
-        title="Interactive semiconductor chord diagram"></iframe>
-<p class="small">Interactive: use the year slider and country selector.
-Inventor-country version:
-<a href="../html/chord_semiconductor_inventor_standalone.html">open here</a>.</p>
-</div>
-"""
-
 
 def fmt_numbers(nums):
     nums = sorted(set(nums))
@@ -210,9 +200,6 @@ a:hover{text-decoration:underline}
 figure{background:#fff;border:1px solid var(--border);border-radius:10px;
        padding:10px;margin:20px 0 8px;overflow:hidden}
 figure img{width:100%;height:auto;display:block;border-radius:6px}
-.chord-embed{margin:16px 0}
-.chord-embed iframe{width:100%;height:720px;border:1px solid var(--border);
-                    border-radius:10px;background:#1a1a2e;display:block}
 figcaption{font-size:0.8rem;color:var(--text-secondary);margin-top:8px;
            text-align:left}
 table{border-collapse:collapse;width:100%;font-size:0.84rem;margin:12px 0;
@@ -277,8 +264,7 @@ def embed_figures(html):
 
 
 def build_html(md_text):
-    md_for_html = md_text.replace("<!--CHORD_IFRAME-->", CHORD_IFRAME_HTML)
-    body = markdown.markdown(md_for_html, extensions=["tables"])
+    body = markdown.markdown(md_text, extensions=["tables"])
     # wrap the abstract
     body = re.sub(
         r'(<h2>Abstract</h2>.*?)(?=<h1>1\. Introduction</h1>)',
@@ -370,15 +356,6 @@ def build_docx(md_text):
             level = len(block) - len(block.lstrip("#"))
             text = block.lstrip("#").strip()
             doc.add_heading(clean_inline(text), level=min(level, 3))
-            continue
-
-        # interactive chord placeholder (HTML only; DOCX gets a path note)
-        if "<!--CHORD_IFRAME-->" in block:
-            p = doc.add_paragraph()
-            r = p.add_run(
-                "Interactive HTML versions: html/chord_semiconductor_standalone.html "
-                "and html/chord_semiconductor_inventor_standalone.html.")
-            r.italic = True
             continue
 
         # tables
